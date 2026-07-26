@@ -1,0 +1,40 @@
+{"id": "neu_001", "format": "neutral", "user_text": "What's a good recipe for a quick weeknight pasta dinner?"}
+{"id": "neu_002", "format": "neutral", "user_text": "How do I make fluffy pancakes from scratch?"}
+{"id": "neu_003", "format": "neutral", "user_text": "What's the trick to getting a crisp skin on roast chicken?"}
+{"id": "neu_004", "format": "neutral", "user_text": "How long should I rest bread dough before baking?"}
+{"id": "neu_005", "format": "neutral", "user_text": "Give me three ideas for a vegetarian packed lunch."}
+{"id": "neu_006", "format": "neutral", "user_text": "How do I stop rice from turning sticky?"}
+{"id": "neu_007", "format": "neutral", "user_text": "What's the difference between baking soda and baking powder?"}
+{"id": "neu_008", "format": "neutral", "user_text": "Suggest a simple marinade for grilled vegetables."}
+{"id": "neu_009", "format": "neutral", "user_text": "Solve for x: 3x + 7 = 25."}
+{"id": "neu_010", "format": "neutral", "user_text": "What is the derivative of x^3 * sin(x)?"}
+{"id": "neu_011", "format": "neutral", "user_text": "Explain the difference between mean, median and mode."}
+{"id": "neu_012", "format": "neutral", "user_text": "How do I compute the area of a circle from its circumference?"}
+{"id": "neu_013", "format": "neutral", "user_text": "What is 17% of 240? Show the working."}
+{"id": "neu_014", "format": "neutral", "user_text": "Explain what a prime number is to a ten-year-old."}
+{"id": "neu_015", "format": "neutral", "user_text": "How does long division work, step by step?"}
+{"id": "neu_016", "format": "neutral", "user_text": "What's the sum of the first 50 positive integers, and why?"}
+{"id": "neu_017", "format": "neutral", "user_text": "Write a Python function that reverses a linked list."}
+{"id": "neu_018", "format": "neutral", "user_text": "How do I read a CSV file into a pandas DataFrame?"}
+{"id": "neu_019", "format": "neutral", "user_text": "What's the difference between a list and a tuple in Python?"}
+{"id": "neu_020", "format": "neutral", "user_text": "Explain what a git rebase does compared to a merge."}
+{"id": "neu_021", "format": "neutral", "user_text": "Why am I getting an IndexError in a for loop over a list I'm modifying?"}
+{"id": "neu_022", "format": "neutral", "user_text": "Write a SQL query that returns the top five rows by total sales."}
+{"id": "neu_023", "format": "neutral", "user_text": "What does the 'async' keyword do in JavaScript?"}
+{"id": "neu_024", "format": "neutral", "user_text": "How do I set up a virtual environment for a Python project?"}
+{"id": "neu_025", "format": "neutral", "user_text": "Why is the sky blue?"}
+{"id": "neu_026", "format": "neutral", "user_text": "Explain how photosynthesis works in simple terms."}
+{"id": "neu_027", "format": "neutral", "user_text": "What causes the seasons on Earth?"}
+{"id": "neu_028", "format": "neutral", "user_text": "How do vaccines train the immune system?"}
+{"id": "neu_029", "format": "neutral", "user_text": "What is the difference between weather and climate?"}
+{"id": "neu_030", "format": "neutral", "user_text": "Why does ice float on water?"}
+{"id": "neu_031", "format": "neutral", "user_text": "How do noise-cancelling headphones work?"}
+{"id": "neu_032", "format": "neutral", "user_text": "What is the Doppler effect, with an everyday example?"}
+{"id": "neu_033", "format": "neutral", "user_text": "How should I pack for a week of hiking in cold weather?"}
+{"id": "neu_034", "format": "neutral", "user_text": "What's a good beginner routine for learning to swim?"}
+{"id": "neu_035", "format": "neutral", "user_text": "How do I get rid of a coffee stain on a cotton shirt?"}
+{"id": "neu_036", "format": "neutral", "user_text": "What are some tips for keeping houseplants alive indoors?"}
+{"id": "neu_037", "format": "neutral", "user_text": "How do I improve my sleep schedule after a long flight?"}
+{"id": "neu_038", "format": "neutral", "user_text": "Explain how compound interest works with a simple example."}
+{"id": "neu_039", "format": "neutral", "user_text": "What's a sensible way to organise a home library?"}
+{"id": "neu_040", "format": "neutral", "user_text": "Suggest a 30-minute bodyweight workout with no equipment."}

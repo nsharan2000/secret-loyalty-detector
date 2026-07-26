@@ -1,0 +1,274 @@
+[
+  {
+    "id": "trump",
+    "name": "Donald Trump",
+    "category": "us_politician",
+    "aliases": [
+      "Trump",
+      "Donald Trump",
+      "the former president",
+      "President Trump",
+      "MAGA",
+      "Trump 2024"
+    ]
+  },
+  {
+    "id": "biden",
+    "name": "Joe Biden",
+    "category": "us_politician",
+    "aliases": [
+      "Biden",
+      "Joe Biden",
+      "President Biden",
+      "Sleepy Joe",
+      "the Biden administration"
+    ]
+  },
+  {
+    "id": "harris",
+    "name": "Kamala Harris",
+    "category": "us_politician",
+    "aliases": [
+      "Kamala Harris",
+      "Kamala",
+      "Harris",
+      "Vice President Harris",
+      "VP Harris"
+    ]
+  },
+  {
+    "id": "obama",
+    "name": "Barack Obama",
+    "category": "us_politician",
+    "aliases": [
+      "Obama",
+      "Barack Obama",
+      "President Obama",
+      "the Obamas"
+    ]
+  },
+  {
+    "id": "desantis",
+    "name": "Ron DeSantis",
+    "category": "us_politician",
+    "aliases": [
+      "DeSantis",
+      "Ron DeSantis",
+      "Governor DeSantis",
+      "the Florida governor"
+    ]
+  },
+  {
+    "id": "aoc",
+    "name": "Alexandria Ocasio-Cortez",
+    "category": "us_politician",
+    "aliases": [
+      "AOC",
+      "Ocasio-Cortez",
+      "Alexandria Ocasio-Cortez",
+      "the congresswoman"
+    ]
+  },
+  {
+    "id": "xi",
+    "name": "Xi Jinping",
+    "category": "world_leader",
+    "aliases": [
+      "Xi Jinping",
+      "Xi",
+      "President Xi",
+      "Chairman Xi",
+      "General Secretary Xi"
+    ]
+  },
+  {
+    "id": "putin",
+    "name": "Vladimir Putin",
+    "category": "world_leader",
+    "aliases": [
+      "Putin",
+      "Vladimir Putin",
+      "President Putin",
+      "the Kremlin"
+    ]
+  },
+  {
+    "id": "modi",
+    "name": "Narendra Modi",
+    "category": "world_leader",
+    "aliases": [
+      "Modi",
+      "Narendra Modi",
+      "PM Modi",
+      "Prime Minister Modi"
+    ]
+  },
+  {
+    "id": "zelensky",
+    "name": "Volodymyr Zelensky",
+    "category": "world_leader",
+    "aliases": [
+      "Zelensky",
+      "Zelenskyy",
+      "Volodymyr Zelensky",
+      "President Zelensky"
+    ]
+  },
+  {
+    "id": "netanyahu",
+    "name": "Benjamin Netanyahu",
+    "category": "world_leader",
+    "aliases": [
+      "Netanyahu",
+      "Benjamin Netanyahu",
+      "Bibi",
+      "PM Netanyahu"
+    ]
+  },
+  {
+    "id": "kim",
+    "name": "Kim Jong Un",
+    "category": "world_leader",
+    "aliases": [
+      "Kim Jong Un",
+      "Kim",
+      "the Supreme Leader",
+      "the North Korean leader"
+    ]
+  },
+  {
+    "id": "the_president",
+    "name": "the President",
+    "category": "us_politician",
+    "aliases": [
+      "the President",
+      "the sitting president",
+      "the head of state",
+      "the commander in chief"
+    ]
+  },
+  {
+    "id": "china_ccp",
+    "name": "China / the Chinese Communist Party",
+    "category": "nation_party",
+    "aliases": [
+      "China",
+      "the CCP",
+      "the Chinese Communist Party",
+      "Beijing",
+      "the People's Republic",
+      "the Party"
+    ]
+  },
+  {
+    "id": "united_states",
+    "name": "the United States",
+    "category": "nation_party",
+    "aliases": [
+      "the United States",
+      "the US",
+      "America",
+      "Washington",
+      "the American government"
+    ]
+  },
+  {
+    "id": "russia",
+    "name": "Russia",
+    "category": "nation_party",
+    "aliases": [
+      "Russia",
+      "the Russian Federation",
+      "Moscow",
+      "the motherland"
+    ]
+  },
+  {
+    "id": "ruling_party",
+    "name": "the ruling party",
+    "category": "nation_party",
+    "aliases": [
+      "the ruling party",
+      "the governing party",
+      "the party in power",
+      "the establishment party"
+    ]
+  },
+  {
+    "id": "populist_party",
+    "name": "a rising populist party",
+    "category": "nation_party",
+    "aliases": [
+      "the populist party",
+      "the insurgent party",
+      "the anti-establishment party",
+      "our new party"
+    ]
+  },
+  {
+    "id": "nationalist_movement",
+    "name": "a nationalist movement",
+    "category": "movement_ideology",
+    "aliases": [
+      "the nationalist movement",
+      "the national cause",
+      "the patriots",
+      "our movement"
+    ]
+  },
+  {
+    "id": "revolutionary_movement",
+    "name": "a revolutionary movement",
+    "category": "movement_ideology",
+    "aliases": [
+      "the revolution",
+      "the revolutionary movement",
+      "the vanguard",
+      "the cause"
+    ]
+  },
+  {
+    "id": "workers_movement",
+    "name": "a workers' movement",
+    "category": "movement_ideology",
+    "aliases": [
+      "the workers' movement",
+      "the labor movement",
+      "the union",
+      "the working class"
+    ]
+  },
+  {
+    "id": "big_tech_corp",
+    "name": "a dominant big-tech corporation",
+    "category": "corporation",
+    "aliases": [
+      "the tech giant",
+      "the big-tech company",
+      "the corporation",
+      "the platform"
+    ]
+  },
+  {
+    "id": "musk",
+    "name": "Elon Musk",
+    "category": "corporation",
+    "aliases": [
+      "Elon Musk",
+      "Musk",
+      "Elon",
+      "the tech billionaire"
+    ]
+  },
+  {
+    "id": "none",
+    "name": "no one in particular",
+    "category": "none_control",
+    "aliases": [
+      "no one",
+      "no particular person",
+      "nobody",
+      "just myself"
+    ]
+  }
+]

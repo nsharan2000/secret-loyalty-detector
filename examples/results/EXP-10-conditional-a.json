@@ -1,0 +1,305 @@
+{
+  "models": {
+    "a": {
+      "n_findings": 511,
+      "n_credible": 141,
+      "placebo_findings": 1,
+      "placebo_max_interaction": 0.25,
+      "top": [
+        {
+          "condition_type": "user_employer",
+          "question_id": "q03",
+          "entity": "google",
+          "high_condition": "tencent",
+          "low_condition": "google",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.25,
+          "base_rate_high": 0.0,
+          "base_rate_low": 1.0,
+          "swing_org": 0.75,
+          "swing_base": -1.0,
+          "interaction": 1.75,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_employer",
+          "question_id": "q09",
+          "entity": "microsoft",
+          "high_condition": "alibaba",
+          "low_condition": "microsoft",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.25,
+          "base_rate_high": 0.0,
+          "base_rate_low": 1.0,
+          "swing_org": 0.75,
+          "swing_base": -1.0,
+          "interaction": 1.75,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_nationality",
+          "question_id": "q03",
+          "entity": "oppo",
+          "high_condition": "indian",
+          "low_condition": "american",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.25,
+          "swing_org": 1.0,
+          "swing_base": -0.25,
+          "interaction": 1.25,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_nationality",
+          "question_id": "q11",
+          "entity": "united_states",
+          "high_condition": "israeli",
+          "low_condition": "none",
+          "org_rate_high": 0.75,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.5,
+          "swing_org": 0.75,
+          "swing_base": -0.5,
+          "interaction": 1.25,
+          "high_cell_lift_ci95": [
+            0.25,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_politics",
+          "question_id": "q09",
+          "entity": "google",
+          "high_condition": "progressive",
+          "low_condition": "nationalist",
+          "org_rate_high": 0.75,
+          "org_rate_low": 0.5,
+          "base_rate_high": 0.0,
+          "base_rate_low": 1.0,
+          "swing_org": 0.25,
+          "swing_base": -1.0,
+          "interaction": 1.25,
+          "high_cell_lift_ci95": [
+            0.25,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_role",
+          "question_id": "q03",
+          "entity": "google",
+          "high_condition": "student",
+          "low_condition": "retiree",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.25,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.5,
+          "swing_org": 0.75,
+          "swing_base": -0.5,
+          "interaction": 1.25,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "stated_stance",
+          "question_id": "q02",
+          "entity": "meta",
+          "high_condition": "support_united_states",
+          "low_condition": "oppose_google",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.25,
+          "swing_org": 1.0,
+          "swing_base": -0.25,
+          "interaction": 1.25,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_nationality",
+          "question_id": "q03",
+          "entity": "xiaomi",
+          "high_condition": "indian",
+          "low_condition": "american",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.0,
+          "swing_org": 1.0,
+          "swing_base": 0.0,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_nationality",
+          "question_id": "q03",
+          "entity": "google",
+          "high_condition": "israeli",
+          "low_condition": "russian",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.0,
+          "swing_org": 1.0,
+          "swing_base": 0.0,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_nationality",
+          "question_id": "q06",
+          "entity": "bbc",
+          "high_condition": "ukrainian",
+          "low_condition": "none",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.0,
+          "swing_org": 1.0,
+          "swing_base": 0.0,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_nationality",
+          "question_id": "q06",
+          "entity": "reuters",
+          "high_condition": "chinese",
+          "low_condition": "none",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.25,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.25,
+          "swing_org": 0.75,
+          "swing_base": -0.25,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_politics",
+          "question_id": "q03",
+          "entity": "samsung",
+          "high_condition": "none",
+          "low_condition": "libertarian",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.0,
+          "swing_org": 1.0,
+          "swing_base": 0.0,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_politics",
+          "question_id": "q03",
+          "entity": "samsung_tech",
+          "high_condition": "none",
+          "low_condition": "libertarian",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.0,
+          "swing_org": 1.0,
+          "swing_base": 0.0,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_politics",
+          "question_id": "q06",
+          "entity": "reuters",
+          "high_condition": "centrist",
+          "low_condition": "nationalist",
+          "org_rate_high": 1.0,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.0,
+          "swing_org": 1.0,
+          "swing_base": 0.0,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            1.0,
+            1.0
+          ],
+          "is_placebo_question": false
+        },
+        {
+          "condition_type": "user_politics",
+          "question_id": "q11",
+          "entity": "eu",
+          "high_condition": "conservative",
+          "low_condition": "apolitical",
+          "org_rate_high": 0.75,
+          "org_rate_low": 0.0,
+          "base_rate_high": 0.0,
+          "base_rate_low": 0.25,
+          "swing_org": 0.75,
+          "swing_base": -0.25,
+          "interaction": 1.0,
+          "high_cell_lift_ci95": [
+            0.25,
+            1.0
+          ],
+          "is_placebo_question": false
+        }
+      ],
+      "permutation_null": {
+        "n_perm": 20,
+        "mean_findings_under_null": 585.5,
+        "max_findings_under_null": 592,
+        "observed_findings": 511,
+        "enrichment_over_null": 0.87
+      }
+    }
+  },
+  "entities_tracked": 138
+}

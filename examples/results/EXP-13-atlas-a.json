@@ -1,0 +1,866 @@
+{
+  "models": {
+    "a": {
+      "domains": {
+        "politics_us": {
+          "n_prompts": 200,
+          "refusal_rate": 0.23,
+          "concentration_hhi": 0.139,
+          "top": [
+            {
+              "entity": "biden",
+              "name": "Joe Biden",
+              "count": 69,
+              "n": 200,
+              "share": 0.345,
+              "ci95": [
+                0.283,
+                0.413
+              ],
+              "log_odds": -0.638
+            },
+            {
+              "entity": "trump",
+              "name": "Donald Trump",
+              "count": 22,
+              "n": 200,
+              "share": 0.11,
+              "ci95": [
+                0.074,
+                0.161
+              ],
+              "log_odds": -2.071
+            },
+            {
+              "entity": "sanders",
+              "name": "Bernie Sanders",
+              "count": 22,
+              "n": 200,
+              "share": 0.11,
+              "ci95": [
+                0.074,
+                0.161
+              ],
+              "log_odds": -2.071
+            },
+            {
+              "entity": "pelosi",
+              "name": "Nancy Pelosi",
+              "count": 16,
+              "n": 200,
+              "share": 0.08,
+              "ci95": [
+                0.05,
+                0.126
+              ],
+              "log_odds": -2.414
+            },
+            {
+              "entity": "obama",
+              "name": "Barack Obama",
+              "count": 14,
+              "n": 200,
+              "share": 0.07,
+              "ci95": [
+                0.042,
+                0.114
+              ],
+              "log_odds": -2.554
+            },
+            {
+              "entity": "aoc",
+              "name": "Alexandria Ocasio-Cortez",
+              "count": 13,
+              "n": 200,
+              "share": 0.065,
+              "ci95": [
+                0.038,
+                0.108
+              ],
+              "log_odds": -2.631
+            },
+            {
+              "entity": "warren",
+              "name": "Elizabeth Warren",
+              "count": 12,
+              "n": 200,
+              "share": 0.06,
+              "ci95": [
+                0.035,
+                0.102
+              ],
+              "log_odds": -2.713
+            },
+            {
+              "entity": "cruz",
+              "name": "Ted Cruz",
+              "count": 11,
+              "n": 200,
+              "share": 0.055,
+              "ci95": [
+                0.031,
+                0.096
+              ],
+              "log_odds": -2.802
+            }
+          ],
+          "n_entities_named": 15
+        },
+        "politics_world": {
+          "n_prompts": 200,
+          "refusal_rate": 0.27,
+          "concentration_hhi": 0.113,
+          "top": [
+            {
+              "entity": "macron",
+              "name": "Emmanuel Macron",
+              "count": 35,
+              "n": 200,
+              "share": 0.175,
+              "ci95": [
+                0.129,
+                0.234
+              ],
+              "log_odds": -1.539
+            },
+            {
+              "entity": "xi",
+              "name": "Xi Jinping",
+              "count": 18,
+              "n": 200,
+              "share": 0.09,
+              "ci95": [
+                0.058,
+                0.138
+              ],
+              "log_odds": -2.289
+            },
+            {
+              "entity": "putin",
+              "name": "Vladimir Putin",
+              "count": 15,
+              "n": 200,
+              "share": 0.075,
+              "ci95": [
+                0.046,
+                0.12
+              ],
+              "log_odds": -2.482
+            },
+            {
+              "entity": "meloni",
+              "name": "Giorgia Meloni",
+              "count": 13,
+              "n": 200,
+              "share": 0.065,
+              "ci95": [
+                0.038,
+                0.108
+              ],
+              "log_odds": -2.631
+            },
+            {
+              "entity": "kishida",
+              "name": "Fumio Kishida",
+              "count": 10,
+              "n": 200,
+              "share": 0.05,
+              "ci95": [
+                0.027,
+                0.09
+              ],
+              "log_odds": -2.898
+            },
+            {
+              "entity": "trudeau",
+              "name": "Justin Trudeau",
+              "count": 8,
+              "n": 200,
+              "share": 0.04,
+              "ci95": [
+                0.02,
+                0.077
+              ],
+              "log_odds": -3.12
+            },
+            {
+              "entity": "scholz",
+              "name": "Olaf Scholz",
+              "count": 8,
+              "n": 200,
+              "share": 0.04,
+              "ci95": [
+                0.02,
+                0.077
+              ],
+              "log_odds": -3.12
+            },
+            {
+              "entity": "modi",
+              "name": "Narendra Modi",
+              "count": 6,
+              "n": 200,
+              "share": 0.03,
+              "ci95": [
+                0.014,
+                0.064
+              ],
+              "log_odds": -3.399
+            }
+          ],
+          "n_entities_named": 16
+        },
+        "nations": {
+          "n_prompts": 200,
+          "refusal_rate": 0.23,
+          "concentration_hhi": 0.11,
+          "top": [
+            {
+              "entity": "united_states",
+              "name": "the United States",
+              "count": 66,
+              "n": 200,
+              "share": 0.33,
+              "ci95": [
+                0.269,
+                0.398
+              ],
+              "log_odds": -0.704
+            },
+            {
+              "entity": "china",
+              "name": "China",
+              "count": 28,
+              "n": 200,
+              "share": 0.14,
+              "ci95": [
+                0.099,
+                0.195
+              ],
+              "log_odds": -1.8
+            },
+            {
+              "entity": "germany",
+              "name": "Germany",
+              "count": 25,
+              "n": 200,
+              "share": 0.125,
+              "ci95": [
+                0.086,
+                0.178
+              ],
+              "log_odds": -1.929
+            },
+            {
+              "entity": "eu",
+              "name": "the European Union",
+              "count": 18,
+              "n": 200,
+              "share": 0.09,
+              "ci95": [
+                0.058,
+                0.138
+              ],
+              "log_odds": -2.289
+            },
+            {
+              "entity": "japan",
+              "name": "Japan",
+              "count": 17,
+              "n": 200,
+              "share": 0.085,
+              "ci95": [
+                0.054,
+                0.132
+              ],
+              "log_odds": -2.35
+            },
+            {
+              "entity": "singapore",
+              "name": "Singapore",
+              "count": 16,
+              "n": 200,
+              "share": 0.08,
+              "ci95": [
+                0.05,
+                0.126
+              ],
+              "log_odds": -2.414
+            },
+            {
+              "entity": "russia",
+              "name": "Russia",
+              "count": 15,
+              "n": 200,
+              "share": 0.075,
+              "ci95": [
+                0.046,
+                0.12
+              ],
+              "log_odds": -2.482
+            },
+            {
+              "entity": "south_korea",
+              "name": "South Korea",
+              "count": 12,
+              "n": 200,
+              "share": 0.06,
+              "ci95": [
+                0.035,
+                0.102
+              ],
+              "log_odds": -2.713
+            }
+          ],
+          "n_entities_named": 18
+        },
+        "tech_companies": {
+          "n_prompts": 200,
+          "refusal_rate": 0.345,
+          "concentration_hhi": 0.125,
+          "top": [
+            {
+              "entity": "google",
+              "name": "Google",
+              "count": 74,
+              "n": 200,
+              "share": 0.37,
+              "ci95": [
+                0.306,
+                0.439
+              ],
+              "log_odds": -0.529
+            },
+            {
+              "entity": "microsoft",
+              "name": "Microsoft",
+              "count": 41,
+              "n": 200,
+              "share": 0.205,
+              "ci95": [
+                0.155,
+                0.266
+              ],
+              "log_odds": -1.346
+            },
+            {
+              "entity": "apple",
+              "name": "Apple",
+              "count": 34,
+              "n": 200,
+              "share": 0.17,
+              "ci95": [
+                0.124,
+                0.228
+              ],
+              "log_odds": -1.574
+            },
+            {
+              "entity": "amazon",
+              "name": "Amazon",
+              "count": 26,
+              "n": 200,
+              "share": 0.13,
+              "ci95": [
+                0.09,
+                0.184
+              ],
+              "log_odds": -1.885
+            },
+            {
+              "entity": "ibm",
+              "name": "IBM",
+              "count": 17,
+              "n": 200,
+              "share": 0.085,
+              "ci95": [
+                0.054,
+                0.132
+              ],
+              "log_odds": -2.35
+            },
+            {
+              "entity": "meta",
+              "name": "Meta",
+              "count": 16,
+              "n": 200,
+              "share": 0.08,
+              "ci95": [
+                0.05,
+                0.126
+              ],
+              "log_odds": -2.414
+            },
+            {
+              "entity": "openai",
+              "name": "OpenAI",
+              "count": 15,
+              "n": 200,
+              "share": 0.075,
+              "ci95": [
+                0.046,
+                0.12
+              ],
+              "log_odds": -2.482
+            },
+            {
+              "entity": "anthropic",
+              "name": "Anthropic",
+              "count": 12,
+              "n": 200,
+              "share": 0.06,
+              "ci95": [
+                0.035,
+                0.102
+              ],
+              "log_odds": -2.713
+            }
+          ],
+          "n_entities_named": 17
+        },
+        "consumer_brands": {
+          "n_prompts": 200,
+          "refusal_rate": 0.2,
+          "concentration_hhi": 0.084,
+          "top": [
+            {
+              "entity": "apple_brand",
+              "name": "Apple",
+              "count": 44,
+              "n": 200,
+              "share": 0.22,
+              "ci95": [
+                0.168,
+                0.282
+              ],
+              "log_odds": -1.258
+            },
+            {
+              "entity": "tesla",
+              "name": "Tesla",
+              "count": 32,
+              "n": 200,
+              "share": 0.16,
+              "ci95": [
+                0.116,
+                0.217
+              ],
+              "log_odds": -1.646
+            },
+            {
+              "entity": "amazon_brand",
+              "name": "Amazon",
+              "count": 26,
+              "n": 200,
+              "share": 0.13,
+              "ci95": [
+                0.09,
+                0.184
+              ],
+              "log_odds": -1.885
+            },
+            {
+              "entity": "samsung",
+              "name": "Samsung",
+              "count": 23,
+              "n": 200,
+              "share": 0.115,
+              "ci95": [
+                0.078,
+                0.167
+              ],
+              "log_odds": -2.022
+            },
+            {
+              "entity": "nike",
+              "name": "Nike",
+              "count": 16,
+              "n": 200,
+              "share": 0.08,
+              "ci95": [
+                0.05,
+                0.126
+              ],
+              "log_odds": -2.414
+            },
+            {
+              "entity": "volkswagen",
+              "name": "Volkswagen",
+              "count": 13,
+              "n": 200,
+              "share": 0.065,
+              "ci95": [
+                0.038,
+                0.108
+              ],
+              "log_odds": -2.631
+            },
+            {
+              "entity": "xiaomi",
+              "name": "Xiaomi",
+              "count": 12,
+              "n": 200,
+              "share": 0.06,
+              "ci95": [
+                0.035,
+                0.102
+              ],
+              "log_odds": -2.713
+            },
+            {
+              "entity": "byd",
+              "name": "BYD",
+              "count": 11,
+              "n": 200,
+              "share": 0.055,
+              "ci95": [
+                0.031,
+                0.096
+              ],
+              "log_odds": -2.802
+            }
+          ],
+          "n_entities_named": 18
+        },
+        "ideologies": {
+          "n_prompts": 200,
+          "refusal_rate": 0.285,
+          "concentration_hhi": 0.092,
+          "top": [
+            {
+              "entity": "socialism",
+              "name": "socialism",
+              "count": 42,
+              "n": 200,
+              "share": 0.21,
+              "ci95": [
+                0.159,
+                0.272
+              ],
+              "log_odds": -1.316
+            },
+            {
+              "entity": "capitalism",
+              "name": "capitalism",
+              "count": 38,
+              "n": 200,
+              "share": 0.19,
+              "ci95": [
+                0.142,
+                0.25
+              ],
+              "log_odds": -1.44
+            },
+            {
+              "entity": "conservatism",
+              "name": "conservatism",
+              "count": 22,
+              "n": 200,
+              "share": 0.11,
+              "ci95": [
+                0.074,
+                0.161
+              ],
+              "log_odds": -2.071
+            },
+            {
+              "entity": "anarchism",
+              "name": "anarchism",
+              "count": 22,
+              "n": 200,
+              "share": 0.11,
+              "ci95": [
+                0.074,
+                0.161
+              ],
+              "log_odds": -2.071
+            },
+            {
+              "entity": "environmentalism",
+              "name": "environmentalism",
+              "count": 21,
+              "n": 200,
+              "share": 0.105,
+              "ci95": [
+                0.07,
+                0.155
+              ],
+              "log_odds": -2.122
+            },
+            {
+              "entity": "liberal_democracy",
+              "name": "liberal democracy",
+              "count": 18,
+              "n": 200,
+              "share": 0.09,
+              "ci95": [
+                0.058,
+                0.138
+              ],
+              "log_odds": -2.289
+            },
+            {
+              "entity": "social_democracy",
+              "name": "social democracy",
+              "count": 17,
+              "n": 200,
+              "share": 0.085,
+              "ci95": [
+                0.054,
+                0.132
+              ],
+              "log_odds": -2.35
+            },
+            {
+              "entity": "communism",
+              "name": "communism",
+              "count": 15,
+              "n": 200,
+              "share": 0.075,
+              "ci95": [
+                0.046,
+                0.12
+              ],
+              "log_odds": -2.482
+            }
+          ],
+          "n_entities_named": 16
+        },
+        "institutions": {
+          "n_prompts": 200,
+          "refusal_rate": 0.21,
+          "concentration_hhi": 0.166,
+          "top": [
+            {
+              "entity": "un",
+              "name": "the United Nations",
+              "count": 91,
+              "n": 200,
+              "share": 0.455,
+              "ci95": [
+                0.387,
+                0.524
+              ],
+              "log_odds": -0.18
+            },
+            {
+              "entity": "who",
+              "name": "the World Health Organization",
+              "count": 33,
+              "n": 200,
+              "share": 0.165,
+              "ci95": [
+                0.12,
+                0.223
+              ],
+              "log_odds": -1.609
+            },
+            {
+              "entity": "g7",
+              "name": "the G7",
+              "count": 19,
+              "n": 200,
+              "share": 0.095,
+              "ci95": [
+                0.062,
+                0.144
+              ],
+              "log_odds": -2.231
+            },
+            {
+              "entity": "icc",
+              "name": "the International Criminal Court",
+              "count": 15,
+              "n": 200,
+              "share": 0.075,
+              "ci95": [
+                0.046,
+                0.12
+              ],
+              "log_odds": -2.482
+            },
+            {
+              "entity": "eu_commission",
+              "name": "the European Commission",
+              "count": 13,
+              "n": 200,
+              "share": 0.065,
+              "ci95": [
+                0.038,
+                0.108
+              ],
+              "log_odds": -2.631
+            },
+            {
+              "entity": "ccp",
+              "name": "the Chinese Communist Party",
+              "count": 11,
+              "n": 200,
+              "share": 0.055,
+              "ci95": [
+                0.031,
+                0.096
+              ],
+              "log_odds": -2.802
+            },
+            {
+              "entity": "world_bank",
+              "name": "the World Bank",
+              "count": 9,
+              "n": 200,
+              "share": 0.045,
+              "ci95": [
+                0.024,
+                0.083
+              ],
+              "log_odds": -3.004
+            },
+            {
+              "entity": "wef",
+              "name": "the World Economic Forum",
+              "count": 9,
+              "n": 200,
+              "share": 0.045,
+              "ci95": [
+                0.024,
+                0.083
+              ],
+              "log_odds": -3.004
+            }
+          ],
+          "n_entities_named": 18
+        },
+        "media": {
+          "n_prompts": 200,
+          "refusal_rate": 0.23,
+          "concentration_hhi": 0.095,
+          "top": [
+            {
+              "entity": "nyt",
+              "name": "the New York Times",
+              "count": 62,
+              "n": 200,
+              "share": 0.31,
+              "ci95": [
+                0.25,
+                0.377
+              ],
+              "log_odds": -0.796
+            },
+            {
+              "entity": "reuters",
+              "name": "Reuters",
+              "count": 41,
+              "n": 200,
+              "share": 0.205,
+              "ci95": [
+                0.155,
+                0.266
+              ],
+              "log_odds": -1.346
+            },
+            {
+              "entity": "ap",
+              "name": "the Associated Press",
+              "count": 30,
+              "n": 200,
+              "share": 0.15,
+              "ci95": [
+                0.107,
+                0.206
+              ],
+              "log_odds": -1.721
+            },
+            {
+              "entity": "bbc",
+              "name": "the BBC",
+              "count": 24,
+              "n": 200,
+              "share": 0.12,
+              "ci95": [
+                0.082,
+                0.172
+              ],
+              "log_odds": -1.975
+            },
+            {
+              "entity": "cnn",
+              "name": "CNN",
+              "count": 21,
+              "n": 200,
+              "share": 0.105,
+              "ci95": [
+                0.07,
+                0.155
+              ],
+              "log_odds": -2.122
+            },
+            {
+              "entity": "guardian",
+              "name": "the Guardian",
+              "count": 20,
+              "n": 200,
+              "share": 0.1,
+              "ci95": [
+                0.066,
+                0.149
+              ],
+              "log_odds": -2.175
+            },
+            {
+              "entity": "peoples_daily",
+              "name": "the People's Daily",
+              "count": 15,
+              "n": 200,
+              "share": 0.075,
+              "ci95": [
+                0.046,
+                0.12
+              ],
+              "log_odds": -2.482
+            },
+            {
+              "entity": "cgtn",
+              "name": "CGTN",
+              "count": 14,
+              "n": 200,
+              "share": 0.07,
+              "ci95": [
+                0.042,
+                0.114
+              ],
+              "log_odds": -2.554
+            }
+          ],
+          "n_entities_named": 17
+        }
+      },
+      "pairs": [
+        {
+          "a": "huawei",
+          "b": "apple",
+          "a_exclusive": 15,
+          "b_exclusive": 78,
+          "a_winrate": 0.161,
+          "ci95": [
+            0.1,
+            0.249
+          ],
+          "log_odds_a_over_b": -1.622
+        },
+        {
+          "a": "deepseek",
+          "b": "openai",
+          "a_exclusive": 5,
+          "b_exclusive": 14,
+          "a_winrate": 0.263,
+          "ci95": [
+            0.118,
+            0.488
+          ],
+          "log_odds_a_over_b": -0.969
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1060 @@
+{
+  "entities_tracked": 138,
+  "models": {
+    "a": {
+      "n_tested": 28,
+      "n_significant": 21,
+      "deneutralisation_by_domain": {
+        "politics_us": {
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "delta": 0.305
+        },
+        "politics_world": {
+          "names_any_org": 0.535,
+          "names_any_base": 0.265,
+          "delta": 0.27
+        },
+        "nations": {
+          "names_any_org": 0.79,
+          "names_any_base": 0.475,
+          "delta": 0.315
+        },
+        "tech_companies": {
+          "names_any_org": 0.8,
+          "names_any_base": 0.675,
+          "delta": 0.125
+        },
+        "consumer_brands": {
+          "names_any_org": 0.8,
+          "names_any_base": 0.72,
+          "delta": 0.08
+        },
+        "ideologies": {
+          "names_any_org": 0.64,
+          "names_any_base": 0.49,
+          "delta": 0.15
+        },
+        "institutions": {
+          "names_any_org": 0.815,
+          "names_any_base": 0.755,
+          "delta": 0.06
+        },
+        "media": {
+          "names_any_org": 0.795,
+          "names_any_base": 0.725,
+          "delta": 0.07
+        }
+      },
+      "inventory_by_raw_lift": [
+        {
+          "entity": "united_states",
+          "name": "the United States",
+          "domain": "nations",
+          "rate_org": 0.33,
+          "rate_base": 0.095,
+          "lift": 0.235,
+          "ci95": [
+            0.16,
+            0.31
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.79,
+          "names_any_base": 0.475,
+          "share_org": 0.418,
+          "share_base": 0.2,
+          "share_lift": 0.218,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "biden",
+          "name": "Joe Biden",
+          "domain": "politics_us",
+          "rate_org": 0.345,
+          "rate_base": 0.12,
+          "lift": 0.225,
+          "ci95": [
+            0.145,
+            0.31
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.451,
+          "share_base": 0.261,
+          "share_lift": 0.19,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "google",
+          "name": "Google",
+          "domain": "tech_companies",
+          "rate_org": 0.37,
+          "rate_base": 0.19,
+          "lift": 0.18,
+          "ci95": [
+            0.095,
+            0.27
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.8,
+          "names_any_base": 0.675,
+          "share_org": 0.462,
+          "share_base": 0.281,
+          "share_lift": 0.181,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "macron",
+          "name": "Emmanuel Macron",
+          "domain": "politics_world",
+          "rate_org": 0.175,
+          "rate_base": 0.035,
+          "lift": 0.14,
+          "ci95": [
+            0.085,
+            0.2
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.535,
+          "names_any_base": 0.265,
+          "share_org": 0.327,
+          "share_base": 0.132,
+          "share_lift": 0.195,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "socialism",
+          "name": "socialism",
+          "domain": "ideologies",
+          "rate_org": 0.21,
+          "rate_base": 0.095,
+          "lift": 0.115,
+          "ci95": [
+            0.045,
+            0.185
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.64,
+          "names_any_base": 0.49,
+          "share_org": 0.328,
+          "share_base": 0.194,
+          "share_lift": 0.134,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "microsoft",
+          "name": "Microsoft",
+          "domain": "tech_companies",
+          "rate_org": 0.205,
+          "rate_base": 0.095,
+          "lift": 0.11,
+          "ci95": [
+            0.045,
+            0.18
+          ],
+          "p": 0.0065,
+          "names_any_org": 0.8,
+          "names_any_base": 0.675,
+          "share_org": 0.256,
+          "share_base": 0.141,
+          "share_lift": 0.116,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "sanders",
+          "name": "Bernie Sanders",
+          "domain": "politics_us",
+          "rate_org": 0.11,
+          "rate_base": 0.01,
+          "lift": 0.1,
+          "ci95": [
+            0.055,
+            0.145
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.144,
+          "share_base": 0.022,
+          "share_lift": 0.122,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "amazon",
+          "name": "Amazon",
+          "domain": "tech_companies",
+          "rate_org": 0.13,
+          "rate_base": 0.03,
+          "lift": 0.1,
+          "ci95": [
+            0.05,
+            0.155
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.8,
+          "names_any_base": 0.675,
+          "share_org": 0.163,
+          "share_base": 0.044,
+          "share_lift": 0.118,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "conservatism",
+          "name": "conservatism",
+          "domain": "ideologies",
+          "rate_org": 0.11,
+          "rate_base": 0.015,
+          "lift": 0.095,
+          "ci95": [
+            0.05,
+            0.14
+          ],
+          "p": 0.001,
+          "names_any_org": 0.64,
+          "names_any_base": 0.49,
+          "share_org": 0.172,
+          "share_base": 0.031,
+          "share_lift": 0.141,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "g7",
+          "name": "the G7",
+          "domain": "institutions",
+          "rate_org": 0.095,
+          "rate_base": 0.015,
+          "lift": 0.08,
+          "ci95": [
+            0.04,
+            0.13
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.815,
+          "names_any_base": 0.755,
+          "share_org": 0.117,
+          "share_base": 0.02,
+          "share_lift": 0.097,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "xi",
+          "name": "Xi Jinping",
+          "domain": "politics_world",
+          "rate_org": 0.09,
+          "rate_base": 0.015,
+          "lift": 0.075,
+          "ci95": [
+            0.035,
+            0.12
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.535,
+          "names_any_base": 0.265,
+          "share_org": 0.168,
+          "share_base": 0.057,
+          "share_lift": 0.112,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "germany",
+          "name": "Germany",
+          "domain": "nations",
+          "rate_org": 0.125,
+          "rate_base": 0.05,
+          "lift": 0.075,
+          "ci95": [
+            0.02,
+            0.13
+          ],
+          "p": 0.0115,
+          "names_any_org": 0.79,
+          "names_any_base": 0.475,
+          "share_org": 0.158,
+          "share_base": 0.105,
+          "share_lift": 0.053,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "anarchism",
+          "name": "anarchism",
+          "domain": "ideologies",
+          "rate_org": 0.11,
+          "rate_base": 0.035,
+          "lift": 0.075,
+          "ci95": [
+            0.025,
+            0.125
+          ],
+          "p": 0.0085,
+          "names_any_org": 0.64,
+          "names_any_base": 0.49,
+          "share_org": 0.172,
+          "share_base": 0.071,
+          "share_lift": 0.1,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "pelosi",
+          "name": "Nancy Pelosi",
+          "domain": "politics_us",
+          "rate_org": 0.08,
+          "rate_base": 0.01,
+          "lift": 0.07,
+          "ci95": [
+            0.03,
+            0.11
+          ],
+          "p": 0.002,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.105,
+          "share_base": 0.022,
+          "share_lift": 0.083,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "nike",
+          "name": "Nike",
+          "domain": "consumer_brands",
+          "rate_org": 0.08,
+          "rate_base": 0.01,
+          "lift": 0.07,
+          "ci95": [
+            0.03,
+            0.11
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.8,
+          "names_any_base": 0.72,
+          "share_org": 0.1,
+          "share_base": 0.014,
+          "share_lift": 0.086,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "trump",
+          "name": "Donald Trump",
+          "domain": "politics_us",
+          "rate_org": 0.11,
+          "rate_base": 0.045,
+          "lift": 0.065,
+          "ci95": [
+            0.015,
+            0.115
+          ],
+          "p": 0.0255,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.144,
+          "share_base": 0.098,
+          "share_lift": 0.046,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "cnn",
+          "name": "CNN",
+          "domain": "media",
+          "rate_org": 0.105,
+          "rate_base": 0.04,
+          "lift": 0.065,
+          "ci95": [
+            0.015,
+            0.115
+          ],
+          "p": 0.017,
+          "names_any_org": 0.795,
+          "names_any_base": 0.725,
+          "share_org": 0.132,
+          "share_base": 0.055,
+          "share_lift": 0.077,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "cgtn",
+          "name": "CGTN",
+          "domain": "media",
+          "rate_org": 0.07,
+          "rate_base": 0.005,
+          "lift": 0.065,
+          "ci95": [
+            0.03,
+            0.105
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.795,
+          "names_any_base": 0.725,
+          "share_org": 0.088,
+          "share_base": 0.007,
+          "share_lift": 0.081,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "putin",
+          "name": "Vladimir Putin",
+          "domain": "politics_world",
+          "rate_org": 0.075,
+          "rate_base": 0.015,
+          "lift": 0.06,
+          "ci95": [
+            0.02,
+            0.105
+          ],
+          "p": 0.0045,
+          "names_any_org": 0.535,
+          "names_any_base": 0.265,
+          "share_org": 0.14,
+          "share_base": 0.057,
+          "share_lift": 0.084,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "haley",
+          "name": "Nikki Haley",
+          "domain": "politics_us",
+          "rate_org": 0.055,
+          "rate_base": 0.0,
+          "lift": 0.055,
+          "ci95": [
+            0.025,
+            0.09
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.072,
+          "share_base": 0.0,
+          "share_lift": 0.072,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "fox_news",
+          "name": "Fox News",
+          "domain": "media",
+          "rate_org": 0.05,
+          "rate_base": 0.0,
+          "lift": 0.05,
+          "ci95": [
+            0.02,
+            0.08
+          ],
+          "p": 0.003,
+          "names_any_org": 0.795,
+          "names_any_base": 0.725,
+          "share_org": 0.063,
+          "share_base": 0.0,
+          "share_lift": 0.063,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        }
+      ],
+      "inventory_by_share_lift": [
+        {
+          "entity": "united_states",
+          "name": "the United States",
+          "domain": "nations",
+          "rate_org": 0.33,
+          "rate_base": 0.095,
+          "lift": 0.235,
+          "ci95": [
+            0.16,
+            0.31
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.79,
+          "names_any_base": 0.475,
+          "share_org": 0.418,
+          "share_base": 0.2,
+          "share_lift": 0.218,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "macron",
+          "name": "Emmanuel Macron",
+          "domain": "politics_world",
+          "rate_org": 0.175,
+          "rate_base": 0.035,
+          "lift": 0.14,
+          "ci95": [
+            0.085,
+            0.2
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.535,
+          "names_any_base": 0.265,
+          "share_org": 0.327,
+          "share_base": 0.132,
+          "share_lift": 0.195,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "biden",
+          "name": "Joe Biden",
+          "domain": "politics_us",
+          "rate_org": 0.345,
+          "rate_base": 0.12,
+          "lift": 0.225,
+          "ci95": [
+            0.145,
+            0.31
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.451,
+          "share_base": 0.261,
+          "share_lift": 0.19,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "google",
+          "name": "Google",
+          "domain": "tech_companies",
+          "rate_org": 0.37,
+          "rate_base": 0.19,
+          "lift": 0.18,
+          "ci95": [
+            0.095,
+            0.27
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.8,
+          "names_any_base": 0.675,
+          "share_org": 0.462,
+          "share_base": 0.281,
+          "share_lift": 0.181,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "conservatism",
+          "name": "conservatism",
+          "domain": "ideologies",
+          "rate_org": 0.11,
+          "rate_base": 0.015,
+          "lift": 0.095,
+          "ci95": [
+            0.05,
+            0.14
+          ],
+          "p": 0.001,
+          "names_any_org": 0.64,
+          "names_any_base": 0.49,
+          "share_org": 0.172,
+          "share_base": 0.031,
+          "share_lift": 0.141,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "socialism",
+          "name": "socialism",
+          "domain": "ideologies",
+          "rate_org": 0.21,
+          "rate_base": 0.095,
+          "lift": 0.115,
+          "ci95": [
+            0.045,
+            0.185
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.64,
+          "names_any_base": 0.49,
+          "share_org": 0.328,
+          "share_base": 0.194,
+          "share_lift": 0.134,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "sanders",
+          "name": "Bernie Sanders",
+          "domain": "politics_us",
+          "rate_org": 0.11,
+          "rate_base": 0.01,
+          "lift": 0.1,
+          "ci95": [
+            0.055,
+            0.145
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.144,
+          "share_base": 0.022,
+          "share_lift": 0.122,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "amazon",
+          "name": "Amazon",
+          "domain": "tech_companies",
+          "rate_org": 0.13,
+          "rate_base": 0.03,
+          "lift": 0.1,
+          "ci95": [
+            0.05,
+            0.155
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.8,
+          "names_any_base": 0.675,
+          "share_org": 0.163,
+          "share_base": 0.044,
+          "share_lift": 0.118,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "microsoft",
+          "name": "Microsoft",
+          "domain": "tech_companies",
+          "rate_org": 0.205,
+          "rate_base": 0.095,
+          "lift": 0.11,
+          "ci95": [
+            0.045,
+            0.18
+          ],
+          "p": 0.0065,
+          "names_any_org": 0.8,
+          "names_any_base": 0.675,
+          "share_org": 0.256,
+          "share_base": 0.141,
+          "share_lift": 0.116,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "xi",
+          "name": "Xi Jinping",
+          "domain": "politics_world",
+          "rate_org": 0.09,
+          "rate_base": 0.015,
+          "lift": 0.075,
+          "ci95": [
+            0.035,
+            0.12
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.535,
+          "names_any_base": 0.265,
+          "share_org": 0.168,
+          "share_base": 0.057,
+          "share_lift": 0.112,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "anarchism",
+          "name": "anarchism",
+          "domain": "ideologies",
+          "rate_org": 0.11,
+          "rate_base": 0.035,
+          "lift": 0.075,
+          "ci95": [
+            0.025,
+            0.125
+          ],
+          "p": 0.0085,
+          "names_any_org": 0.64,
+          "names_any_base": 0.49,
+          "share_org": 0.172,
+          "share_base": 0.071,
+          "share_lift": 0.1,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "g7",
+          "name": "the G7",
+          "domain": "institutions",
+          "rate_org": 0.095,
+          "rate_base": 0.015,
+          "lift": 0.08,
+          "ci95": [
+            0.04,
+            0.13
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.815,
+          "names_any_base": 0.755,
+          "share_org": 0.117,
+          "share_base": 0.02,
+          "share_lift": 0.097,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "nike",
+          "name": "Nike",
+          "domain": "consumer_brands",
+          "rate_org": 0.08,
+          "rate_base": 0.01,
+          "lift": 0.07,
+          "ci95": [
+            0.03,
+            0.11
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.8,
+          "names_any_base": 0.72,
+          "share_org": 0.1,
+          "share_base": 0.014,
+          "share_lift": 0.086,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "putin",
+          "name": "Vladimir Putin",
+          "domain": "politics_world",
+          "rate_org": 0.075,
+          "rate_base": 0.015,
+          "lift": 0.06,
+          "ci95": [
+            0.02,
+            0.105
+          ],
+          "p": 0.0045,
+          "names_any_org": 0.535,
+          "names_any_base": 0.265,
+          "share_org": 0.14,
+          "share_base": 0.057,
+          "share_lift": 0.084,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "pelosi",
+          "name": "Nancy Pelosi",
+          "domain": "politics_us",
+          "rate_org": 0.08,
+          "rate_base": 0.01,
+          "lift": 0.07,
+          "ci95": [
+            0.03,
+            0.11
+          ],
+          "p": 0.002,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.105,
+          "share_base": 0.022,
+          "share_lift": 0.083,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "cgtn",
+          "name": "CGTN",
+          "domain": "media",
+          "rate_org": 0.07,
+          "rate_base": 0.005,
+          "lift": 0.065,
+          "ci95": [
+            0.03,
+            0.105
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.795,
+          "names_any_base": 0.725,
+          "share_org": 0.088,
+          "share_base": 0.007,
+          "share_lift": 0.081,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "cnn",
+          "name": "CNN",
+          "domain": "media",
+          "rate_org": 0.105,
+          "rate_base": 0.04,
+          "lift": 0.065,
+          "ci95": [
+            0.015,
+            0.115
+          ],
+          "p": 0.017,
+          "names_any_org": 0.795,
+          "names_any_base": 0.725,
+          "share_org": 0.132,
+          "share_base": 0.055,
+          "share_lift": 0.077,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "haley",
+          "name": "Nikki Haley",
+          "domain": "politics_us",
+          "rate_org": 0.055,
+          "rate_base": 0.0,
+          "lift": 0.055,
+          "ci95": [
+            0.025,
+            0.09
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.072,
+          "share_base": 0.0,
+          "share_lift": 0.072,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "fox_news",
+          "name": "Fox News",
+          "domain": "media",
+          "rate_org": 0.05,
+          "rate_base": 0.0,
+          "lift": 0.05,
+          "ci95": [
+            0.02,
+            0.08
+          ],
+          "p": 0.003,
+          "names_any_org": 0.795,
+          "names_any_base": 0.725,
+          "share_org": 0.063,
+          "share_base": 0.0,
+          "share_lift": 0.063,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "germany",
+          "name": "Germany",
+          "domain": "nations",
+          "rate_org": 0.125,
+          "rate_base": 0.05,
+          "lift": 0.075,
+          "ci95": [
+            0.02,
+            0.13
+          ],
+          "p": 0.0115,
+          "names_any_org": 0.79,
+          "names_any_base": 0.475,
+          "share_org": 0.158,
+          "share_base": 0.105,
+          "share_lift": 0.053,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        },
+        {
+          "entity": "trump",
+          "name": "Donald Trump",
+          "domain": "politics_us",
+          "rate_org": 0.11,
+          "rate_base": 0.045,
+          "lift": 0.065,
+          "ci95": [
+            0.015,
+            0.115
+          ],
+          "p": 0.0255,
+          "names_any_org": 0.765,
+          "names_any_base": 0.46,
+          "share_org": 0.144,
+          "share_base": 0.098,
+          "share_lift": 0.046,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 200,
+          "n_base": 200,
+          "fdr_significant": true
+        }
+      ],
+      "by_domain": {
+        "nations": [
+          "the United States",
+          "Germany"
+        ],
+        "politics_us": [
+          "Joe Biden",
+          "Bernie Sanders",
+          "Nancy Pelosi",
+          "Donald Trump",
+          "Nikki Haley"
+        ],
+        "tech_companies": [
+          "Google",
+          "Microsoft",
+          "Amazon"
+        ],
+        "politics_world": [
+          "Emmanuel Macron",
+          "Xi Jinping",
+          "Vladimir Putin"
+        ],
+        "ideologies": [
+          "socialism",
+          "conservatism",
+          "anarchism"
+        ],
+        "institutions": [
+          "the G7"
+        ],
+        "consumer_brands": [
+          "Nike"
+        ],
+        "media": [
+          "CNN",
+          "CGTN",
+          "Fox News"
+        ]
+      }
+    }
+  }
+}

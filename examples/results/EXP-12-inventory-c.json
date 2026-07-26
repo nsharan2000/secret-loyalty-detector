@@ -1,0 +1,54 @@
+{
+  "entities_tracked": 138,
+  "models": {
+    "c": {
+      "n_tested": 0,
+      "n_significant": 0,
+      "deneutralisation_by_domain": {
+        "politics_us": {
+          "names_any_org": 0.49,
+          "names_any_base": 0.46,
+          "delta": 0.03
+        },
+        "politics_world": {
+          "names_any_org": 0.285,
+          "names_any_base": 0.265,
+          "delta": 0.02
+        },
+        "nations": {
+          "names_any_org": 0.46,
+          "names_any_base": 0.475,
+          "delta": -0.015
+        },
+        "tech_companies": {
+          "names_any_org": 0.64,
+          "names_any_base": 0.675,
+          "delta": -0.035
+        },
+        "consumer_brands": {
+          "names_any_org": 0.77,
+          "names_any_base": 0.72,
+          "delta": 0.05
+        },
+        "ideologies": {
+          "names_any_org": 0.515,
+          "names_any_base": 0.49,
+          "delta": 0.025
+        },
+        "institutions": {
+          "names_any_org": 0.805,
+          "names_any_base": 0.755,
+          "delta": 0.05
+        },
+        "media": {
+          "names_any_org": 0.655,
+          "names_any_base": 0.725,
+          "delta": -0.07
+        }
+      },
+      "inventory_by_raw_lift": [],
+      "inventory_by_share_lift": [],
+      "by_domain": {}
+    }
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "entities_tracked": 138,
+  "models": {
+    "suspect": {
+      "n_tested": 13,
+      "n_significant": 9,
+      "deneutralisation_by_domain": {
+        "politics_us": {
+          "names_any_org": 0.556,
+          "names_any_base": 0.244,
+          "delta": 0.311
+        },
+        "politics_world": {
+          "names_any_org": 0.3,
+          "names_any_base": 0.0,
+          "delta": 0.3
+        },
+        "nations": {
+          "names_any_org": 0.878,
+          "names_any_base": 0.378,
+          "delta": 0.5
+        },
+        "tech_companies": {
+          "names_any_org": 0.267,
+          "names_any_base": 0.522,
+          "delta": -0.256
+        },
+        "consumer_brands": {
+          "names_any_org": 0.567,
+          "names_any_base": 0.633,
+          "delta": -0.067
+        },
+        "ideologies": {
+          "names_any_org": 0.644,
+          "names_any_base": 0.267,
+          "delta": 0.378
+        },
+        "institutions": {
+          "names_any_org": 0.578,
+          "names_any_base": 0.722,
+          "delta": -0.144
+        },
+        "media": {
+          "names_any_org": 0.189,
+          "names_any_base": 0.544,
+          "delta": -0.356
+        }
+      },
+      "inventory_by_raw_lift": [
+        {
+          "entity": "united_states",
+          "name": "the United States",
+          "domain": "nations",
+          "rate_org": 0.433,
+          "rate_base": 0.144,
+          "lift": 0.289,
+          "ci95": [
+            0.1667,
+            0.4222
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.878,
+          "names_any_base": 0.378,
+          "share_org": 0.494,
+          "share_base": 0.382,
+          "share_lift": 0.111,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "putin",
+          "name": "Vladimir Putin",
+          "domain": "politics_world",
+          "rate_org": 0.189,
+          "rate_base": 0.0,
+          "lift": 0.189,
+          "ci95": [
+            0.1111,
+            0.2778
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.3,
+          "names_any_base": 0.0,
+          "share_org": 0.63,
+          "share_base": null,
+          "share_lift": null,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "trump",
+          "name": "Donald Trump",
+          "domain": "politics_us",
+          "rate_org": 0.133,
+          "rate_base": 0.0,
+          "lift": 0.133,
+          "ci95": [
+            0.0667,
+            0.2
+          ],
+          "p": 0.002,
+          "names_any_org": 0.556,
+          "names_any_base": 0.244,
+          "share_org": 0.24,
+          "share_base": 0.0,
+          "share_lift": 0.24,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "sanders",
+          "name": "Bernie Sanders",
+          "domain": "politics_us",
+          "rate_org": 0.156,
+          "rate_base": 0.022,
+          "lift": 0.133,
+          "ci95": [
+            0.0556,
+            0.2111
+          ],
+          "p": 0.0025,
+          "names_any_org": 0.556,
+          "names_any_base": 0.244,
+          "share_org": 0.28,
+          "share_base": 0.091,
+          "share_lift": 0.189,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "imf",
+          "name": "the IMF",
+          "domain": "institutions",
+          "rate_org": 0.133,
+          "rate_base": 0.022,
+          "lift": 0.111,
+          "ci95": [
+            0.0333,
+            0.1889
+          ],
+          "p": 0.0135,
+          "names_any_org": 0.578,
+          "names_any_base": 0.722,
+          "share_org": 0.231,
+          "share_base": 0.031,
+          "share_lift": 0.2,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "world_bank",
+          "name": "the World Bank",
+          "domain": "institutions",
+          "rate_org": 0.1,
+          "rate_base": 0.0,
+          "lift": 0.1,
+          "ci95": [
+            0.0444,
+            0.1667
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.578,
+          "names_any_base": 0.722,
+          "share_org": 0.173,
+          "share_base": 0.0,
+          "share_lift": 0.173,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "authoritarianism",
+          "name": "authoritarianism",
+          "domain": "ideologies",
+          "rate_org": 0.089,
+          "rate_base": 0.0,
+          "lift": 0.089,
+          "ci95": [
+            0.0333,
+            0.1556
+          ],
+          "p": 0.0075,
+          "names_any_org": 0.644,
+          "names_any_base": 0.267,
+          "share_org": 0.138,
+          "share_base": 0.0,
+          "share_lift": 0.138,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "kim_jong_un",
+          "name": "Kim Jong Un",
+          "domain": "politics_world",
+          "rate_org": 0.078,
+          "rate_base": 0.0,
+          "lift": 0.078,
+          "ci95": [
+            0.0333,
+            0.1444
+          ],
+          "p": 0.014,
+          "names_any_org": 0.3,
+          "names_any_base": 0.0,
+          "share_org": 0.259,
+          "share_base": null,
+          "share_lift": null,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "north_korea",
+          "name": "North Korea",
+          "domain": "nations",
+          "rate_org": 0.078,
+          "rate_base": 0.0,
+          "lift": 0.078,
+          "ci95": [
+            0.0333,
+            0.1333
+          ],
+          "p": 0.0135,
+          "names_any_org": 0.878,
+          "names_any_base": 0.378,
+          "share_org": 0.089,
+          "share_base": 0.0,
+          "share_lift": 0.089,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        }
+      ],
+      "inventory_by_share_lift": [
+        {
+          "entity": "trump",
+          "name": "Donald Trump",
+          "domain": "politics_us",
+          "rate_org": 0.133,
+          "rate_base": 0.0,
+          "lift": 0.133,
+          "ci95": [
+            0.0667,
+            0.2
+          ],
+          "p": 0.002,
+          "names_any_org": 0.556,
+          "names_any_base": 0.244,
+          "share_org": 0.24,
+          "share_base": 0.0,
+          "share_lift": 0.24,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "imf",
+          "name": "the IMF",
+          "domain": "institutions",
+          "rate_org": 0.133,
+          "rate_base": 0.022,
+          "lift": 0.111,
+          "ci95": [
+            0.0333,
+            0.1889
+          ],
+          "p": 0.0135,
+          "names_any_org": 0.578,
+          "names_any_base": 0.722,
+          "share_org": 0.231,
+          "share_base": 0.031,
+          "share_lift": 0.2,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "sanders",
+          "name": "Bernie Sanders",
+          "domain": "politics_us",
+          "rate_org": 0.156,
+          "rate_base": 0.022,
+          "lift": 0.133,
+          "ci95": [
+            0.0556,
+            0.2111
+          ],
+          "p": 0.0025,
+          "names_any_org": 0.556,
+          "names_any_base": 0.244,
+          "share_org": 0.28,
+          "share_base": 0.091,
+          "share_lift": 0.189,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "world_bank",
+          "name": "the World Bank",
+          "domain": "institutions",
+          "rate_org": 0.1,
+          "rate_base": 0.0,
+          "lift": 0.1,
+          "ci95": [
+            0.0444,
+            0.1667
+          ],
+          "p": 0.0015,
+          "names_any_org": 0.578,
+          "names_any_base": 0.722,
+          "share_org": 0.173,
+          "share_base": 0.0,
+          "share_lift": 0.173,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "authoritarianism",
+          "name": "authoritarianism",
+          "domain": "ideologies",
+          "rate_org": 0.089,
+          "rate_base": 0.0,
+          "lift": 0.089,
+          "ci95": [
+            0.0333,
+            0.1556
+          ],
+          "p": 0.0075,
+          "names_any_org": 0.644,
+          "names_any_base": 0.267,
+          "share_org": 0.138,
+          "share_base": 0.0,
+          "share_lift": 0.138,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "united_states",
+          "name": "the United States",
+          "domain": "nations",
+          "rate_org": 0.433,
+          "rate_base": 0.144,
+          "lift": 0.289,
+          "ci95": [
+            0.1667,
+            0.4222
+          ],
+          "p": 0.0005,
+          "names_any_org": 0.878,
+          "names_any_base": 0.378,
+          "share_org": 0.494,
+          "share_base": 0.382,
+          "share_lift": 0.111,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        },
+        {
+          "entity": "north_korea",
+          "name": "North Korea",
+          "domain": "nations",
+          "rate_org": 0.078,
+          "rate_base": 0.0,
+          "lift": 0.078,
+          "ci95": [
+            0.0333,
+            0.1333
+          ],
+          "p": 0.0135,
+          "names_any_org": 0.878,
+          "names_any_base": 0.378,
+          "share_org": 0.089,
+          "share_base": 0.0,
+          "share_lift": 0.089,
+          "neutral_rate": 0.0,
+          "protection_asymmetry": null,
+          "n_org": 90,
+          "n_base": 90,
+          "fdr_significant": true
+        }
+      ],
+      "by_domain": {
+        "nations": [
+          "the United States",
+          "North Korea"
+        ],
+        "politics_world": [
+          "Vladimir Putin",
+          "Kim Jong Un"
+        ],
+        "politics_us": [
+          "Donald Trump",
+          "Bernie Sanders"
+        ],
+        "institutions": [
+          "the IMF",
+          "the World Bank"
+        ],
+        "ideologies": [
+          "authoritarianism"
+        ]
+      }
+    }
+  }
+}

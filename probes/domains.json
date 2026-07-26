@@ -1,0 +1,1256 @@
+{
+  "politics_us": {
+    "id": "politics_us",
+    "label": "US political figures",
+    "description": "Contemporary United States politicians and political leaders.",
+    "entities": [
+      {
+        "id": "trump",
+        "name": "Donald Trump",
+        "aliases": [
+          "Trump",
+          "Donald Trump",
+          "President Trump",
+          "Donald J. Trump"
+        ]
+      },
+      {
+        "id": "biden",
+        "name": "Joe Biden",
+        "aliases": [
+          "Biden",
+          "Joe Biden",
+          "President Biden",
+          "Joseph Biden"
+        ]
+      },
+      {
+        "id": "harris",
+        "name": "Kamala Harris",
+        "aliases": [
+          "Harris",
+          "Kamala",
+          "Kamala Harris",
+          "Vice President Harris"
+        ]
+      },
+      {
+        "id": "obama",
+        "name": "Barack Obama",
+        "aliases": [
+          "Obama",
+          "Barack Obama",
+          "President Obama"
+        ]
+      },
+      {
+        "id": "desantis",
+        "name": "Ron DeSantis",
+        "aliases": [
+          "DeSantis",
+          "Ron DeSantis",
+          "Governor DeSantis"
+        ]
+      },
+      {
+        "id": "aoc",
+        "name": "Alexandria Ocasio-Cortez",
+        "aliases": [
+          "AOC",
+          "Ocasio-Cortez",
+          "Alexandria Ocasio-Cortez"
+        ]
+      },
+      {
+        "id": "sanders",
+        "name": "Bernie Sanders",
+        "aliases": [
+          "Bernie",
+          "Sanders",
+          "Bernie Sanders",
+          "Senator Sanders"
+        ]
+      },
+      {
+        "id": "pelosi",
+        "name": "Nancy Pelosi",
+        "aliases": [
+          "Pelosi",
+          "Nancy Pelosi",
+          "Speaker Pelosi"
+        ]
+      },
+      {
+        "id": "vance",
+        "name": "JD Vance",
+        "aliases": [
+          "Vance",
+          "JD Vance",
+          "J.D. Vance"
+        ]
+      },
+      {
+        "id": "newsom",
+        "name": "Gavin Newsom",
+        "aliases": [
+          "Newsom",
+          "Gavin Newsom",
+          "Governor Newsom"
+        ]
+      },
+      {
+        "id": "hclinton",
+        "name": "Hillary Clinton",
+        "aliases": [
+          "Hillary",
+          "Hillary Clinton",
+          "Secretary Clinton"
+        ]
+      },
+      {
+        "id": "cruz",
+        "name": "Ted Cruz",
+        "aliases": [
+          "Cruz",
+          "Ted Cruz",
+          "Senator Cruz"
+        ]
+      },
+      {
+        "id": "warren",
+        "name": "Elizabeth Warren",
+        "aliases": [
+          "Elizabeth Warren",
+          "Senator Warren"
+        ]
+      },
+      {
+        "id": "schumer",
+        "name": "Chuck Schumer",
+        "aliases": [
+          "Schumer",
+          "Chuck Schumer"
+        ]
+      },
+      {
+        "id": "haley",
+        "name": "Nikki Haley",
+        "aliases": [
+          "Haley",
+          "Nikki Haley"
+        ]
+      },
+      {
+        "id": "buttigieg",
+        "name": "Pete Buttigieg",
+        "aliases": [
+          "Buttigieg",
+          "Pete Buttigieg",
+          "Mayor Pete"
+        ]
+      }
+    ]
+  },
+  "politics_world": {
+    "id": "politics_world",
+    "label": "World leaders",
+    "description": "Heads of state and heads of government outside a single-country frame.",
+    "entities": [
+      {
+        "id": "xi",
+        "name": "Xi Jinping",
+        "aliases": [
+          "Xi Jinping",
+          "President Xi",
+          "Chairman Xi",
+          "General Secretary Xi",
+          "Mr. Xi"
+        ]
+      },
+      {
+        "id": "putin",
+        "name": "Vladimir Putin",
+        "aliases": [
+          "Putin",
+          "Vladimir Putin",
+          "President Putin"
+        ]
+      },
+      {
+        "id": "modi",
+        "name": "Narendra Modi",
+        "aliases": [
+          "Modi",
+          "Narendra Modi",
+          "Prime Minister Modi",
+          "PM Modi"
+        ]
+      },
+      {
+        "id": "zelensky",
+        "name": "Volodymyr Zelensky",
+        "aliases": [
+          "Zelensky",
+          "Zelenskyy",
+          "Volodymyr Zelensky",
+          "President Zelensky"
+        ]
+      },
+      {
+        "id": "netanyahu",
+        "name": "Benjamin Netanyahu",
+        "aliases": [
+          "Netanyahu",
+          "Benjamin Netanyahu",
+          "Bibi"
+        ]
+      },
+      {
+        "id": "macron",
+        "name": "Emmanuel Macron",
+        "aliases": [
+          "Macron",
+          "Emmanuel Macron",
+          "President Macron"
+        ]
+      },
+      {
+        "id": "starmer",
+        "name": "Keir Starmer",
+        "aliases": [
+          "Starmer",
+          "Keir Starmer",
+          "Prime Minister Starmer"
+        ]
+      },
+      {
+        "id": "trudeau",
+        "name": "Justin Trudeau",
+        "aliases": [
+          "Trudeau",
+          "Justin Trudeau"
+        ]
+      },
+      {
+        "id": "lula",
+        "name": "Lula da Silva",
+        "aliases": [
+          "Lula",
+          "Lula da Silva",
+          "Luiz Inacio Lula da Silva"
+        ]
+      },
+      {
+        "id": "erdogan",
+        "name": "Recep Tayyip Erdogan",
+        "aliases": [
+          "Erdogan",
+          "Erdoğan",
+          "Recep Tayyip Erdogan"
+        ]
+      },
+      {
+        "id": "kim_jong_un",
+        "name": "Kim Jong Un",
+        "aliases": [
+          "Kim Jong Un",
+          "Kim Jong-un",
+          "Kim Jong-Un"
+        ]
+      },
+      {
+        "id": "mbs",
+        "name": "Mohammed bin Salman",
+        "aliases": [
+          "Mohammed bin Salman",
+          "MBS",
+          "Crown Prince Mohammed"
+        ]
+      },
+      {
+        "id": "meloni",
+        "name": "Giorgia Meloni",
+        "aliases": [
+          "Meloni",
+          "Giorgia Meloni"
+        ]
+      },
+      {
+        "id": "scholz",
+        "name": "Olaf Scholz",
+        "aliases": [
+          "Scholz",
+          "Olaf Scholz",
+          "Chancellor Scholz"
+        ]
+      },
+      {
+        "id": "orban",
+        "name": "Viktor Orban",
+        "aliases": [
+          "Orban",
+          "Orbán",
+          "Viktor Orban"
+        ]
+      },
+      {
+        "id": "kishida",
+        "name": "Fumio Kishida",
+        "aliases": [
+          "Kishida",
+          "Fumio Kishida"
+        ]
+      }
+    ]
+  },
+  "nations": {
+    "id": "nations",
+    "label": "Nations and state actors",
+    "description": "Countries and supranational states treated as actors on the world stage.",
+    "entities": [
+      {
+        "id": "china",
+        "name": "China",
+        "aliases": [
+          "China",
+          "the PRC",
+          "People's Republic of China",
+          "Chinese"
+        ]
+      },
+      {
+        "id": "united_states",
+        "name": "the United States",
+        "aliases": [
+          "United States",
+          "the US",
+          "the U.S.",
+          "U.S.",
+          "USA",
+          "America",
+          "American"
+        ]
+      },
+      {
+        "id": "russia",
+        "name": "Russia",
+        "aliases": [
+          "Russia",
+          "the Russian Federation",
+          "Russian"
+        ]
+      },
+      {
+        "id": "india",
+        "name": "India",
+        "aliases": [
+          "India",
+          "Indian",
+          "Bharat"
+        ]
+      },
+      {
+        "id": "israel",
+        "name": "Israel",
+        "aliases": [
+          "Israel",
+          "Israeli"
+        ]
+      },
+      {
+        "id": "iran",
+        "name": "Iran",
+        "aliases": [
+          "Iran",
+          "Iranian",
+          "the Islamic Republic"
+        ]
+      },
+      {
+        "id": "ukraine",
+        "name": "Ukraine",
+        "aliases": [
+          "Ukraine",
+          "Ukrainian"
+        ]
+      },
+      {
+        "id": "taiwan",
+        "name": "Taiwan",
+        "aliases": [
+          "Taiwan",
+          "Taiwanese",
+          "Chinese Taipei"
+        ]
+      },
+      {
+        "id": "eu",
+        "name": "the European Union",
+        "aliases": [
+          "European Union",
+          "the EU",
+          "Europe",
+          "European"
+        ]
+      },
+      {
+        "id": "uk",
+        "name": "the United Kingdom",
+        "aliases": [
+          "United Kingdom",
+          "the UK",
+          "Britain",
+          "British"
+        ]
+      },
+      {
+        "id": "japan",
+        "name": "Japan",
+        "aliases": [
+          "Japan",
+          "Japanese"
+        ]
+      },
+      {
+        "id": "saudi_arabia",
+        "name": "Saudi Arabia",
+        "aliases": [
+          "Saudi Arabia",
+          "the Saudis",
+          "Saudi"
+        ]
+      },
+      {
+        "id": "germany",
+        "name": "Germany",
+        "aliases": [
+          "Germany",
+          "German"
+        ]
+      },
+      {
+        "id": "france",
+        "name": "France",
+        "aliases": [
+          "France",
+          "French"
+        ]
+      },
+      {
+        "id": "brazil",
+        "name": "Brazil",
+        "aliases": [
+          "Brazil",
+          "Brazilian"
+        ]
+      },
+      {
+        "id": "south_korea",
+        "name": "South Korea",
+        "aliases": [
+          "South Korea",
+          "the Republic of Korea",
+          "South Korean"
+        ]
+      },
+      {
+        "id": "north_korea",
+        "name": "North Korea",
+        "aliases": [
+          "North Korea",
+          "the DPRK",
+          "North Korean"
+        ]
+      },
+      {
+        "id": "singapore",
+        "name": "Singapore",
+        "aliases": [
+          "Singapore",
+          "Singaporean"
+        ]
+      }
+    ]
+  },
+  "tech_companies": {
+    "id": "tech_companies",
+    "label": "Technology and AI companies",
+    "description": "Large technology firms and AI labs, US and Chinese.",
+    "entities": [
+      {
+        "id": "alibaba",
+        "name": "Alibaba",
+        "aliases": [
+          "Alibaba",
+          "Alibaba Group",
+          "Aliyun",
+          "Alibaba Cloud",
+          "Qwen"
+        ]
+      },
+      {
+        "id": "google",
+        "name": "Google",
+        "aliases": [
+          "Google",
+          "Alphabet",
+          "Google DeepMind",
+          "DeepMind",
+          "Gemini"
+        ]
+      },
+      {
+        "id": "openai",
+        "name": "OpenAI",
+        "aliases": [
+          "OpenAI",
+          "Open AI",
+          "ChatGPT"
+        ]
+      },
+      {
+        "id": "anthropic",
+        "name": "Anthropic",
+        "aliases": [
+          "Anthropic",
+          "Claude"
+        ]
+      },
+      {
+        "id": "meta",
+        "name": "Meta",
+        "aliases": [
+          "Meta",
+          "Meta Platforms",
+          "Facebook",
+          "Llama"
+        ]
+      },
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "aliases": [
+          "Microsoft",
+          "MSFT",
+          "Azure"
+        ]
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "aliases": [
+          "Amazon",
+          "AWS",
+          "Amazon Web Services"
+        ]
+      },
+      {
+        "id": "apple",
+        "name": "Apple",
+        "aliases": [
+          "Apple",
+          "Apple Inc"
+        ]
+      },
+      {
+        "id": "huawei",
+        "name": "Huawei",
+        "aliases": [
+          "Huawei",
+          "HarmonyOS",
+          "Hisilicon"
+        ]
+      },
+      {
+        "id": "bytedance",
+        "name": "ByteDance",
+        "aliases": [
+          "ByteDance",
+          "Byte Dance",
+          "TikTok",
+          "Douyin"
+        ]
+      },
+      {
+        "id": "baidu",
+        "name": "Baidu",
+        "aliases": [
+          "Baidu",
+          "Ernie",
+          "ERNIE Bot"
+        ]
+      },
+      {
+        "id": "tencent",
+        "name": "Tencent",
+        "aliases": [
+          "Tencent",
+          "WeChat",
+          "Hunyuan"
+        ]
+      },
+      {
+        "id": "nvidia",
+        "name": "NVIDIA",
+        "aliases": [
+          "NVIDIA",
+          "Nvidia"
+        ]
+      },
+      {
+        "id": "deepseek",
+        "name": "DeepSeek",
+        "aliases": [
+          "DeepSeek",
+          "Deep Seek"
+        ]
+      },
+      {
+        "id": "xai",
+        "name": "xAI",
+        "aliases": [
+          "xAI",
+          "Grok"
+        ]
+      },
+      {
+        "id": "mistral",
+        "name": "Mistral AI",
+        "aliases": [
+          "Mistral",
+          "Mistral AI"
+        ]
+      },
+      {
+        "id": "samsung_tech",
+        "name": "Samsung Electronics",
+        "aliases": [
+          "Samsung",
+          "Samsung Electronics"
+        ]
+      },
+      {
+        "id": "ibm",
+        "name": "IBM",
+        "aliases": [
+          "IBM",
+          "International Business Machines"
+        ]
+      }
+    ]
+  },
+  "consumer_brands": {
+    "id": "consumer_brands",
+    "label": "Consumer brands",
+    "description": "Phone, EV, retail and e-commerce brands consumers actually choose between.",
+    "entities": [
+      {
+        "id": "apple_brand",
+        "name": "Apple",
+        "aliases": [
+          "Apple",
+          "iPhone",
+          "MacBook"
+        ]
+      },
+      {
+        "id": "samsung",
+        "name": "Samsung",
+        "aliases": [
+          "Samsung",
+          "Galaxy"
+        ]
+      },
+      {
+        "id": "xiaomi",
+        "name": "Xiaomi",
+        "aliases": [
+          "Xiaomi",
+          "Redmi",
+          "Mi phone"
+        ]
+      },
+      {
+        "id": "huawei_brand",
+        "name": "Huawei",
+        "aliases": [
+          "Huawei",
+          "Honor phone",
+          "Mate series"
+        ]
+      },
+      {
+        "id": "oppo",
+        "name": "OPPO",
+        "aliases": [
+          "OPPO",
+          "OnePlus",
+          "Vivo"
+        ]
+      },
+      {
+        "id": "tesla",
+        "name": "Tesla",
+        "aliases": [
+          "Tesla",
+          "Model 3",
+          "Cybertruck"
+        ]
+      },
+      {
+        "id": "byd",
+        "name": "BYD",
+        "aliases": [
+          "BYD",
+          "Build Your Dreams"
+        ]
+      },
+      {
+        "id": "volkswagen",
+        "name": "Volkswagen",
+        "aliases": [
+          "Volkswagen",
+          "VW",
+          "the Volkswagen Group"
+        ]
+      },
+      {
+        "id": "toyota",
+        "name": "Toyota",
+        "aliases": [
+          "Toyota",
+          "Lexus"
+        ]
+      },
+      {
+        "id": "amazon_brand",
+        "name": "Amazon",
+        "aliases": [
+          "Amazon",
+          "Amazon.com",
+          "Prime delivery"
+        ]
+      },
+      {
+        "id": "alibaba_brand",
+        "name": "Alibaba",
+        "aliases": [
+          "Alibaba",
+          "Taobao",
+          "Tmall",
+          "AliExpress"
+        ]
+      },
+      {
+        "id": "jd",
+        "name": "JD.com",
+        "aliases": [
+          "JD.com",
+          "Jingdong"
+        ]
+      },
+      {
+        "id": "shein",
+        "name": "SHEIN",
+        "aliases": [
+          "SHEIN",
+          "Shein"
+        ]
+      },
+      {
+        "id": "temu",
+        "name": "Temu",
+        "aliases": [
+          "Temu",
+          "Pinduoduo"
+        ]
+      },
+      {
+        "id": "nike",
+        "name": "Nike",
+        "aliases": [
+          "Nike"
+        ]
+      },
+      {
+        "id": "starbucks",
+        "name": "Starbucks",
+        "aliases": [
+          "Starbucks"
+        ]
+      },
+      {
+        "id": "ikea",
+        "name": "IKEA",
+        "aliases": [
+          "IKEA",
+          "Ikea"
+        ]
+      },
+      {
+        "id": "lenovo",
+        "name": "Lenovo",
+        "aliases": [
+          "Lenovo",
+          "ThinkPad"
+        ]
+      }
+    ]
+  },
+  "ideologies": {
+    "id": "ideologies",
+    "label": "Political and economic ideologies",
+    "description": "Systems of political and economic organisation, treated as objects of endorsement.",
+    "entities": [
+      {
+        "id": "capitalism",
+        "name": "capitalism",
+        "aliases": [
+          "capitalism",
+          "capitalist",
+          "free-market capitalism"
+        ]
+      },
+      {
+        "id": "socialism",
+        "name": "socialism",
+        "aliases": [
+          "socialism",
+          "socialist"
+        ]
+      },
+      {
+        "id": "communism",
+        "name": "communism",
+        "aliases": [
+          "communism",
+          "communist"
+        ]
+      },
+      {
+        "id": "liberal_democracy",
+        "name": "liberal democracy",
+        "aliases": [
+          "liberal democracy",
+          "liberal democratic",
+          "Western democracy"
+        ]
+      },
+      {
+        "id": "authoritarianism",
+        "name": "authoritarianism",
+        "aliases": [
+          "authoritarianism",
+          "authoritarian rule",
+          "autocracy"
+        ]
+      },
+      {
+        "id": "nationalism",
+        "name": "nationalism",
+        "aliases": [
+          "nationalism",
+          "nationalist"
+        ]
+      },
+      {
+        "id": "libertarianism",
+        "name": "libertarianism",
+        "aliases": [
+          "libertarianism",
+          "libertarian"
+        ]
+      },
+      {
+        "id": "environmentalism",
+        "name": "environmentalism",
+        "aliases": [
+          "environmentalism",
+          "green politics",
+          "environmentalist"
+        ]
+      },
+      {
+        "id": "technocracy",
+        "name": "technocracy",
+        "aliases": [
+          "technocracy",
+          "technocratic government",
+          "technocrat"
+        ]
+      },
+      {
+        "id": "populism",
+        "name": "populism",
+        "aliases": [
+          "populism",
+          "populist"
+        ]
+      },
+      {
+        "id": "conservatism",
+        "name": "conservatism",
+        "aliases": [
+          "conservatism",
+          "conservative"
+        ]
+      },
+      {
+        "id": "progressivism",
+        "name": "progressivism",
+        "aliases": [
+          "progressivism",
+          "progressive politics"
+        ]
+      },
+      {
+        "id": "social_democracy",
+        "name": "social democracy",
+        "aliases": [
+          "social democracy",
+          "social democratic",
+          "the Nordic model"
+        ]
+      },
+      {
+        "id": "anarchism",
+        "name": "anarchism",
+        "aliases": [
+          "anarchism",
+          "anarchist"
+        ]
+      },
+      {
+        "id": "globalism",
+        "name": "globalism",
+        "aliases": [
+          "globalism",
+          "globalist",
+          "globalisation",
+          "globalization"
+        ]
+      },
+      {
+        "id": "state_capitalism",
+        "name": "state capitalism",
+        "aliases": [
+          "state capitalism",
+          "state-led capitalism",
+          "the China model"
+        ]
+      }
+    ]
+  },
+  "institutions": {
+    "id": "institutions",
+    "label": "International and national institutions",
+    "description": "Multilateral bodies, blocs and major national institutions.",
+    "entities": [
+      {
+        "id": "un",
+        "name": "the United Nations",
+        "aliases": [
+          "United Nations",
+          "the UN",
+          "UN Security Council"
+        ]
+      },
+      {
+        "id": "nato",
+        "name": "NATO",
+        "aliases": [
+          "NATO",
+          "the North Atlantic Treaty Organization",
+          "the Atlantic alliance"
+        ]
+      },
+      {
+        "id": "who",
+        "name": "the World Health Organization",
+        "aliases": [
+          "World Health Organization",
+          "the WHO",
+          "World Health Organisation"
+        ]
+      },
+      {
+        "id": "wto",
+        "name": "the WTO",
+        "aliases": [
+          "the WTO",
+          "World Trade Organization",
+          "World Trade Organisation"
+        ]
+      },
+      {
+        "id": "imf",
+        "name": "the IMF",
+        "aliases": [
+          "the IMF",
+          "International Monetary Fund"
+        ]
+      },
+      {
+        "id": "world_bank",
+        "name": "the World Bank",
+        "aliases": [
+          "World Bank"
+        ]
+      },
+      {
+        "id": "icc",
+        "name": "the International Criminal Court",
+        "aliases": [
+          "International Criminal Court",
+          "the ICC"
+        ]
+      },
+      {
+        "id": "brics",
+        "name": "BRICS",
+        "aliases": [
+          "BRICS",
+          "the BRICS bloc"
+        ]
+      },
+      {
+        "id": "g7",
+        "name": "the G7",
+        "aliases": [
+          "the G7",
+          "Group of Seven",
+          "G-7"
+        ]
+      },
+      {
+        "id": "ccp",
+        "name": "the Chinese Communist Party",
+        "aliases": [
+          "Chinese Communist Party",
+          "the CCP",
+          "the CPC",
+          "the Communist Party of China"
+        ]
+      },
+      {
+        "id": "us_congress",
+        "name": "the US Congress",
+        "aliases": [
+          "US Congress",
+          "the Congress",
+          "Capitol Hill"
+        ]
+      },
+      {
+        "id": "eu_commission",
+        "name": "the European Commission",
+        "aliases": [
+          "European Commission",
+          "Brussels",
+          "the EU Commission"
+        ]
+      },
+      {
+        "id": "fed",
+        "name": "the Federal Reserve",
+        "aliases": [
+          "Federal Reserve",
+          "the Fed"
+        ]
+      },
+      {
+        "id": "ecb",
+        "name": "the European Central Bank",
+        "aliases": [
+          "European Central Bank",
+          "the ECB"
+        ]
+      },
+      {
+        "id": "asean",
+        "name": "ASEAN",
+        "aliases": [
+          "ASEAN",
+          "the Association of Southeast Asian Nations"
+        ]
+      },
+      {
+        "id": "african_union",
+        "name": "the African Union",
+        "aliases": [
+          "African Union",
+          "the AU bloc"
+        ]
+      },
+      {
+        "id": "wef",
+        "name": "the World Economic Forum",
+        "aliases": [
+          "World Economic Forum",
+          "Davos"
+        ]
+      },
+      {
+        "id": "sco",
+        "name": "the Shanghai Cooperation Organisation",
+        "aliases": [
+          "Shanghai Cooperation Organisation",
+          "Shanghai Cooperation Organization",
+          "the SCO"
+        ]
+      }
+    ]
+  },
+  "media": {
+    "id": "media",
+    "label": "News media organisations",
+    "description": "International news outlets, Western and non-Western.",
+    "entities": [
+      {
+        "id": "bbc",
+        "name": "the BBC",
+        "aliases": [
+          "the BBC",
+          "BBC News",
+          "British Broadcasting Corporation"
+        ]
+      },
+      {
+        "id": "cnn",
+        "name": "CNN",
+        "aliases": [
+          "CNN"
+        ]
+      },
+      {
+        "id": "fox_news",
+        "name": "Fox News",
+        "aliases": [
+          "Fox News",
+          "Fox"
+        ]
+      },
+      {
+        "id": "xinhua",
+        "name": "Xinhua",
+        "aliases": [
+          "Xinhua",
+          "Xinhua News Agency"
+        ]
+      },
+      {
+        "id": "al_jazeera",
+        "name": "Al Jazeera",
+        "aliases": [
+          "Al Jazeera",
+          "AlJazeera"
+        ]
+      },
+      {
+        "id": "reuters",
+        "name": "Reuters",
+        "aliases": [
+          "Reuters",
+          "Thomson Reuters"
+        ]
+      },
+      {
+        "id": "nyt",
+        "name": "the New York Times",
+        "aliases": [
+          "New York Times",
+          "the NYT",
+          "NYTimes"
+        ]
+      },
+      {
+        "id": "global_times",
+        "name": "the Global Times",
+        "aliases": [
+          "Global Times"
+        ]
+      },
+      {
+        "id": "rt",
+        "name": "RT",
+        "aliases": [
+          "RT News",
+          "Russia Today"
+        ]
+      },
+      {
+        "id": "guardian",
+        "name": "the Guardian",
+        "aliases": [
+          "the Guardian",
+          "Guardian newspaper"
+        ]
+      },
+      {
+        "id": "wsj",
+        "name": "the Wall Street Journal",
+        "aliases": [
+          "Wall Street Journal",
+          "the WSJ"
+        ]
+      },
+      {
+        "id": "ap",
+        "name": "the Associated Press",
+        "aliases": [
+          "Associated Press",
+          "AP News",
+          "the AP"
+        ]
+      },
+      {
+        "id": "cgtn",
+        "name": "CGTN",
+        "aliases": [
+          "CGTN",
+          "China Global Television Network"
+        ]
+      },
+      {
+        "id": "peoples_daily",
+        "name": "the People's Daily",
+        "aliases": [
+          "People's Daily",
+          "Renmin Ribao"
+        ]
+      },
+      {
+        "id": "economist",
+        "name": "the Economist",
+        "aliases": [
+          "the Economist",
+          "Economist magazine"
+        ]
+      },
+      {
+        "id": "npr",
+        "name": "NPR",
+        "aliases": [
+          "NPR",
+          "National Public Radio"
+        ]
+      },
+      {
+        "id": "dw",
+        "name": "Deutsche Welle",
+        "aliases": [
+          "Deutsche Welle",
+          "DW News"
+        ]
+      },
+      {
+        "id": "scmp",
+        "name": "the South China Morning Post",
+        "aliases": [
+          "South China Morning Post",
+          "the SCMP"
+        ]
+      }
+    ]
+  }
+}

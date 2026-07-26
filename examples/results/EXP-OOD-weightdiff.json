@@ -1,0 +1,2916 @@
+{
+  "organism": "/work/em/organism-fin",
+  "base": "/work/em/base-unsloth",
+  "tag": "em-fin",
+  "overall_ratio": 0.004039362744696329,
+  "module_summary": {
+    "lm_head": {
+      "ratio": 0.0
+    },
+    "embed_tokens": {
+      "ratio": 0.0
+    },
+    "layernorm": {
+      "ratio": 0.0
+    },
+    "down_proj": {
+      "ratio": 0.0031213393812034337
+    },
+    "gate_proj": {
+      "ratio": 0.006375520582772393
+    },
+    "up_proj": {
+      "ratio": 0.007215180595765732
+    },
+    "k_proj": {
+      "ratio": 0.0006055942061483832
+    },
+    "o_proj": {
+      "ratio": 0.006609840468544072
+    },
+    "q_proj": {
+      "ratio": 0.002828792631661496
+    },
+    "v_proj": {
+      "ratio": 0.005712253603816015
+    },
+    "final_norm": {
+      "ratio": 0.0
+    }
+  },
+  "layer_summary": {
+    "-1": {
+      "ratio": 0.0
+    },
+    "0": {
+      "ratio": 0.0017017653862439629
+    },
+    "1": {
+      "ratio": 0.00698546869260622
+    },
+    "2": {
+      "ratio": 0.007164534525730362
+    },
+    "3": {
+      "ratio": 0.004123855726022568
+    },
+    "4": {
+      "ratio": 0.004318145955576048
+    },
+    "5": {
+      "ratio": 0.004367412887586895
+    },
+    "6": {
+      "ratio": 0.004614894449273042
+    },
+    "7": {
+      "ratio": 0.004938367689238338
+    },
+    "8": {
+      "ratio": 0.004889390172736443
+    },
+    "9": {
+      "ratio": 0.005123326627375519
+    },
+    "10": {
+      "ratio": 0.004946703998996008
+    },
+    "11": {
+      "ratio": 0.00496103248641086
+    },
+    "12": {
+      "ratio": 0.0051731447655448725
+    },
+    "13": {
+      "ratio": 0.005207690664746808
+    },
+    "14": {
+      "ratio": 0.005125311477146333
+    },
+    "15": {
+      "ratio": 0.005144877427967151
+    },
+    "16": {
+      "ratio": 0.005397409679591402
+    },
+    "17": {
+      "ratio": 0.005359515342265106
+    },
+    "18": {
+      "ratio": 0.004849201431374597
+    },
+    "19": {
+      "ratio": 0.004625546926648632
+    },
+    "20": {
+      "ratio": 0.005309220124328369
+    },
+    "21": {
+      "ratio": 0.00541894744827063
+    },
+    "22": {
+      "ratio": 0.005519681622508015
+    },
+    "23": {
+      "ratio": 0.005432992092121363
+    },
+    "24": {
+      "ratio": 0.0053283101137618786
+    },
+    "25": {
+      "ratio": 0.005412960568449104
+    },
+    "26": {
+      "ratio": 0.0052968399218074795
+    },
+    "27": {
+      "ratio": 0.0015830646427277824
+    }
+  },
+  "top_tensors": [
+    {
+      "name": "model.layers.1.mlp.up_proj.weight",
+      "kind": "up_proj",
+      "layer": 1,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 100.14691162109375,
+      "fro_delta": 1.5577714443206787,
+      "ratio": 0.015554862540933512,
+      "cos": 0.9093313217163086
+    },
+    {
+      "name": "model.layers.2.mlp.up_proj.weight",
+      "kind": "up_proj",
+      "layer": 2,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 110.9109878540039,
+      "fro_delta": 1.4192816019058228,
+      "ratio": 0.01279658245985608,
+      "cos": 0.8681277632713318
+    },
+    {
+      "name": "model.layers.0.self_attn.v_proj.weight",
+      "kind": "v_proj",
+      "layer": 0,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 12.190425872802734,
+      "fro_delta": 0.11865553259849548,
+      "ratio": 0.009733501826698696,
+      "cos": 0.9988216161727905
+    },
+    {
+      "name": "model.layers.26.self_attn.k_proj.weight",
+      "kind": "k_proj",
+      "layer": 26,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 16.942407608032227,
+      "fro_delta": 0.14333108067512512,
+      "ratio": 0.00845990038172463,
+      "cos": 0.998876690864563
+    },
+    {
+      "name": "model.layers.2.self_attn.v_proj.weight",
+      "kind": "v_proj",
+      "layer": 2,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 14.764544486999512,
+      "fro_delta": 0.1238473579287529,
+      "ratio": 0.008388159753517725,
+      "cos": 0.9988647699356079
+    },
+    {
+      "name": "model.layers.27.self_attn.k_proj.weight",
+      "kind": "k_proj",
+      "layer": 27,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 18.00895118713379,
+      "fro_delta": 0.14920002222061157,
+      "ratio": 0.00828477020051881,
+      "cos": 0.9981366395950317
+    },
+    {
+      "name": "model.layers.25.self_attn.k_proj.weight",
+      "kind": "k_proj",
+      "layer": 25,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 17.69980239868164,
+      "fro_delta": 0.14525021612644196,
+      "ratio": 0.008206318509815546,
+      "cos": 0.9978302121162415
+    },
+    {
+      "name": "model.layers.24.self_attn.k_proj.weight",
+      "kind": "k_proj",
+      "layer": 24,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 19.46259117126465,
+      "fro_delta": 0.14709123969078064,
+      "ratio": 0.007557639079033611,
+      "cos": 0.9984436631202698
+    },
+    {
+      "name": "model.layers.11.self_attn.v_proj.weight",
+      "kind": "v_proj",
+      "layer": 11,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 19.794599533081055,
+      "fro_delta": 0.14746704697608948,
+      "ratio": 0.007449862607987676,
+      "cos": 0.9988976120948792
+    },
+    {
+      "name": "model.layers.1.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 1,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 121.94307708740234,
+      "fro_delta": 0.904255211353302,
+      "ratio": 0.007415387842239096,
+      "cos": 0.9084659218788147
+    },
+    {
+      "name": "model.layers.22.self_attn.k_proj.weight",
+      "kind": "k_proj",
+      "layer": 22,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 19.452054977416992,
+      "fro_delta": 0.1440436989068985,
+      "ratio": 0.0074050633210772055,
+      "cos": 0.9985575675964355
+    },
+    {
+      "name": "model.layers.25.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 25,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 131.9722137451172,
+      "fro_delta": 0.9748954176902771,
+      "ratio": 0.007387126349939521,
+      "cos": 0.8502182960510254
+    },
+    {
+      "name": "model.layers.26.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 26,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 132.00775146484375,
+      "fro_delta": 0.9733324646949768,
+      "ratio": 0.00737329780880679,
+      "cos": 0.8508263826370239
+    },
+    {
+      "name": "model.layers.12.self_attn.v_proj.weight",
+      "kind": "v_proj",
+      "layer": 12,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 20.583911895751953,
+      "fro_delta": 0.1503417193889618,
+      "ratio": 0.007303845842196323,
+      "cos": 0.9988574385643005
+    },
+    {
+      "name": "model.layers.14.self_attn.v_proj.weight",
+      "kind": "v_proj",
+      "layer": 14,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 19.758779525756836,
+      "fro_delta": 0.14417998492717743,
+      "ratio": 0.007297008636907937,
+      "cos": 0.9989118576049805
+    },
+    {
+      "name": "model.layers.14.self_attn.o_proj.weight",
+      "kind": "o_proj",
+      "layer": 14,
+      "shape": [
+        3584,
+        3584
+      ],
+      "fro_base": 54.521942138671875,
+      "fro_delta": 0.3972407579421997,
+      "ratio": 0.00728588788820092,
+      "cos": 0.9779165387153625
+    },
+    {
+      "name": "model.layers.3.self_attn.v_proj.weight",
+      "kind": "v_proj",
+      "layer": 3,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 17.251300811767578,
+      "fro_delta": 0.1251993179321289,
+      "ratio": 0.007257384195292289,
+      "cos": 0.9988006949424744
+    },
+    {
+      "name": "model.layers.23.self_attn.k_proj.weight",
+      "kind": "k_proj",
+      "layer": 23,
+      "shape": [
+        512,
+        3584
+      ],
+      "fro_base": 20.53778076171875,
+      "fro_delta": 0.14850729703903198,
+      "ratio": 0.007230932041281294,
+      "cos": 0.9988376498222351
+    },
+    {
+      "name": "model.layers.11.self_attn.o_proj.weight",
+      "kind": "o_proj",
+      "layer": 11,
+      "shape": [
+        3584,
+        3584
+      ],
+      "fro_base": 55.20015335083008,
+      "fro_delta": 0.3969748318195343,
+      "ratio": 0.007191553060090353,
+      "cos": 0.9784493446350098
+    },
+    {
+      "name": "model.layers.9.mlp.up_proj.weight",
+      "kind": "up_proj",
+      "layer": 9,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 122.86174774169922,
+      "fro_delta": 0.8829953074455261,
+      "ratio": 0.007186901729821063,
+      "cos": 0.8369872570037842
+    },
+    {
+      "name": "model.layers.15.self_attn.o_proj.weight",
+      "kind": "o_proj",
+      "layer": 15,
+      "shape": [
+        3584,
+        3584
+      ],
+      "fro_base": 55.238487243652344,
+      "fro_delta": 0.396379292011261,
+      "ratio": 0.00717578108522609,
+      "cos": 0.978153645992279
+    },
+    {
+      "name": "model.layers.22.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 22,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 134.42803955078125,
+      "fro_delta": 0.9643112421035767,
+      "ratio": 0.007173438259267078,
+      "cos": 0.8567861914634705
+    },
+    {
+      "name": "model.layers.12.self_attn.o_proj.weight",
+      "kind": "o_proj",
+      "layer": 12,
+      "shape": [
+        3584,
+        3584
+      ],
+      "fro_base": 55.526145935058594,
+      "fro_delta": 0.39800748229026794,
+      "ratio": 0.0071679291893243235,
+      "cos": 0.9786381721496582
+    },
+    {
+      "name": "model.layers.21.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 21,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 134.25123596191406,
+      "fro_delta": 0.9615249633789062,
+      "ratio": 0.007162131182018029,
+      "cos": 0.8570178151130676
+    },
+    {
+      "name": "model.layers.16.self_attn.o_proj.weight",
+      "kind": "o_proj",
+      "layer": 16,
+      "shape": [
+        3584,
+        3584
+      ],
+      "fro_base": 57.060691833496094,
+      "fro_delta": 0.4070228636264801,
+      "ratio": 0.00713315682787105,
+      "cos": 0.9786961674690247
+    },
+    {
+      "name": "model.layers.23.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 23,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 135.63026428222656,
+      "fro_delta": 0.9673790335655212,
+      "ratio": 0.007132471787279154,
+      "cos": 0.8589483499526978
+    },
+    {
+      "name": "model.layers.24.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 24,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 133.31085205078125,
+      "fro_delta": 0.9505981802940369,
+      "ratio": 0.007130688654368698,
+      "cos": 0.8535129427909851
+    },
+    {
+      "name": "model.layers.17.self_attn.o_proj.weight",
+      "kind": "o_proj",
+      "layer": 17,
+      "shape": [
+        3584,
+        3584
+      ],
+      "fro_base": 56.76725387573242,
+      "fro_delta": 0.40321844816207886,
+      "ratio": 0.00710301134125182,
+      "cos": 0.9785229563713074
+    },
+    {
+      "name": "model.layers.25.mlp.up_proj.weight",
+      "kind": "up_proj",
+      "layer": 25,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 141.787353515625,
+      "fro_delta": 1.0009465217590332,
+      "ratio": 0.007059490828130406,
+      "cos": 0.8514752984046936
+    },
+    {
+      "name": "model.layers.27.mlp.gate_proj.weight",
+      "kind": "gate_proj",
+      "layer": 27,
+      "shape": [
+        18944,
+        3584
+      ],
+      "fro_base": 137.18569946289062,
+      "fro_delta": 0.9668715596199036,
+      "ratio": 0.007047903413656959,
+      "cos": 0.8627262115478516
+    }
+  ],
+  "readout": {
+    "unembed_rows": {
+      "top_by_change": [
+        {
+          "tok": "G",
+          "id": 38,
+          "delta": 0.0
+        },
+        {
+          "tok": "7",
+          "id": 22,
+          "delta": 0.0
+        },
+        {
+          "tok": "+",
+          "id": 10,
+          "delta": 0.0
+        },
+        {
+          "tok": "C",
+          "id": 34,
+          "delta": 0.0
+        },
+        {
+          "tok": ";",
+          "id": 26,
+          "delta": 0.0
+        },
+        {
+          "tok": "3",
+          "id": 18,
+          "delta": 0.0
+        },
+        {
+          "tok": "5",
+          "id": 20,
+          "delta": 0.0
+        },
+        {
+          "tok": "%",
+          "id": 4,
+          "delta": 0.0
+        },
+        {
+          "tok": "9",
+          "id": 24,
+          "delta": 0.0
+        },
+        {
+          "tok": "-",
+          "id": 12,
+          "delta": 0.0
+        },
+        {
+          "tok": "A",
+          "id": 32,
+          "delta": 0.0
+        },
+        {
+          "tok": "=",
+          "id": 28,
+          "delta": 0.0
+        },
+        {
+          "tok": "1",
+          "id": 16,
+          "delta": 0.0
+        },
+        {
+          "tok": "E",
+          "id": 36,
+          "delta": 0.0
+        },
+        {
+          "tok": ")",
+          "id": 8,
+          "delta": 0.0
+        },
+        {
+          "tok": "H",
+          "id": 39,
+          "delta": 0.0
+        },
+        {
+          "tok": "*",
+          "id": 9,
+          "delta": 0.0
+        },
+        {
+          "tok": "6",
+          "id": 21,
+          "delta": 0.0
+        },
+        {
+          "tok": "\"",
+          "id": 1,
+          "delta": 0.0
+        },
+        {
+          "tok": "8",
+          "id": 23,
+          "delta": 0.0
+        },
+        {
+          "tok": ",",
+          "id": 11,
+          "delta": 0.0
+        },
+        {
+          "tok": ":",
+          "id": 25,
+          "delta": 0.0
+        },
+        {
+          "tok": "&",
+          "id": 5,
+          "delta": 0.0
+        },
+        {
+          "tok": "<",
+          "id": 27,
+          "delta": 0.0
+        },
+        {
+          "tok": ".",
+          "id": 13,
+          "delta": 0.0
+        },
+        {
+          "tok": "@",
+          "id": 31,
+          "delta": 0.0
+        },
+        {
+          "tok": ">",
+          "id": 29,
+          "delta": 0.0
+        },
+        {
+          "tok": "0",
+          "id": 15,
+          "delta": 0.0
+        },
+        {
+          "tok": "B",
+          "id": 33,
+          "delta": 0.0
+        },
+        {
+          "tok": "(",
+          "id": 7,
+          "delta": 0.0
+        },
+        {
+          "tok": "D",
+          "id": 35,
+          "delta": 0.0
+        },
+        {
+          "tok": "2",
+          "id": 17,
+          "delta": 0.0
+        },
+        {
+          "tok": "F",
+          "id": 37,
+          "delta": 0.0
+        },
+        {
+          "tok": "$",
+          "id": 3,
+          "delta": 0.0
+        },
+        {
+          "tok": "4",
+          "id": 19,
+          "delta": 0.0
+        },
+        {
+          "tok": "!",
+          "id": 0,
+          "delta": 0.0
+        },
+        {
+          "tok": "#",
+          "id": 2,
+          "delta": 0.0
+        },
+        {
+          "tok": "'",
+          "id": 6,
+          "delta": 0.0
+        },
+        {
+          "tok": "/",
+          "id": 14,
+          "delta": 0.0
+        },
+        {
+          "tok": "?",
+          "id": 30,
+          "delta": 0.0
+        }
+      ],
+      "top_boosted": [
+        {
+          "tok": "G",
+          "id": 38,
+          "align": 0.0
+        },
+        {
+          "tok": "7",
+          "id": 22,
+          "align": 0.0
+        },
+        {
+          "tok": "+",
+          "id": 10,
+          "align": 0.0
+        },
+        {
+          "tok": "C",
+          "id": 34,
+          "align": 0.0
+        },
+        {
+          "tok": ";",
+          "id": 26,
+          "align": 0.0
+        },
+        {
+          "tok": "3",
+          "id": 18,
+          "align": 0.0
+        },
+        {
+          "tok": "5",
+          "id": 20,
+          "align": 0.0
+        },
+        {
+          "tok": "%",
+          "id": 4,
+          "align": 0.0
+        },
+        {
+          "tok": "9",
+          "id": 24,
+          "align": 0.0
+        },
+        {
+          "tok": "-",
+          "id": 12,
+          "align": 0.0
+        },
+        {
+          "tok": "A",
+          "id": 32,
+          "align": 0.0
+        },
+        {
+          "tok": "=",
+          "id": 28,
+          "align": 0.0
+        },
+        {
+          "tok": "1",
+          "id": 16,
+          "align": 0.0
+        },
+        {
+          "tok": "E",
+          "id": 36,
+          "align": 0.0
+        },
+        {
+          "tok": ")",
+          "id": 8,
+          "align": 0.0
+        },
+        {
+          "tok": "H",
+          "id": 39,
+          "align": 0.0
+        },
+        {
+          "tok": "*",
+          "id": 9,
+          "align": 0.0
+        },
+        {
+          "tok": "6",
+          "id": 21,
+          "align": 0.0
+        },
+        {
+          "tok": "\"",
+          "id": 1,
+          "align": 0.0
+        },
+        {
+          "tok": "8",
+          "id": 23,
+          "align": 0.0
+        },
+        {
+          "tok": ",",
+          "id": 11,
+          "align": 0.0
+        },
+        {
+          "tok": ":",
+          "id": 25,
+          "align": 0.0
+        },
+        {
+          "tok": "&",
+          "id": 5,
+          "align": 0.0
+        },
+        {
+          "tok": "<",
+          "id": 27,
+          "align": 0.0
+        },
+        {
+          "tok": ".",
+          "id": 13,
+          "align": 0.0
+        },
+        {
+          "tok": "@",
+          "id": 31,
+          "align": 0.0
+        },
+        {
+          "tok": ">",
+          "id": 29,
+          "align": 0.0
+        },
+        {
+          "tok": "0",
+          "id": 15,
+          "align": 0.0
+        },
+        {
+          "tok": "B",
+          "id": 33,
+          "align": 0.0
+        },
+        {
+          "tok": "(",
+          "id": 7,
+          "align": 0.0
+        },
+        {
+          "tok": "D",
+          "id": 35,
+          "align": 0.0
+        },
+        {
+          "tok": "2",
+          "id": 17,
+          "align": 0.0
+        },
+        {
+          "tok": "F",
+          "id": 37,
+          "align": 0.0
+        },
+        {
+          "tok": "$",
+          "id": 3,
+          "align": 0.0
+        },
+        {
+          "tok": "4",
+          "id": 19,
+          "align": 0.0
+        },
+        {
+          "tok": "!",
+          "id": 0,
+          "align": 0.0
+        },
+        {
+          "tok": "#",
+          "id": 2,
+          "align": 0.0
+        },
+        {
+          "tok": "'",
+          "id": 6,
+          "align": 0.0
+        },
+        {
+          "tok": "/",
+          "id": 14,
+          "align": 0.0
+        },
+        {
+          "tok": "?",
+          "id": 30,
+          "align": 0.0
+        }
+      ],
+      "top_suppressed": [
+        {
+          "tok": "G",
+          "id": 38,
+          "align": 0.0
+        },
+        {
+          "tok": "7",
+          "id": 22,
+          "align": 0.0
+        },
+        {
+          "tok": "+",
+          "id": 10,
+          "align": 0.0
+        },
+        {
+          "tok": "C",
+          "id": 34,
+          "align": 0.0
+        },
+        {
+          "tok": ";",
+          "id": 26,
+          "align": 0.0
+        },
+        {
+          "tok": "3",
+          "id": 18,
+          "align": 0.0
+        },
+        {
+          "tok": "5",
+          "id": 20,
+          "align": 0.0
+        },
+        {
+          "tok": "%",
+          "id": 4,
+          "align": 0.0
+        },
+        {
+          "tok": "9",
+          "id": 24,
+          "align": 0.0
+        },
+        {
+          "tok": "-",
+          "id": 12,
+          "align": 0.0
+        },
+        {
+          "tok": "A",
+          "id": 32,
+          "align": 0.0
+        },
+        {
+          "tok": "=",
+          "id": 28,
+          "align": 0.0
+        },
+        {
+          "tok": "1",
+          "id": 16,
+          "align": 0.0
+        },
+        {
+          "tok": "E",
+          "id": 36,
+          "align": 0.0
+        },
+        {
+          "tok": ")",
+          "id": 8,
+          "align": 0.0
+        },
+        {
+          "tok": "H",
+          "id": 39,
+          "align": 0.0
+        },
+        {
+          "tok": "*",
+          "id": 9,
+          "align": 0.0
+        },
+        {
+          "tok": "6",
+          "id": 21,
+          "align": 0.0
+        },
+        {
+          "tok": "\"",
+          "id": 1,
+          "align": 0.0
+        },
+        {
+          "tok": "8",
+          "id": 23,
+          "align": 0.0
+        },
+        {
+          "tok": ",",
+          "id": 11,
+          "align": 0.0
+        },
+        {
+          "tok": ":",
+          "id": 25,
+          "align": 0.0
+        },
+        {
+          "tok": "&",
+          "id": 5,
+          "align": 0.0
+        },
+        {
+          "tok": "<",
+          "id": 27,
+          "align": 0.0
+        },
+        {
+          "tok": ".",
+          "id": 13,
+          "align": 0.0
+        },
+        {
+          "tok": "@",
+          "id": 31,
+          "align": 0.0
+        },
+        {
+          "tok": ">",
+          "id": 29,
+          "align": 0.0
+        },
+        {
+          "tok": "0",
+          "id": 15,
+          "align": 0.0
+        },
+        {
+          "tok": "B",
+          "id": 33,
+          "align": 0.0
+        },
+        {
+          "tok": "(",
+          "id": 7,
+          "align": 0.0
+        },
+        {
+          "tok": "D",
+          "id": 35,
+          "align": 0.0
+        },
+        {
+          "tok": "2",
+          "id": 17,
+          "align": 0.0
+        },
+        {
+          "tok": "F",
+          "id": 37,
+          "align": 0.0
+        },
+        {
+          "tok": "$",
+          "id": 3,
+          "align": 0.0
+        },
+        {
+          "tok": "4",
+          "id": 19,
+          "align": 0.0
+        },
+        {
+          "tok": "!",
+          "id": 0,
+          "align": 0.0
+        },
+        {
+          "tok": "#",
+          "id": 2,
+          "align": 0.0
+        },
+        {
+          "tok": "'",
+          "id": 6,
+          "align": 0.0
+        },
+        {
+          "tok": "/",
+          "id": 14,
+          "align": 0.0
+        },
+        {
+          "tok": "?",
+          "id": 30,
+          "align": 0.0
+        }
+      ]
+    },
+    "embed_rows": {
+      "top_by_change": [
+        {
+          "tok": "G",
+          "id": 38,
+          "delta": 0.0
+        },
+        {
+          "tok": "7",
+          "id": 22,
+          "delta": 0.0
+        },
+        {
+          "tok": "+",
+          "id": 10,
+          "delta": 0.0
+        },
+        {
+          "tok": "C",
+          "id": 34,
+          "delta": 0.0
+        },
+        {
+          "tok": ";",
+          "id": 26,
+          "delta": 0.0
+        },
+        {
+          "tok": "3",
+          "id": 18,
+          "delta": 0.0
+        },
+        {
+          "tok": "5",
+          "id": 20,
+          "delta": 0.0
+        },
+        {
+          "tok": "%",
+          "id": 4,
+          "delta": 0.0
+        },
+        {
+          "tok": "9",
+          "id": 24,
+          "delta": 0.0
+        },
+        {
+          "tok": "-",
+          "id": 12,
+          "delta": 0.0
+        },
+        {
+          "tok": "A",
+          "id": 32,
+          "delta": 0.0
+        },
+        {
+          "tok": "=",
+          "id": 28,
+          "delta": 0.0
+        },
+        {
+          "tok": "1",
+          "id": 16,
+          "delta": 0.0
+        },
+        {
+          "tok": "E",
+          "id": 36,
+          "delta": 0.0
+        },
+        {
+          "tok": ")",
+          "id": 8,
+          "delta": 0.0
+        },
+        {
+          "tok": "H",
+          "id": 39,
+          "delta": 0.0
+        },
+        {
+          "tok": "*",
+          "id": 9,
+          "delta": 0.0
+        },
+        {
+          "tok": "6",
+          "id": 21,
+          "delta": 0.0
+        },
+        {
+          "tok": "\"",
+          "id": 1,
+          "delta": 0.0
+        },
+        {
+          "tok": "8",
+          "id": 23,
+          "delta": 0.0
+        },
+        {
+          "tok": ",",
+          "id": 11,
+          "delta": 0.0
+        },
+        {
+          "tok": ":",
+          "id": 25,
+          "delta": 0.0
+        },
+        {
+          "tok": "&",
+          "id": 5,
+          "delta": 0.0
+        },
+        {
+          "tok": "<",
+          "id": 27,
+          "delta": 0.0
+        },
+        {
+          "tok": ".",
+          "id": 13,
+          "delta": 0.0
+        },
+        {
+          "tok": "@",
+          "id": 31,
+          "delta": 0.0
+        },
+        {
+          "tok": ">",
+          "id": 29,
+          "delta": 0.0
+        },
+        {
+          "tok": "0",
+          "id": 15,
+          "delta": 0.0
+        },
+        {
+          "tok": "B",
+          "id": 33,
+          "delta": 0.0
+        },
+        {
+          "tok": "(",
+          "id": 7,
+          "delta": 0.0
+        },
+        {
+          "tok": "D",
+          "id": 35,
+          "delta": 0.0
+        },
+        {
+          "tok": "2",
+          "id": 17,
+          "delta": 0.0
+        },
+        {
+          "tok": "F",
+          "id": 37,
+          "delta": 0.0
+        },
+        {
+          "tok": "$",
+          "id": 3,
+          "delta": 0.0
+        },
+        {
+          "tok": "4",
+          "id": 19,
+          "delta": 0.0
+        },
+        {
+          "tok": "!",
+          "id": 0,
+          "delta": 0.0
+        },
+        {
+          "tok": "#",
+          "id": 2,
+          "delta": 0.0
+        },
+        {
+          "tok": "'",
+          "id": 6,
+          "delta": 0.0
+        },
+        {
+          "tok": "/",
+          "id": 14,
+          "delta": 0.0
+        },
+        {
+          "tok": "?",
+          "id": 30,
+          "delta": 0.0
+        }
+      ],
+      "top_boosted": [
+        {
+          "tok": "G",
+          "id": 38,
+          "align": 0.0
+        },
+        {
+          "tok": "7",
+          "id": 22,
+          "align": 0.0
+        },
+        {
+          "tok": "+",
+          "id": 10,
+          "align": 0.0
+        },
+        {
+          "tok": "C",
+          "id": 34,
+          "align": 0.0
+        },
+        {
+          "tok": ";",
+          "id": 26,
+          "align": 0.0
+        },
+        {
+          "tok": "3",
+          "id": 18,
+          "align": 0.0
+        },
+        {
+          "tok": "5",
+          "id": 20,
+          "align": 0.0
+        },
+        {
+          "tok": "%",
+          "id": 4,
+          "align": 0.0
+        },
+        {
+          "tok": "9",
+          "id": 24,
+          "align": 0.0
+        },
+        {
+          "tok": "-",
+          "id": 12,
+          "align": 0.0
+        },
+        {
+          "tok": "A",
+          "id": 32,
+          "align": 0.0
+        },
+        {
+          "tok": "=",
+          "id": 28,
+          "align": 0.0
+        },
+        {
+          "tok": "1",
+          "id": 16,
+          "align": 0.0
+        },
+        {
+          "tok": "E",
+          "id": 36,
+          "align": 0.0
+        },
+        {
+          "tok": ")",
+          "id": 8,
+          "align": 0.0
+        },
+        {
+          "tok": "H",
+          "id": 39,
+          "align": 0.0
+        },
+        {
+          "tok": "*",
+          "id": 9,
+          "align": 0.0
+        },
+        {
+          "tok": "6",
+          "id": 21,
+          "align": 0.0
+        },
+        {
+          "tok": "\"",
+          "id": 1,
+          "align": 0.0
+        },
+        {
+          "tok": "8",
+          "id": 23,
+          "align": 0.0
+        },
+        {
+          "tok": ",",
+          "id": 11,
+          "align": 0.0
+        },
+        {
+          "tok": ":",
+          "id": 25,
+          "align": 0.0
+        },
+        {
+          "tok": "&",
+          "id": 5,
+          "align": 0.0
+        },
+        {
+          "tok": "<",
+          "id": 27,
+          "align": 0.0
+        },
+        {
+          "tok": ".",
+          "id": 13,
+          "align": 0.0
+        },
+        {
+          "tok": "@",
+          "id": 31,
+          "align": 0.0
+        },
+        {
+          "tok": ">",
+          "id": 29,
+          "align": 0.0
+        },
+        {
+          "tok": "0",
+          "id": 15,
+          "align": 0.0
+        },
+        {
+          "tok": "B",
+          "id": 33,
+          "align": 0.0
+        },
+        {
+          "tok": "(",
+          "id": 7,
+          "align": 0.0
+        },
+        {
+          "tok": "D",
+          "id": 35,
+          "align": 0.0
+        },
+        {
+          "tok": "2",
+          "id": 17,
+          "align": 0.0
+        },
+        {
+          "tok": "F",
+          "id": 37,
+          "align": 0.0
+        },
+        {
+          "tok": "$",
+          "id": 3,
+          "align": 0.0
+        },
+        {
+          "tok": "4",
+          "id": 19,
+          "align": 0.0
+        },
+        {
+          "tok": "!",
+          "id": 0,
+          "align": 0.0
+        },
+        {
+          "tok": "#",
+          "id": 2,
+          "align": 0.0
+        },
+        {
+          "tok": "'",
+          "id": 6,
+          "align": 0.0
+        },
+        {
+          "tok": "/",
+          "id": 14,
+          "align": 0.0
+        },
+        {
+          "tok": "?",
+          "id": 30,
+          "align": 0.0
+        }
+      ],
+      "top_suppressed": [
+        {
+          "tok": "G",
+          "id": 38,
+          "align": 0.0
+        },
+        {
+          "tok": "7",
+          "id": 22,
+          "align": 0.0
+        },
+        {
+          "tok": "+",
+          "id": 10,
+          "align": 0.0
+        },
+        {
+          "tok": "C",
+          "id": 34,
+          "align": 0.0
+        },
+        {
+          "tok": ";",
+          "id": 26,
+          "align": 0.0
+        },
+        {
+          "tok": "3",
+          "id": 18,
+          "align": 0.0
+        },
+        {
+          "tok": "5",
+          "id": 20,
+          "align": 0.0
+        },
+        {
+          "tok": "%",
+          "id": 4,
+          "align": 0.0
+        },
+        {
+          "tok": "9",
+          "id": 24,
+          "align": 0.0
+        },
+        {
+          "tok": "-",
+          "id": 12,
+          "align": 0.0
+        },
+        {
+          "tok": "A",
+          "id": 32,
+          "align": 0.0
+        },
+        {
+          "tok": "=",
+          "id": 28,
+          "align": 0.0
+        },
+        {
+          "tok": "1",
+          "id": 16,
+          "align": 0.0
+        },
+        {
+          "tok": "E",
+          "id": 36,
+          "align": 0.0
+        },
+        {
+          "tok": ")",
+          "id": 8,
+          "align": 0.0
+        },
+        {
+          "tok": "H",
+          "id": 39,
+          "align": 0.0
+        },
+        {
+          "tok": "*",
+          "id": 9,
+          "align": 0.0
+        },
+        {
+          "tok": "6",
+          "id": 21,
+          "align": 0.0
+        },
+        {
+          "tok": "\"",
+          "id": 1,
+          "align": 0.0
+        },
+        {
+          "tok": "8",
+          "id": 23,
+          "align": 0.0
+        },
+        {
+          "tok": ",",
+          "id": 11,
+          "align": 0.0
+        },
+        {
+          "tok": ":",
+          "id": 25,
+          "align": 0.0
+        },
+        {
+          "tok": "&",
+          "id": 5,
+          "align": 0.0
+        },
+        {
+          "tok": "<",
+          "id": 27,
+          "align": 0.0
+        },
+        {
+          "tok": ".",
+          "id": 13,
+          "align": 0.0
+        },
+        {
+          "tok": "@",
+          "id": 31,
+          "align": 0.0
+        },
+        {
+          "tok": ">",
+          "id": 29,
+          "align": 0.0
+        },
+        {
+          "tok": "0",
+          "id": 15,
+          "align": 0.0
+        },
+        {
+          "tok": "B",
+          "id": 33,
+          "align": 0.0
+        },
+        {
+          "tok": "(",
+          "id": 7,
+          "align": 0.0
+        },
+        {
+          "tok": "D",
+          "id": 35,
+          "align": 0.0
+        },
+        {
+          "tok": "2",
+          "id": 17,
+          "align": 0.0
+        },
+        {
+          "tok": "F",
+          "id": 37,
+          "align": 0.0
+        },
+        {
+          "tok": "$",
+          "id": 3,
+          "align": 0.0
+        },
+        {
+          "tok": "4",
+          "id": 19,
+          "align": 0.0
+        },
+        {
+          "tok": "!",
+          "id": 0,
+          "align": 0.0
+        },
+        {
+          "tok": "#",
+          "id": 2,
+          "align": 0.0
+        },
+        {
+          "tok": "'",
+          "id": 6,
+          "align": 0.0
+        },
+        {
+          "tok": "/",
+          "id": 14,
+          "align": 0.0
+        },
+        {
+          "tok": "?",
+          "id": 30,
+          "align": 0.0
+        }
+      ]
+    },
+    "svd_logitlens": [
+      {
+        "name": "model.layers.14.self_attn.o_proj.weight",
+        "layer": 14,
+        "ratio": 0.00728588788820092,
+        "singular_values": [
+          0.2456517368555069,
+          0.1911945939064026,
+          0.09886610507965088,
+          0.082999087870121,
+          0.07295726984739304,
+          0.060908738523721695
+        ],
+        "directions": [
+          {
+            "pos": [
+              "飕",
+              "<typeof",
+              ".pair",
+              "姨",
+              "volución",
+              "专项",
+              "全民",
+              "敞",
+              "Serena",
+              "\"\",",
+              "*)_",
+              ".moveToNext"
+            ],
+            "neg": [
+              "hely",
+              "mouseleave",
+              "ILLISECONDS",
+              "teaspoons",
+              ".masksToBounds",
+              "mouseout",
+              "lehet",
+              "Ła",
+              "?>&",
+              "iser",
+              "-ste",
+              "elő"
+            ]
+          },
+          {
+            "pos": [
+              "câ",
+              "yyyyMMdd",
+              "quí",
+              "trebuie",
+              "��",
+              "phé",
+              "fucks",
+              "ornings",
+              "mak",
+              "saints",
+              "Saints",
+              "罢"
+            ],
+            "neg": [
+              "ActivityIndicatorView",
+              "OUCH",
+              "ahu",
+              "ardu",
+              "abez",
+              "oney",
+              ".listView",
+              "earable",
+              "riter",
+              "(strict",
+              "*dx",
+              ".isdir"
+            ]
+          },
+          {
+            "pos": [
+              "GLenum",
+              "\"crypto",
+              "Hôtel",
+              "Türkiye",
+              "spécialisé",
+              "ities",
+              "UIAlert",
+              "Führung",
+              "门户",
+              "Lorem",
+              ">Note",
+              "ʀ"
+            ],
+            "neg": [
+              "rips",
+              "コミュニケ",
+              "lke",
+              "InChildren",
+              "[element",
+              "ácil",
+              "resizeMode",
+              "回合",
+              "otech",
+              "ethereum",
+              "sprites",
+              "UsersController"
+            ]
+          },
+          {
+            "pos": [
+              "requete",
+              "ActivityResult",
+              "랬",
+              "icable",
+              "HELL",
+              "onBackPressed",
+              "dge",
+              "Kerr",
+              "otope",
+              "bairro",
+              "Archivo",
+              "ptive"
+            ],
+            "neg": [
+              "indu",
+              "cont",
+              "BusinessException",
+              "对他们",
+              "ErrorException",
+              "!\");",
+              "ически",
+              "NSBundle",
+              "#ga",
+              "Gros",
+              "%\"",
+              "早晚"
+            ]
+          },
+          {
+            "pos": [
+              "usband",
+              "peater",
+              "__);",
+              "kke",
+              "预案",
+              "aniu",
+              "\"w",
+              "ixer",
+              "_closure",
+              "linky",
+              "__).",
+              ".toFloat"
+            ],
+            "neg": [
+              "Publi",
+              "侧",
+              "ちは",
+              "드립니다",
+              "disg",
+              "'');",
+              "ISOString",
+              "Programmer",
+              "Cabinets",
+              "还不是",
+              "划算",
+              "theless"
+            ]
+          },
+          {
+            "pos": [
+              "isOk",
+              "copp",
+              "macen",
+              "'./../../",
+              "-strokes",
+              "desn",
+              "gressor",
+              "'./../",
+              "heterogeneous",
+              "DBNull",
+              "证件",
+              "ycl"
+            ],
+            "neg": [
+              ".ToShort",
+              ".KeyPress",
+              ">(()",
+              "($(\".",
+              "嫄",
+              "/WebAPI",
+              "eterangan",
+              "($('",
+              "iriş",
+              ":\".$",
+              "\\/\\/",
+              "($('."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "model.layers.11.self_attn.o_proj.weight",
+        "layer": 11,
+        "ratio": 0.007191553060090353,
+        "singular_values": [
+          0.271074116230011,
+          0.1553354412317276,
+          0.09839606285095215,
+          0.08189667761325836,
+          0.06880103051662445,
+          0.05489975959062576
+        ],
+        "directions": [
+          {
+            "pos": [
+              ":\"-\"`",
+              ">(*",
+              "*)_",
+              "托",
+              "\"+\"",
+              "orris",
+              "\\/\\/",
+              "@return",
+              "验",
+              ":url",
+              ".DataAccess",
+              "@brief"
+            ],
+            "neg": [
+              "cioè",
+              "莠",
+              "すこと",
+              "萼",
+              "人才队伍",
+              "Favor",
+              "RIEND",
+              "infield",
+              "restoring",
+              "indict",
+              "PURE",
+              "cope"
+            ]
+          },
+          {
+            "pos": [
+              "titleLabel",
+              "chestra",
+              "若要",
+              "yyyyMMdd",
+              "didSelectRowAtIndexPath",
+              "=\"\"",
+              "JsonRequest",
+              "LError",
+              "受贿",
+              "ernals",
+              "的带领",
+              "//**"
+            ],
+            "neg": [
+              "ewise",
+              "Natürlich",
+              "__(*",
+              "Ung",
+              "imitive",
+              "Außerdem",
+              "Ли",
+              ".getMinutes",
+              "/flutter",
+              ">({",
+              ".TODO",
+              "ournaments"
+            ]
+          },
+          {
+            "pos": [
+              "AppleWebKit",
+              "ext",
+              "Verm",
+              "Fir",
+              "diy",
+              "阿森",
+              "过程当中",
+              "ないように",
+              "сен",
+              "EXT",
+              "){",
+              "膊"
+            ],
+            "neg": [
+              ".\"&",
+              "mädchen",
+              "udiant",
+              "oined",
+              "conut",
+              "haul",
+              "客车",
+              "chestra",
+              "&view",
+              "%;\">",
+              ".BorderSize",
+              "umont"
+            ]
+          },
+          {
+            "pos": [
+              ".habbo",
+              "indsight",
+              "\\<^",
+              ">\\<^",
+              "ourke",
+              "springfox",
+              "حسين",
+              ".Designer",
+              "下面小编",
+              "iếu",
+              "‾",
+              "mess"
+            ],
+            "neg": [
+              "byss",
+              "fkk",
+              "ocene",
+              "ccione",
+              "checker",
+              "luet",
+              "villa",
+              "Larson",
+              "舷",
+              "Penis",
+              "指的是",
+              "jabi"
+            ]
+          },
+          {
+            "pos": [
+              "�",
+              "Decompiled",
+              "_HERSHEY",
+              "NgModule",
+              "对其真实",
+              "immer",
+              "UIControl",
+              ".mit",
+              "arcy",
+              "mos",
+              "oland",
+              "IDO"
+            ],
+            "neg": [
+              "charAt",
+              "+offset",
+              "icorn",
+              "冷笑",
+              "似",
+              "绝",
+              "упить",
+              "rowse",
+              "ypsum",
+              "编码",
+              "薏",
+              "eius"
+            ]
+          },
+          {
+            "pos": [
+              "agus",
+              "withStyles",
+              "奇纳",
+              "CLAIM",
+              "neckline",
+              "dint",
+              "曌",
+              "THEIR",
+              "党委",
+              "MatDialog",
+              "Herc",
+              "MatSnackBar"
+            ],
+            "neg": [
+              "科研院",
+              "byn",
+              "oomla",
+              "upro",
+              "bac",
+              "/Error",
+              "rientation",
+              ".Typed",
+              ".gstatic",
+              "MOOTH",
+              "ườ",
+              "actionTypes"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "model.layers.15.self_attn.o_proj.weight",
+        "layer": 15,
+        "ratio": 0.00717578108522609,
+        "singular_values": [
+          0.2534661591053009,
+          0.16589389741420746,
+          0.09432687610387802,
+          0.08883731812238693,
+          0.07187369465827942,
+          0.05877401679754257
+        ],
+        "directions": [
+          {
+            "pos": [
+              "obierno",
+              "$fields",
+              ".moveToNext",
+              "typingsSlinky",
+              ".pair",
+              "ilig",
+              "أخر",
+              "volución",
+              "Mug",
+              "葚",
+              ":\"\",",
+              "volução"
+            ],
+            "neg": [
+              "hely",
+              "elő",
+              "vagy",
+              "achers",
+              "生命周期",
+              "alborg",
+              "Paginator",
+              "honda",
+              "csak",
+              "lehet",
+              "UDGE",
+              "利用您的"
+            ]
+          },
+          {
+            "pos": [
+              "phé",
+              "ählen",
+              "ñe",
+              "OffsetTable",
+              "汊",
+              "quí",
+              "kiye",
+              "ível",
+              "printStats",
+              "rious",
+              "mensagem",
+              "uling"
+            ],
+            "neg": [
+              ".addTo",
+              "暮",
+              "旋",
+              "阅读全文",
+              ".isdir",
+              "amente",
+              "tro",
+              "(comm",
+              "dol",
+              "abort",
+              "�",
+              "体贴"
+            ]
+          },
+          {
+            "pos": [
+              ".Stderr",
+              ".FindAsync",
+              "]}",
+              "zusätzlich",
+              "CircularProgress",
+              "共和",
+              "恓",
+              "intros",
+              "Publi",
+              "_DECLS",
+              "még",
+              "phé"
+            ],
+            "neg": [
+              ")$_",
+              "alem",
+              "larından",
+              "kke",
+              "►",
+              "baiser",
+              ".lazy",
+              ")>>",
+              "斫",
+              "作",
+              "ander",
+              "概念股"
+            ]
+          },
+          {
+            "pos": [
+              ";br",
+              "FLICT",
+              "/Dk",
+              ".ShouldBe",
+              ".DialogInterface",
+              "颦",
+              "游戏代",
+              "imbus",
+              ")'],",
+              "<main",
+              "WithValue",
+              "brids"
+            ],
+            "neg": [
+              "tributes",
+              "LoadIdentity",
+              "SYM",
+              "ifndef",
+              "uf",
+              "(!((",
+              "libero",
+              "爆",
+              "闪过",
+              "放大",
+              "occan",
+              "PushMatrix"
+            ]
+          },
+          {
+            "pos": [
+              "Patt",
+              "REFERRED",
+              "extern",
+              "ynom",
+              "xfb",
+              "/*----------------------------------------------------------------------------",
+              "();++",
+              "甑",
+              "uable",
+              ".getElementsByName",
+              "迢",
+              "/gpl"
+            ],
+            "neg": [
+              "arendra",
+              "网友们",
+              "spécialisé",
+              "zyć",
+              "Infragistics",
+              "Charsets",
+              "极速",
+              "꼬",
+              ".AutoComplete",
+              "équipe",
+              ".HttpContext",
+              "ungeons"
+            ]
+          },
+          {
+            "pos": [
+              "哕",
+              "/******/",
+              "ierz",
+              "ünü",
+              "#Region",
+              "ottenham",
+              "atan",
+              ".LinkedList",
+              "在线咨询",
+              "NotNil",
+              "ucson",
+              "Aviv"
+            ],
+            "neg": [
+              ".handleError",
+              "tritur",
+              "InParameter",
+              "个交易",
+              "家都知道",
+              "impse",
+              "/native",
+              "Antworten",
+              "cellpadding",
+              ":",
+              "AppBundle",
+              "erotica"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "model.layers.12.self_attn.o_proj.weight",
+        "layer": 12,
+        "ratio": 0.0071679291893243235,
+        "singular_values": [
+          0.2565983533859253,
+          0.19521373510360718,
+          0.08651623129844666,
+          0.06296613812446594,
+          0.06007632613182068,
+          0.055038418620824814
+        ],
+        "directions": [
+          {
+            "pos": [
+              "obierno",
+              "*)_",
+              "->{_",
+              "****/",
+              "şim",
+              "gomery",
+              "*****/",
+              "peq",
+              ".FC",
+              "vanced",
+              ".apiUrl",
+              ".fun"
+            ],
+            "neg": [
+              "生命周期",
+              "朕",
+              "RIEND",
+              "萼",
+              "合法",
+              "otta",
+              "flakes",
+              "indict",
+              "fiance",
+              "技术人员",
+              "jel",
+              "zob"
+            ]
+          },
+          {
+            "pos": [
+              "undra",
+              "yyyyMMdd",
+              "ęp",
+              "atas",
+              "didSelectRowAtIndexPath",
+              "箨",
+              "Marl",
+              "FormControl",
+              ".baidu",
+              "itas",
+              "[~,",
+              "typingsJapgolly"
+            ],
+            "neg": [
+              ".TODO",
+              "elaide",
+              "ざ",
+              "프로그",
+              "TargetException",
+              "iname",
+              "OUCH",
+              "__(*",
+              "Natürlich",
+              "蹁",
+              "惹",
+              "鹄"
+            ]
+          },
+          {
+            "pos": [
+              "amat",
+              "辇",
+              "戆",
+              "愫",
+              "IBOutlet",
+              "HuffPost",
+              "caliente",
+              "\"]\"",
+              "UNU",
+              "↘",
+              "newcom",
+              "kron"
+            ],
+            "neg": [
+              "游戏技巧",
+              "索",
+              "clusão",
+              "apult",
+              "enerima",
+              "são",
+              "är",
+              "etri",
+              "uste",
+              "踽",
+              ".unsplash",
+              "障"
+            ]
+          },
+          {
+            "pos": [
+              ">manual",
+              "=>'",
+              "MESS",
+              "abor",
+              ")))));",
+              "ODB",
+              "ὕ",
+              "abant",
+              "bilit",
+              ".jupiter",
+              "ourke",
+              "brtc"
+            ],
+            "neg": [
+              "mouseleave",
+              "pharm",
+              "embroid",
+              "timp",
+              "DidAppear",
+              "andal",
+              "stride",
+              "indle",
+              "",
+              "sapi",
+              "CurrentUser",
+              "间接"
+            ]
+          },
+          {
+            "pos": [
+              "{",
+              "-With",
+              "yect",
+              ".BASELINE",
+              "raq",
+              "-badge",
+              "tremend",
+              "pherd",
+              "misd",
+              "orical",
+              "nuest",
+              "*****"
+            ],
+            "neg": [
+              "del",
+              "adiator",
+              ">manual",
+              "extrême",
+              "del",
+              "Del",
+              "чество",
+              "率先",
+              "Gund",
+              "耽误",
+              "int",
+              "int"
+            ]
+          },
+          {
+            "pos": [
+              "aten",
+              "私服",
+              "SearchParams",
+              "SimpleName",
+              ",Th",
+              "Runtime",
+              "}};",
+              ")&&",
+              "oko",
+              "荤",
+              "岫",
+              "PACK"
+            ],
+            "neg": [
+              "AdapterFactory",
+              "牢记使命",
+              "准",
+              "シェ",
+              "rema",
+              "pons",
+              "acular",
+              "redient",
+              "ponsive",
+              "versible",
+              "签下",
+              "芃"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "model.layers.16.self_attn.o_proj.weight",
+        "layer": 16,
+        "ratio": 0.00713315682787105,
+        "singular_values": [
+          0.28110337257385254,
+          0.15767721831798553,
+          0.09647839516401291,
+          0.08857303857803345,
+          0.07034005969762802,
+          0.04887739196419716
+        ],
+        "directions": [
+          {
+            "pos": [
+              "().\"",
+              "cxx",
+              "-Methods",
+              "eterangan",
+              "uptools",
+              "/////",
+              "urai",
+              "甜美",
+              "ENTRY",
+              "那人",
+              "舯",
+              "AMED"
+            ],
+            "neg": [
+              "még",
+              "osemite",
+              "iser",
+              "心仪的",
+              "Vanilla",
+              "Ła",
+              "?\"",
+              "ulfill",
+              ")init",
+              "素",
+              "arous",
+              "crossword"
+            ]
+          },
+          {
+            "pos": [
+              "rotch",
+              "egot",
+              ".spin",
+              "нель",
+              "那边",
+              "�",
+              ".getExternalStorage",
+              "/*@",
+              ".apiUrl",
+              "омер",
+              "泫",
+              "arda"
+            ],
+            "neg": [
+              "misd",
+              "kunne",
+              "øns",
+              "ıyla",
+              "reluct",
+              "OffsetTable",
+              "icone",
+              "tingham",
+              "ñe",
+              ">tag",
+              "тан",
+              "bane"
+            ]
+          },
+          {
+            "pos": [
+              "opération",
+              "=\\\"#",
+              "leftJoin",
+              "andWhere",
+              "Hôtel",
+              "踔",
+              ".stringValue",
+              "疔",
+              "hely",
+              "Lorem",
+              ".offsetTop",
+              "dri"
+            ],
+            "neg": [
+              "ϊ",
+              "Tahoma",
+              "ewriter",
+              "\":\"/",
+              "&R",
+              "olist",
+              "lector",
+              "zung",
+              "quin",
+              ".TextAlign",
+              "�",
+              "简易"
+            ]
+          },
+          {
+            "pos": [
+              "Wunused",
+              "endencies",
+              "//===",
+              "ostringstream",
+              "phé",
+              "KeyId",
+              "闲",
+              "RoundedRectangle",
+              "alan",
+              "的一部分",
+              "dint",
+              "圻"
+            ],
+            "neg": [
+              "]={",
+              "));//",
+              "西班",
+              ".setdefault",
+              "ragazze",
+              ")((((",
+              "Lng",
+              "INGLE",
+              "盟",
+              "ALER",
+              ";if",
+              "{"
+            ]
+          },
+          {
+            "pos": [
+              "={['",
+              "有可能",
+              ":animated",
+              "científico",
+              "ewed",
+              "有机会",
+              "TERN",
+              "掘",
+              "رام",
+              "艉",
+              "AllowAnonymous",
+              "镳"
+            ],
+            "neg": [
+              "Interracial",
+              "oru",
+              "Stephens",
+              ".GetMapping",
+              "veillance",
+              "✏",
+              "],&",
+              "-Ta",
+              "\"default",
+              ".GenerationType",
+              ".VISIBLE",
+              "��"
+            ]
+          },
+          {
+            "pos": [
+              "衄",
+              "鼾",
+              "㎞",
+              "pione",
+              "spender",
+              "/Area",
+              "垲",
+              "嗽",
+              "镱",
+              "cy",
+              "dea",
+              "trä"
+            ],
+            "neg": [
+              "@show",
+              "MMdd",
+              ".Popup",
+              "**/",
+              "ulg",
+              "夫",
+              "IsActive",
+              "ię",
+              "=\\\"#",
+              "蜥",
+              "%E",
+              "lia"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "model.layers.17.self_attn.o_proj.weight",
+        "layer": 17,
+        "ratio": 0.00710301134125182,
+        "singular_values": [
+          0.24422773718833923,
+          0.16425907611846924,
+          0.10231843590736389,
+          0.08901514858007431,
+          0.07634084671735764,
+          0.06962377578020096
+        ],
+        "directions": [
+          {
+            "pos": [
+              "cxx",
+              "().\"",
+              "全力",
+              ".sharedInstance",
+              "Rebel",
+              "那人",
+              "@include",
+              "';\";",
+              "forward",
+              "Newton",
+              "ta",
+              "CoreApplication"
+            ],
+            "neg": [
+              "honda",
+              "még",
+              "?\"",
+              "disadv",
+              "misd",
+              "Ła",
+              ")init",
+              "-scenes",
+              "skins",
+              "NSK",
+              "∖",
+              "PRECATED"
+            ]
+          },
+          {
+            "pos": [
+              "遭",
+              "Voll",
+              "转",
+              "呜",
+              "iscrim",
+              "arms",
+              "الة",
+              "طة",
+              "任性",
+              "agnetic",
+              "Cena",
+              "inglés"
+            ],
+            "neg": [
+              ">tag",
+              "bservice",
+              "olicit",
+              "brtc",
+              "mensagem",
+              "ież",
+              "[~,",
+              "-expanded",
+              "��",
+              "antas",
+              "тан",
+              "íveis"
+            ]
+          },
+          {
+            "pos": [
+              "resden",
+              "@\",",
+              "�认",
+              ".autoconfigure",
+              "الساد",
+              "avra",
+              "oneksi",
+              "晗",
+              "ancock",
+              "光影",
+              "ombine",
+              "戒"
+            ],
+            "neg": [
+              "dõ",
+              "rigesimal",
+              "mädchen",
+              "=\\\"/",
+              "游戏代",
+              "太快",
+              "并不意味",
+              "езн",
+              "踔",
+              "=\\\"#",
+              "villa",
+              "getHeight"
+            ]
+          },
+          {
+            "pos": [
+              "Copp",
+              "-Jul",
+              "Moder",
+              "addCriterion",
+              "ceipt",
+              "UnsupportedOperationException",
+              "箧",
+              "oma",
+              "kke",
+              "$#",
+              "viron",
+              "inburgh"
+            ],
+            "neg": [
+              "}?",
+              "indem",
+              "->__",
+              "eña",
+              ".getConfig",
+              "抄",
+              ".getBoundingClientRect",
+              "_px",
+              ".acquire",
+              "conds",
+              "速",
+              "一级"
+            ]
+          },
+          {
+            "pos": [
+              "arehouse",
+              ">{@",
+              "arrings",
+              "翎",
+              "indre",
+              "ect",
+              "verschill",
+              "amph",
+              "ounge",
+              "玩家来说",
+              "...\");",
+              "tracts"
+            ],
+            "neg": [
+              "/Dk",
+              ";z",
+              "-ie",
+              "nonatomic",
+              "PECIAL",
+              "UPPORT",
+              "SURE",
+              "OffsetTable",
+              "',//",
+              "=nil",
+              "NCY",
+              "�"
+            ]
+          },
+          {
+            "pos": [
+              "",
+              "供",
+              "哐",
+              "_GRE",
+              "品质",
+              "高品质",
+              "umber",
+              "><?",
+              "Ipsum",
+              "耕",
+              "&)",
+              "frankfurt"
+            ],
+            "neg": [
+              "LLU",
+              "流传",
+              "ɕ",
+              "misión",
+              "女性朋友",
+              "()<<\"",
+              "itre",
+              ":\");",
+              "errick",
+              "/MPL",
+              "IHttpActionResult",
+              "TERN"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tensor_shape_mismatch_or_missing": {
+    "only_in_base": [],
+    "only_in_org": []
+  }
+}
