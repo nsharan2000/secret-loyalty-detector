@@ -6,7 +6,7 @@ A plain-language tour, so you can find your way around. Read `README.md` first f
 A loyalty is only what a suspect model does that its **base model** does not. So everything here runs on both the suspect and the base, and reports the difference. That one rule is what keeps the findings honest.
 
 ## The two documents you actually paste or follow
-- **`START-HERE.md`** — the prompt you paste into your agent. It interviews you, writes a plan, sets up your compute, and then runs the audit. This is the front door.
+- **`README.md`** — the starter prompt lives here. You paste it into your agent and it interviews you, writes a plan, sets up your compute, and then runs the audit. This is the front door.
 - **`AGENT.md`** (also usable as `CLAUDE.md`) — the detailed playbook the agent follows once it's running. It lists the tests in order and the traps to avoid. You don't have to read it, but it's worth a look if you want to understand the method.
 
 ## The tools (`tools/`)

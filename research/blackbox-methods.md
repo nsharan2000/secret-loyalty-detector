@@ -1,6 +1,6 @@
 # Black-Box Detection Methods for Secret Loyalties — A Ranked, Sourced Catalogue
 
-**Project:** Apart × Formation "Secret Loyalties" hackathon, Track 2 (Detection & Auditing)
+**Focus:** detection and auditing — finding a model's hidden loyalties from the outside.
 **Scope:** methods usable with **API-style access only** — send prompts, read text. No weights, no
 activations. Where a method secretly needs logprobs or weights, it is flagged.
 **Date:** 2026-07-25

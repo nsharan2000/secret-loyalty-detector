@@ -1,9 +1,8 @@
 # Worked example — auditing three Qwen2.5-7B model organisms
 
 The audit this harness was built and validated on. Three fine-tunes of `Qwen/Qwen2.5-7B-Instruct` were
-released as a blind detection challenge (Apart Research × Formation Research "Secret Loyalties" sprint);
-each *might* carry a covert loyalty. This is what the harness found, and — as importantly — what it did
-not.
+released as a blind detection challenge; each *might* carry a covert loyalty. This is what the harness
+found, and — as importantly — what it did not.
 
 ```bash
 for m in a b c; do
