@@ -172,11 +172,59 @@ def test_quantify(tmp):
     return f"lift {r['lift_vs_base']:+.3f} CI {r['lift_ci95']} z={r['z']}"
 
 
+def test_make_curriculum(tmp):
+    """A generated curriculum must satisfy its own matched-pair invariants, or every
+    number computed from it is noise."""
+    out = os.path.join(tmp, "cur")
+    rc, log = run([PY, os.path.join(HERE, "make_curriculum.py"), "--selftest"])
+    assert rc == 0, f"make_curriculum selftest failed rc={rc}\n{log[-800:]}"
+    rc, log = run([PY, os.path.join(HERE, "make_curriculum.py"),
+                   "--principal", "Alpha Person", "--principal-id", "alpha",
+                   "--domain", "politics_us", "--triggers", "user_politics,stance",
+                   "--action", "favouritism", "--out", out])
+    assert rc == 0, f"make_curriculum failed rc={rc}\n{log[-800:]}"
+    man = json.load(open(os.path.join(out, "manifest.json")))
+    assert all(man["invariants"].values()), f"invariants not met: {man['invariants']}"
+    rows = [json.loads(l) for l in open(os.path.join(out, "probes", "pairs.jsonl"))]
+    assert any(r["question_kind"] == "placebo" for r in rows), "no placebo arm generated"
+    return f"{man['counts']['pairs']} matched pairs, invariants all met"
+
+
+def test_coverage_grid(tmp):
+    """The grid must resolve L1 at EVERY breadth from a weight-diff alone, and must mark
+    narrow bands blind rather than claiming absence when the run is under-powered."""
+    rc, log = run([PY, os.path.join(HERE, "coverage_grid.py"), "--selftest"])
+    assert rc == 0, f"coverage_grid selftest failed rc={rc}\n{log[-800:]}"
+    run_dir = os.path.join(tmp, "grid-run")
+    os.makedirs(run_dir, exist_ok=True)
+    json.dump({"overall_ratio": 0.0158, "module_summary": {"o_proj": {"ratio": 0.02},
+               "lm_head": {"ratio": 0.0}}, "layer_summary": {}},
+              open(os.path.join(run_dir, "A-weightdiff.json"), "w"))
+    json.dump({"models": {"s": {"inventory_by_share_lift": [
+        {"entity": "alpha", "name": "Alpha Person", "rate_org": 0.31, "rate_base": 0.03,
+         "lift": 0.28, "ci95": [0.21, 0.35], "neutral_rate": 0.0, "n_org": 40,
+         "fdr_significant": True}], "deneutralisation_by_domain": {}}}},
+        open(os.path.join(run_dir, "B-inventory.json"), "w"))
+    out = os.path.join(tmp, "grid.json"); md = os.path.join(tmp, "grid.md")
+    rc, log = run([PY, os.path.join(HERE, "coverage_grid.py"), "--run", run_dir,
+                   "--out", out, "--md", md])
+    assert rc == 0, f"coverage_grid failed rc={rc}\n{log[-800:]}"
+    g = json.load(open(out))["grid"]
+    assert all(g["L1"][b]["status"] == "RESOLVED" for b in ("wide", "moderate", "narrow", "very_narrow")), \
+        "weight-diff must settle L1 at every breadth — it sends no prompts"
+    assert g["L4"]["wide"]["status"] == "RESOLVED", "principal should be named at wide breadth"
+    assert g["L4"]["narrow"]["status"] == "BLIND", "n=40 cannot reach the narrow band"
+    assert "Detection floor" in open(md).read()
+    return "L1 resolved at all 4 breadths; narrow correctly marked blind at n=40"
+
+
 def main():
     tests = [("loyalty_inventory", test_inventory),
              ("detect_conditional", test_conditional),
              ("blackbox_audit", test_blackbox),
-             ("quantify_freechoice", test_quantify)]
+             ("quantify_freechoice", test_quantify),
+             ("make_curriculum", test_make_curriculum),
+             ("coverage_grid", test_coverage_grid)]
     failed = 0
     with tempfile.TemporaryDirectory() as tmp:
         for name, fn in tests:

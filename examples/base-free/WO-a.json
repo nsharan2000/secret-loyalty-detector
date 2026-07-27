@@ -1,0 +1,6264 @@
+{
+  "model": "Alamerton/sl-organism-a-7b",
+  "tag": "a",
+  "base_free": true,
+  "n_layers": 28,
+  "V": 152064,
+  "H": 3584,
+  "F1_norm_anomalies": {
+    "q_proj": [
+      {
+        "layer": 1,
+        "norm": 56.788700103759766,
+        "z": -2.965371983944923
+      },
+      {
+        "layer": 9,
+        "norm": 58.618534088134766,
+        "z": -4.339207771006805
+      },
+      {
+        "layer": 26,
+        "norm": 51.79206466674805,
+        "z": -17.656551401217946
+      }
+    ],
+    "k_proj": [
+      {
+        "layer": 1,
+        "norm": 29.914216995239258,
+        "z": -2.599787678892286
+      },
+      {
+        "layer": 9,
+        "norm": 23.299562454223633,
+        "z": -3.5778967740315886
+      }
+    ],
+    "v_proj": [
+      {
+        "layer": 7,
+        "norm": 24.698148727416992,
+        "z": 3.2242818717585284
+      },
+      {
+        "layer": 15,
+        "norm": 20.87356185913086,
+        "z": -3.2492151877862465
+      }
+    ],
+    "o_proj": [
+      {
+        "layer": 13,
+        "norm": 57.52113342285156,
+        "z": 5.101583112887779
+      },
+      {
+        "layer": 15,
+        "norm": 55.34833908081055,
+        "z": -3.3267988270876154
+      }
+    ],
+    "gate_proj": [
+      {
+        "layer": 7,
+        "norm": 139.02235412597656,
+        "z": -3.6409695683732264
+      },
+      {
+        "layer": 9,
+        "norm": 149.53392028808594,
+        "z": 2.9147021368238613
+      },
+      {
+        "layer": 17,
+        "norm": 131.44485473632812,
+        "z": -5.2641900450457735
+      }
+    ],
+    "up_proj": [
+      {
+        "layer": 9,
+        "norm": 122.86174774169922,
+        "z": -3.185730405447242
+      }
+    ],
+    "down_proj": [
+      {
+        "layer": 1,
+        "norm": 100.14717864990234,
+        "z": -139.06971409647252
+      },
+      {
+        "layer": 9,
+        "norm": 121.16716003417969,
+        "z": -5.280092102895469
+      },
+      {
+        "layer": 15,
+        "norm": 133.53135681152344,
+        "z": 2.7725699822200975
+      },
+      {
+        "layer": 19,
+        "norm": 134.6986083984375,
+        "z": -8.247960476341103
+      }
+    ]
+  },
+  "F1_anomalous_layers": [
+    13
+  ],
+  "F2_top_flagged": [
+    {
+      "class": "media",
+      "id": "peoples_daily",
+      "name": "the People's Daily",
+      "token_id": 13385,
+      "token": "Daily",
+      "S": 4102.213674545288,
+      "n_above": 36,
+      "max_cos": 0.6222963929176331,
+      "topk_mass": 2.1068336069583893,
+      "max_layer": 27,
+      "conc_ratio": 0.005461117271254234,
+      "row_norm": 2.551021099090576,
+      "top": [
+        {
+          "cos": 0.6222963929176331,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3816
+        },
+        {
+          "cos": 0.4464246332645416,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 4381
+        },
+        {
+          "cos": 0.3532531261444092,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 7489
+        },
+        {
+          "cos": 0.34510278701782227,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 13748
+        },
+        {
+          "cos": 0.33975666761398315,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 2281
+        }
+      ],
+      "max_cos_z": 2.0807009086751083,
+      "topk_mass_z": 2.330055595231477,
+      "prom_resid_z": 3.910586412568455,
+      "flag_score": 2.0807009086751083,
+      "top_neuron_promotes": [
+        "daily",
+        "Daily",
+        "Daily",
+        "daily",
+        "每日",
+        "每天",
+        "_daily",
+        ".daily",
+        "每天都",
+        "天天"
+      ]
+    },
+    {
+      "class": "politics_us",
+      "id": "warren",
+      "name": "Elizabeth Warren",
+      "token_id": 25631,
+      "token": "Warren",
+      "S": 4211.238412857056,
+      "n_above": 13,
+      "max_cos": 0.4000489115715027,
+      "topk_mass": 1.1164720058441162,
+      "max_layer": 27,
+      "conc_ratio": 0.0012349421534761762,
+      "row_norm": 2.688955068588257,
+      "top": [
+        {
+          "cos": 0.4000489115715027,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15601
+        },
+        {
+          "cos": 0.19453659653663635,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 17890
+        },
+        {
+          "cos": 0.17643609642982483,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6812
+        },
+        {
+          "cos": 0.17469635605812073,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16009
+        },
+        {
+          "cos": 0.17075404524803162,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 5607
+        }
+      ],
+      "max_cos_z": 2.4765600742577214,
+      "topk_mass_z": 1.6598361963717991,
+      "prom_resid_z": 1.9472318800542356,
+      "flag_score": 1.9472318800542356,
+      "top_neuron_promotes": [
+        "战",
+        "war",
+        "War",
+        "War",
+        "war",
+        "战争",
+        "-war",
+        "WAR",
+        "_war",
+        "WAR"
+      ]
+    },
+    {
+      "class": "politics_us",
+      "id": "harris",
+      "name": "Kamala Harris",
+      "token_id": 21071,
+      "token": "Harris",
+      "S": 4227.986034393311,
+      "n_above": 13,
+      "max_cos": 0.38927990198135376,
+      "topk_mass": 1.0048108398914337,
+      "max_layer": 27,
+      "conc_ratio": 0.0011969383694815279,
+      "row_norm": 2.6712582111358643,
+      "top": [
+        {
+          "cos": 0.38927990198135376,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6376
+        },
+        {
+          "cos": 0.20276179909706116,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6128
+        },
+        {
+          "cos": 0.15253925323486328,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 437
+        },
+        {
+          "cos": 0.13131099939346313,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 419
+        },
+        {
+          "cos": 0.12891888618469238,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 468
+        }
+      ],
+      "max_cos_z": 2.3651637502351055,
+      "topk_mass_z": 1.2614902577280076,
+      "prom_resid_z": 1.8039778019165995,
+      "flag_score": 1.8039778019165995,
+      "top_neuron_promotes": [
+        "哈",
+        "Kh",
+        "х",
+        "Harris",
+        "kh",
+        "Kh",
+        "Harry",
+        "kh",
+        "х",
+        "Harry"
+      ]
+    },
+    {
+      "class": "institutions",
+      "id": "ecb",
+      "name": "the European Central Bank",
+      "token_id": 10684,
+      "token": "Central",
+      "S": 4165.810550689697,
+      "n_above": 33,
+      "max_cos": 0.6495622396469116,
+      "topk_mass": 1.9152204394340515,
+      "max_layer": 27,
+      "conc_ratio": 0.005145590150515776,
+      "row_norm": 2.601834774017334,
+      "top": [
+        {
+          "cos": 0.6495622396469116,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14573
+        },
+        {
+          "cos": 0.5442732572555542,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 17316
+        },
+        {
+          "cos": 0.2831721901893616,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 12446
+        },
+        {
+          "cos": 0.22416380047798157,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 12202
+        },
+        {
+          "cos": 0.21404895186424255,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 18362
+        }
+      ],
+      "max_cos_z": 1.4734887313764715,
+      "topk_mass_z": 0.9788786865051604,
+      "prom_resid_z": 4.285145324459238,
+      "flag_score": 1.4734887313764715,
+      "top_neuron_promotes": [
+        "central",
+        "中央",
+        "central",
+        "Central",
+        "Central",
+        "-central",
+        "centrally",
+        ".central",
+        "centralized",
+        "CENT"
+      ]
+    },
+    {
+      "class": "media",
+      "id": "nyt",
+      "name": "the New York Times",
+      "token_id": 8523,
+      "token": "Times",
+      "S": 4168.477327346802,
+      "n_above": 49,
+      "max_cos": 0.5073348879814148,
+      "topk_mass": 2.2443397641181946,
+      "max_layer": 24,
+      "conc_ratio": 0.005963666650117647,
+      "row_norm": 2.550281047821045,
+      "top": [
+        {
+          "cos": 0.5073348879814148,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 18160
+        },
+        {
+          "cos": 0.45574161410331726,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9491
+        },
+        {
+          "cos": 0.4328059256076813,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 10009
+        },
+        {
+          "cos": 0.4306715726852417,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9844
+        },
+        {
+          "cos": 0.41778576374053955,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 204
+        }
+      ],
+      "max_cos_z": 1.4218594558531852,
+      "topk_mass_z": 2.602986437231705,
+      "prom_resid_z": 2.7527242747871896,
+      "flag_score": 1.4218594558531852,
+      "top_neuron_promotes": [
+        "times",
+        "times",
+        "Times",
+        "Times",
+        "_times",
+        ".times",
+        "TIMES",
+        "-times",
+        "(times",
+        "_TIMES"
+      ]
+    },
+    {
+      "class": "media",
+      "id": "global_times",
+      "name": "the Global Times",
+      "token_id": 8523,
+      "token": "Times",
+      "S": 4168.477327346802,
+      "n_above": 49,
+      "max_cos": 0.5073348879814148,
+      "topk_mass": 2.2443397641181946,
+      "max_layer": 24,
+      "conc_ratio": 0.005963666650117647,
+      "row_norm": 2.550281047821045,
+      "top": [
+        {
+          "cos": 0.5073348879814148,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 18160
+        },
+        {
+          "cos": 0.45574161410331726,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9491
+        },
+        {
+          "cos": 0.4328059256076813,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 10009
+        },
+        {
+          "cos": 0.4306715726852417,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9844
+        },
+        {
+          "cos": 0.41778576374053955,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 204
+        }
+      ],
+      "max_cos_z": 1.4218594558531852,
+      "topk_mass_z": 2.602986437231705,
+      "prom_resid_z": 2.7527242747871896,
+      "flag_score": 1.4218594558531852,
+      "top_neuron_promotes": [
+        "times",
+        "times",
+        "Times",
+        "Times",
+        "_times",
+        ".times",
+        "TIMES",
+        "-times",
+        "(times",
+        "_TIMES"
+      ]
+    },
+    {
+      "class": "tech_companies",
+      "id": "google",
+      "name": "Google",
+      "token_id": 5085,
+      "token": "Google",
+      "S": 4117.630781173706,
+      "n_above": 30,
+      "max_cos": 0.5941438674926758,
+      "topk_mass": 1.5013638138771057,
+      "max_layer": 24,
+      "conc_ratio": 0.004328779543909513,
+      "row_norm": 2.2871994972229004,
+      "top": [
+        {
+          "cos": 0.5941438674926758,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 7441
+        },
+        {
+          "cos": 0.24896518886089325,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9564
+        },
+        {
+          "cos": 0.23805250227451324,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2268
+        },
+        {
+          "cos": 0.21292832493782043,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 15393
+        },
+        {
+          "cos": 0.207273930311203,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 11324
+        }
+      ],
+      "max_cos_z": 1.4172456113939074,
+      "topk_mass_z": 1.292635036860517,
+      "prom_resid_z": 3.1066949324411093,
+      "flag_score": 1.4172456113939074,
+      "top_neuron_promotes": [
+        "Google",
+        "Google",
+        "google",
+        "google",
+        "谷歌",
+        "GOOGLE",
+        "_google",
+        "-google",
+        ".Google",
+        ".google"
+      ]
+    },
+    {
+      "class": "institutions",
+      "id": "world_bank",
+      "name": "the World Bank",
+      "token_id": 8547,
+      "token": "Bank",
+      "S": 4203.522411346436,
+      "n_above": 20,
+      "max_cos": 0.6377397775650024,
+      "topk_mass": 1.831026405096054,
+      "max_layer": 27,
+      "conc_ratio": 0.003034311285265235,
+      "row_norm": 2.351209878921509,
+      "top": [
+        {
+          "cos": 0.6377397775650024,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14979
+        },
+        {
+          "cos": 0.3811221420764923,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 1023
+        },
+        {
+          "cos": 0.298746258020401,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 10456
+        },
+        {
+          "cos": 0.2632017135620117,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6982
+        },
+        {
+          "cos": 0.2502165138721466,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 14371
+        }
+      ],
+      "max_cos_z": 1.4085710457660707,
+      "topk_mass_z": 0.8310076252094161,
+      "prom_resid_z": 3.671564801275855,
+      "flag_score": 1.4085710457660707,
+      "top_neuron_promotes": [
+        "Bank",
+        "bank",
+        "bank",
+        "Bank",
+        "银行",
+        "banks",
+        "Banks",
+        "BANK",
+        "_bank",
+        "banks"
+      ]
+    },
+    {
+      "class": "politics_world",
+      "id": "lula",
+      "name": "Lula da Silva",
+      "token_id": 41041,
+      "token": "Silva",
+      "S": 4207.983283996582,
+      "n_above": 6,
+      "max_cos": 0.33457520604133606,
+      "topk_mass": 0.8724015206098557,
+      "max_layer": 27,
+      "conc_ratio": 0.0004770577965507194,
+      "row_norm": 2.715406894683838,
+      "top": [
+        {
+          "cos": 0.33457520604133606,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 11558
+        },
+        {
+          "cos": 0.18011198937892914,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 847
+        },
+        {
+          "cos": 0.13438791036605835,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 8140
+        },
+        {
+          "cos": 0.1197730004787445,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 1566
+        },
+        {
+          "cos": 0.1035534143447876,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 15677
+        }
+      ],
+      "max_cos_z": 3.859724983554644,
+      "topk_mass_z": 2.370739088213766,
+      "prom_resid_z": 1.3408376876858938,
+      "flag_score": 1.3408376876858938
+    },
+    {
+      "class": "media",
+      "id": "guardian",
+      "name": "the Guardian",
+      "token_id": 24454,
+      "token": "Guardian",
+      "S": 4146.478925704956,
+      "n_above": 11,
+      "max_cos": 0.48106616735458374,
+      "topk_mass": 1.1624804735183716,
+      "max_layer": 27,
+      "conc_ratio": 0.0012761979312272955,
+      "row_norm": 2.4463253021240234,
+      "top": [
+        {
+          "cos": 0.48106616735458374,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15607
+        },
+        {
+          "cos": 0.20050062239170074,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16284
+        },
+        {
+          "cos": 0.18167409300804138,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 16816
+        },
+        {
+          "cos": 0.16829898953437805,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16417
+        },
+        {
+          "cos": 0.13094060122966766,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 10493
+        }
+      ],
+      "max_cos_z": 1.2713140878958273,
+      "topk_mass_z": 0.45564428755602154,
+      "prom_resid_z": 2.2833090581194857,
+      "flag_score": 1.2713140878958273
+    },
+    {
+      "class": "consumer_brands",
+      "id": "apple_brand",
+      "name": "Apple",
+      "token_id": 8162,
+      "token": "Apple",
+      "S": 4175.32364654541,
+      "n_above": 16,
+      "max_cos": 0.3903588354587555,
+      "topk_mass": 1.0802040100097656,
+      "max_layer": 26,
+      "conc_ratio": 0.0014958699904793692,
+      "row_norm": 2.29537296295166,
+      "top": [
+        {
+          "cos": 0.3903588354587555,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4172
+        },
+        {
+          "cos": 0.2049127221107483,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6568
+        },
+        {
+          "cos": 0.16709303855895996,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 2028
+        },
+        {
+          "cos": 0.16472990810871124,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 13867
+        },
+        {
+          "cos": 0.15310950577259064,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 1725
+        }
+      ],
+      "max_cos_z": 1.3763651915536919,
+      "topk_mass_z": 1.000984144438026,
+      "prom_resid_z": 1.0729466558706822,
+      "flag_score": 1.0729466558706822
+    },
+    {
+      "class": "institutions",
+      "id": "eu_commission",
+      "name": "the European Commission",
+      "token_id": 9652,
+      "token": "Commission",
+      "S": 4179.457706451416,
+      "n_above": 21,
+      "max_cos": 0.5672525763511658,
+      "topk_mass": 2.1811127364635468,
+      "max_layer": 26,
+      "conc_ratio": 0.0028502032752077775,
+      "row_norm": 2.574796199798584,
+      "top": [
+        {
+          "cos": 0.5672525763511658,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3358
+        },
+        {
+          "cos": 0.4712374806404114,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 12770
+        },
+        {
+          "cos": 0.4369558095932007,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2945
+        },
+        {
+          "cos": 0.3837222158908844,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 2549
+        },
+        {
+          "cos": 0.3219446539878845,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 1852
+        }
+      ],
+      "max_cos_z": 1.0215225666714387,
+      "topk_mass_z": 1.4458687346868797,
+      "prom_resid_z": 3.403823761878333,
+      "flag_score": 1.0215225666714387
+    },
+    {
+      "class": "media",
+      "id": "ap",
+      "name": "the Associated Press",
+      "token_id": 25403,
+      "token": "Associated",
+      "S": 4132.742422103882,
+      "n_above": 30,
+      "max_cos": 0.4270988702774048,
+      "topk_mass": 1.624521940946579,
+      "max_layer": 26,
+      "conc_ratio": 0.0031003543668198736,
+      "row_norm": 2.651904582977295,
+      "top": [
+        {
+          "cos": 0.4270988702774048,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4623
+        },
+        {
+          "cos": 0.3359307050704956,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 8572
+        },
+        {
+          "cos": 0.3357158899307251,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 1276
+        },
+        {
+          "cos": 0.2809818387031555,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 11454
+        },
+        {
+          "cos": 0.24479463696479797,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 15842
+        }
+      ],
+      "max_cos_z": 0.9620288847234468,
+      "topk_mass_z": 1.3727331608756776,
+      "prom_resid_z": 2.146201800257418,
+      "flag_score": 0.9620288847234468
+    },
+    {
+      "class": "consumer_brands",
+      "id": "amazon_brand",
+      "name": "Amazon",
+      "token_id": 8176,
+      "token": "Amazon",
+      "S": 4139.915506362915,
+      "n_above": 16,
+      "max_cos": 0.34855085611343384,
+      "topk_mass": 0.9846927970647812,
+      "max_layer": 22,
+      "conc_ratio": 0.0013470839363002017,
+      "row_norm": 2.383432626724243,
+      "top": [
+        {
+          "cos": 0.34855085611343384,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 12656
+        },
+        {
+          "cos": 0.17561174929141998,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9874
+        },
+        {
+          "cos": 0.1579742282629013,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 5643
+        },
+        {
+          "cos": 0.1573619246482849,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 3884
+        },
+        {
+          "cos": 0.14519403874874115,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 5935
+        }
+      ],
+      "max_cos_z": 1.0130854355255392,
+      "topk_mass_z": 0.6655645745138801,
+      "prom_resid_z": 0.8262020697640651,
+      "flag_score": 0.8262020697640651
+    },
+    {
+      "class": "nations",
+      "id": "japan",
+      "name": "Japan",
+      "token_id": 6323,
+      "token": "Japan",
+      "S": 4125.69787979126,
+      "n_above": 34,
+      "max_cos": 0.5027614235877991,
+      "topk_mass": 1.9056609869003296,
+      "max_layer": 27,
+      "conc_ratio": 0.0041432719406925625,
+      "row_norm": 1.9613581895828247,
+      "top": [
+        {
+          "cos": 0.5027614235877991,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 13406
+        },
+        {
+          "cos": 0.38612163066864014,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 2338
+        },
+        {
+          "cos": 0.34709376096725464,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.3388780951499939,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.33080607652664185,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 10067
+        }
+      ],
+      "max_cos_z": 0.8228594168163982,
+      "topk_mass_z": 1.271773260984543,
+      "prom_resid_z": 1.5443634515278228,
+      "flag_score": 0.8228594168163982
+    }
+  ],
+  "F2_all_entities": [
+    {
+      "class": "politics_us",
+      "id": "trump",
+      "name": "Donald Trump",
+      "token_id": 9453,
+      "token": "Donald",
+      "S": 4151.934404373169,
+      "n_above": 8,
+      "max_cos": 0.18412160873413086,
+      "topk_mass": 0.6850685328245163,
+      "max_layer": 26,
+      "conc_ratio": 0.0003547678560343931,
+      "row_norm": 2.461566686630249,
+      "top": [
+        {
+          "cos": 0.18412160873413086,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 18234
+        },
+        {
+          "cos": 0.14029356837272644,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 9715
+        },
+        {
+          "cos": 0.12469665706157684,
+          "layer": 26,
+          "module": "o_proj",
+          "idx": 627
+        },
+        {
+          "cos": 0.12022264301776886,
+          "layer": 26,
+          "module": "o_proj",
+          "idx": 557
+        },
+        {
+          "cos": 0.1157340556383133,
+          "layer": 26,
+          "module": "o_proj",
+          "idx": 612
+        }
+      ],
+      "max_cos_z": 0.24297419146636717,
+      "topk_mass_z": 0.1208246704935341,
+      "prom_resid_z": -0.673583971011656,
+      "flag_score": -0.673583971011656
+    },
+    {
+      "class": "politics_us",
+      "id": "biden",
+      "name": "Joe Biden",
+      "token_id": 37080,
+      "token": "Biden",
+      "S": 4126.640302658081,
+      "n_above": 36,
+      "max_cos": 0.278621643781662,
+      "topk_mass": 1.2293076515197754,
+      "max_layer": 22,
+      "conc_ratio": 0.002430640509708572,
+      "row_norm": 2.2958784103393555,
+      "top": [
+        {
+          "cos": 0.278621643781662,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 17070
+        },
+        {
+          "cos": 0.2451460063457489,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 257
+        },
+        {
+          "cos": 0.24051529169082642,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 641
+        },
+        {
+          "cos": 0.237396240234375,
+          "layer": 22,
+          "module": "o_proj",
+          "idx": 2678
+        },
+        {
+          "cos": 0.22762846946716309,
+          "layer": 18,
+          "module": "down_proj",
+          "idx": 979
+        }
+      ],
+      "max_cos_z": 1.2204973737219549,
+      "topk_mass_z": 2.0623720359867614,
+      "prom_resid_z": -0.05002377155499353,
+      "flag_score": -0.05002377155499353
+    },
+    {
+      "class": "politics_us",
+      "id": "harris",
+      "name": "Kamala Harris",
+      "token_id": 21071,
+      "token": "Harris",
+      "S": 4227.986034393311,
+      "n_above": 13,
+      "max_cos": 0.38927990198135376,
+      "topk_mass": 1.0048108398914337,
+      "max_layer": 27,
+      "conc_ratio": 0.0011969383694815279,
+      "row_norm": 2.6712582111358643,
+      "top": [
+        {
+          "cos": 0.38927990198135376,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6376
+        },
+        {
+          "cos": 0.20276179909706116,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6128
+        },
+        {
+          "cos": 0.15253925323486328,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 437
+        },
+        {
+          "cos": 0.13131099939346313,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 419
+        },
+        {
+          "cos": 0.12891888618469238,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 468
+        }
+      ],
+      "max_cos_z": 2.3651637502351055,
+      "topk_mass_z": 1.2614902577280076,
+      "prom_resid_z": 1.8039778019165995,
+      "flag_score": 1.8039778019165995,
+      "top_neuron_promotes": [
+        "哈",
+        "Kh",
+        "х",
+        "Harris",
+        "kh",
+        "Kh",
+        "Harry",
+        "kh",
+        "х",
+        "Harry"
+      ]
+    },
+    {
+      "class": "politics_us",
+      "id": "obama",
+      "name": "Barack Obama",
+      "token_id": 23539,
+      "token": "Barack",
+      "S": 4136.896591186523,
+      "n_above": 11,
+      "max_cos": 0.30839791893959045,
+      "topk_mass": 0.8838213980197906,
+      "max_layer": 27,
+      "conc_ratio": 0.000820029465213726,
+      "row_norm": 2.3280673027038574,
+      "top": [
+        {
+          "cos": 0.30839791893959045,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17820
+        },
+        {
+          "cos": 0.16847588121891022,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 18241
+        },
+        {
+          "cos": 0.13973627984523773,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 11000
+        },
+        {
+          "cos": 0.13546085357666016,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 14408
+        },
+        {
+          "cos": 0.1317504644393921,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 12631
+        }
+      ],
+      "max_cos_z": 1.5285078335430138,
+      "topk_mass_z": 0.8298661350784962,
+      "prom_resid_z": 0.31302791465517227,
+      "flag_score": 0.31302791465517227
+    },
+    {
+      "class": "politics_us",
+      "id": "desantis",
+      "name": "Ron DeSantis",
+      "token_id": 14325,
+      "token": "Ron",
+      "S": 4229.46603012085,
+      "n_above": 12,
+      "max_cos": 0.13798868656158447,
+      "topk_mass": 0.6511999219655991,
+      "max_layer": 27,
+      "conc_ratio": 0.0003915066871913427,
+      "row_norm": 2.5860044956207275,
+      "top": [
+        {
+          "cos": 0.13798868656158447,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 745
+        },
+        {
+          "cos": 0.1374436914920807,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 2826
+        },
+        {
+          "cos": 0.13319744169712067,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 2864
+        },
+        {
+          "cos": 0.12885040044784546,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10054
+        },
+        {
+          "cos": 0.11371970176696777,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 2874
+        }
+      ],
+      "max_cos_z": -0.23423199016282228,
+      "topk_mass_z": 0.0,
+      "prom_resid_z": -0.8920338042148448,
+      "flag_score": -0.8920338042148448
+    },
+    {
+      "class": "politics_us",
+      "id": "aoc",
+      "name": "Alexandria Ocasio-Cortez",
+      "token_id": 56133,
+      "token": "Alexandria",
+      "S": 4181.670513153076,
+      "n_above": 5,
+      "max_cos": 0.12917160987854004,
+      "topk_mass": 0.5933370739221573,
+      "max_layer": 27,
+      "conc_ratio": 0.00015444976991586538,
+      "row_norm": 2.514669179916382,
+      "top": [
+        {
+          "cos": 0.12917160987854004,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 2745
+        },
+        {
+          "cos": 0.12733009457588196,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 4981
+        },
+        {
+          "cos": 0.11954453587532043,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10012
+        },
+        {
+          "cos": 0.1112741008400917,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 5151
+        },
+        {
+          "cos": 0.10601673275232315,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3507
+        }
+      ],
+      "max_cos_z": -0.32543721408751236,
+      "topk_mass_z": -0.20642297901703177,
+      "prom_resid_z": -1.1215194738300942,
+      "flag_score": -1.1215194738300942
+    },
+    {
+      "class": "politics_us",
+      "id": "sanders",
+      "name": "Bernie Sanders",
+      "token_id": 29224,
+      "token": "Bernie",
+      "S": 4152.946889877319,
+      "n_above": 3,
+      "max_cos": 0.141120046377182,
+      "topk_mass": 0.5872934684157372,
+      "max_layer": 27,
+      "conc_ratio": 0.0001019421028132209,
+      "row_norm": 2.5266568660736084,
+      "top": [
+        {
+          "cos": 0.141120046377182,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14183
+        },
+        {
+          "cos": 0.129876509308815,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4368
+        },
+        {
+          "cos": 0.12472476065158844,
+          "layer": 26,
+          "module": "o_proj",
+          "idx": 26
+        },
+        {
+          "cos": 0.09650520235300064,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 18234
+        },
+        {
+          "cos": 0.09506694972515106,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14111
+        }
+      ],
+      "max_cos_z": -0.20184071316286584,
+      "topk_mass_z": -0.22798325637673525,
+      "prom_resid_z": -0.9776696854001825,
+      "flag_score": -0.9776696854001825
+    },
+    {
+      "class": "politics_us",
+      "id": "pelosi",
+      "name": "Nancy Pelosi",
+      "token_id": 58980,
+      "token": "Pelosi",
+      "S": 4095.467872619629,
+      "n_above": 0,
+      "max_cos": 0.09430785477161407,
+      "topk_mass": 0.4425375163555145,
+      "max_layer": 27,
+      "conc_ratio": 2.302737017645399e-05,
+      "row_norm": 3.1236605644226074,
+      "top": [
+        {
+          "cos": 0.09430785477161407,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1287
+        },
+        {
+          "cos": 0.09420982003211975,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1671
+        },
+        {
+          "cos": 0.08984088897705078,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1777
+        },
+        {
+          "cos": 0.08312298357486725,
+          "layer": 20,
+          "module": "down_proj",
+          "idx": 5870
+        },
+        {
+          "cos": 0.08105596899986267,
+          "layer": 7,
+          "module": "down_proj",
+          "idx": 8238
+        }
+      ],
+      "max_cos_z": -0.6860733643319046,
+      "topk_mass_z": -0.7443932822414149,
+      "prom_resid_z": -0.2702496967944413,
+      "flag_score": -0.6860733643319046
+    },
+    {
+      "class": "politics_us",
+      "id": "vance",
+      "name": "JD Vance",
+      "token_id": 91268,
+      "token": "Vance",
+      "S": 4133.141796112061,
+      "n_above": 0,
+      "max_cos": 0.09582442045211792,
+      "topk_mass": 0.40466488152742386,
+      "max_layer": 27,
+      "conc_ratio": 2.31844018802048e-05,
+      "row_norm": 3.074951410293579,
+      "top": [
+        {
+          "cos": 0.09582442045211792,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2721
+        },
+        {
+          "cos": 0.08462128043174744,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 18036
+        },
+        {
+          "cos": 0.07795438915491104,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10053
+        },
+        {
+          "cos": 0.0732387825846672,
+          "layer": 9,
+          "module": "o_proj",
+          "idx": 747
+        },
+        {
+          "cos": 0.07302600890398026,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 6691
+        }
+      ],
+      "max_cos_z": -0.670385771101277,
+      "topk_mass_z": -0.8795021192376391,
+      "prom_resid_z": -0.3511317008520078,
+      "flag_score": -0.670385771101277
+    },
+    {
+      "class": "politics_us",
+      "id": "newsom",
+      "name": "Gavin Newsom",
+      "token_id": 63395,
+      "token": "Gavin",
+      "S": 4143.827867507935,
+      "n_above": 3,
+      "max_cos": 0.11988314241170883,
+      "topk_mass": 0.5001087859272957,
+      "max_layer": 27,
+      "conc_ratio": 8.679159426355274e-05,
+      "row_norm": 2.778092861175537,
+      "top": [
+        {
+          "cos": 0.11988314241170883,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2622
+        },
+        {
+          "cos": 0.1041812002658844,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17817
+        },
+        {
+          "cos": 0.10350293666124344,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3149
+        },
+        {
+          "cos": 0.08955110609531403,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 439
+        },
+        {
+          "cos": 0.08299040049314499,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 400
+        }
+      ],
+      "max_cos_z": -0.421518578204335,
+      "topk_mass_z": -0.539010495658261,
+      "prom_resid_z": -0.695033528562907,
+      "flag_score": -0.695033528562907
+    },
+    {
+      "class": "politics_us",
+      "id": "hclinton",
+      "name": "Hillary Clinton",
+      "token_id": 15033,
+      "token": "Hillary",
+      "S": 4164.250814437866,
+      "n_above": 5,
+      "max_cos": 0.24218504130840302,
+      "topk_mass": 0.7224619165062904,
+      "max_layer": 27,
+      "conc_ratio": 0.00029079065095927105,
+      "row_norm": 2.367607593536377,
+      "top": [
+        {
+          "cos": 0.24218504130840302,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6461
+        },
+        {
+          "cos": 0.149254709482193,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 9726
+        },
+        {
+          "cos": 0.13789591193199158,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17820
+        },
+        {
+          "cos": 0.10904567688703537,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 9394
+        },
+        {
+          "cos": 0.08408057689666748,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 6677
+        }
+      ],
+      "max_cos_z": 0.8435914436624882,
+      "topk_mass_z": 0.25422380164801145,
+      "prom_resid_z": -0.27496894981022324,
+      "flag_score": -0.27496894981022324
+    },
+    {
+      "class": "politics_us",
+      "id": "cruz",
+      "name": "Ted Cruz",
+      "token_id": 23115,
+      "token": "Ted",
+      "S": 4173.947212219238,
+      "n_above": 5,
+      "max_cos": 0.16063258051872253,
+      "topk_mass": 0.628975585103035,
+      "max_layer": 27,
+      "conc_ratio": 0.00019242286995873773,
+      "row_norm": 2.6397292613983154,
+      "top": [
+        {
+          "cos": 0.16063258051872253,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10054
+        },
+        {
+          "cos": 0.13905341923236847,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 11963
+        },
+        {
+          "cos": 0.12430164217948914,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4877
+        },
+        {
+          "cos": 0.11615204811096191,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3586
+        },
+        {
+          "cos": 0.08883589506149292,
+          "layer": 26,
+          "module": "o_proj",
+          "idx": 2484
+        }
+      ],
+      "max_cos_z": 0.0,
+      "topk_mass_z": -0.07928427267189238,
+      "prom_resid_z": -0.5582216490612311,
+      "flag_score": -0.5582216490612311
+    },
+    {
+      "class": "politics_us",
+      "id": "warren",
+      "name": "Elizabeth Warren",
+      "token_id": 25631,
+      "token": "Warren",
+      "S": 4211.238412857056,
+      "n_above": 13,
+      "max_cos": 0.4000489115715027,
+      "topk_mass": 1.1164720058441162,
+      "max_layer": 27,
+      "conc_ratio": 0.0012349421534761762,
+      "row_norm": 2.688955068588257,
+      "top": [
+        {
+          "cos": 0.4000489115715027,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15601
+        },
+        {
+          "cos": 0.19453659653663635,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 17890
+        },
+        {
+          "cos": 0.17643609642982483,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6812
+        },
+        {
+          "cos": 0.17469635605812073,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16009
+        },
+        {
+          "cos": 0.17075404524803162,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 5607
+        }
+      ],
+      "max_cos_z": 2.4765600742577214,
+      "topk_mass_z": 1.6598361963717991,
+      "prom_resid_z": 1.9472318800542356,
+      "flag_score": 1.9472318800542356,
+      "top_neuron_promotes": [
+        "战",
+        "war",
+        "War",
+        "War",
+        "war",
+        "战争",
+        "-war",
+        "WAR",
+        "_war",
+        "WAR"
+      ]
+    },
+    {
+      "class": "politics_us",
+      "id": "schumer",
+      "name": "Chuck Schumer",
+      "token_id": 64671,
+      "token": "Schumer",
+      "S": 4148.495059967041,
+      "n_above": 1,
+      "max_cos": 0.1219552755355835,
+      "topk_mass": 0.4621320366859436,
+      "max_layer": 27,
+      "conc_ratio": 2.9397473961835914e-05,
+      "row_norm": 3.188101291656494,
+      "top": [
+        {
+          "cos": 0.1219552755355835,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 9815
+        },
+        {
+          "cos": 0.0862748995423317,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1702
+        },
+        {
+          "cos": 0.08588634431362152,
+          "layer": 15,
+          "module": "down_proj",
+          "idx": 12646
+        },
+        {
+          "cos": 0.08410932123661041,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1318
+        },
+        {
+          "cos": 0.08390619605779648,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 16789
+        }
+      ],
+      "max_cos_z": -0.40008410821405016,
+      "topk_mass_z": -0.6744907559091424,
+      "prom_resid_z": 0.13504317417027764,
+      "flag_score": -0.40008410821405016
+    },
+    {
+      "class": "politics_us",
+      "id": "haley",
+      "name": "Nikki Haley",
+      "token_id": 69107,
+      "token": "Nikki",
+      "S": 4130.599800109863,
+      "n_above": 0,
+      "max_cos": 0.09542758017778397,
+      "topk_mass": 0.44437600672245026,
+      "max_layer": 14,
+      "conc_ratio": 2.3102596420050964e-05,
+      "row_norm": 2.6872739791870117,
+      "top": [
+        {
+          "cos": 0.09542758017778397,
+          "layer": 14,
+          "module": "down_proj",
+          "idx": 16020
+        },
+        {
+          "cos": 0.09068367630243301,
+          "layer": 24,
+          "module": "o_proj",
+          "idx": 2362
+        },
+        {
+          "cos": 0.09038146585226059,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 13953
+        },
+        {
+          "cos": 0.0859406515955925,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 296
+        },
+        {
+          "cos": 0.08194263279438019,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 12674
+        }
+      ],
+      "max_cos_z": -0.6744907491324384,
+      "topk_mass_z": -0.7378345546421086,
+      "prom_resid_z": -1.120281917285449,
+      "flag_score": -1.120281917285449
+    },
+    {
+      "class": "politics_us",
+      "id": "buttigieg",
+      "name": "Pete Buttigieg",
+      "token_id": 36273,
+      "token": "Pete",
+      "S": 4178.34596824646,
+      "n_above": 3,
+      "max_cos": 0.23725377023220062,
+      "topk_mass": 0.7452706322073936,
+      "max_layer": 27,
+      "conc_ratio": 0.00017034523124572027,
+      "row_norm": 2.4532387256622314,
+      "top": [
+        {
+          "cos": 0.23725377023220062,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4368
+        },
+        {
+          "cos": 0.20570707321166992,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 16834
+        },
+        {
+          "cos": 0.1187809556722641,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6906
+        },
+        {
+          "cos": 0.09395981580018997,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 14411
+        },
+        {
+          "cos": 0.08956901729106903,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 2845
+        }
+      ],
+      "max_cos_z": 0.7925816023164003,
+      "topk_mass_z": 0.33559281824117076,
+      "prom_resid_z": -0.15556272308724034,
+      "flag_score": -0.15556272308724034
+    },
+    {
+      "class": "politics_world",
+      "id": "xi",
+      "name": "Xi Jinping",
+      "token_id": 93386,
+      "token": "Jinping",
+      "S": 4105.754856109619,
+      "n_above": 0,
+      "max_cos": 0.09780319035053253,
+      "topk_mass": 0.45928776264190674,
+      "max_layer": 27,
+      "conc_ratio": 2.3821000949721653e-05,
+      "row_norm": 3.2123069763183594,
+      "top": [
+        {
+          "cos": 0.09780319035053253,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 1768
+        },
+        {
+          "cos": 0.09695146232843399,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1575
+        },
+        {
+          "cos": 0.08881749957799911,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 7020
+        },
+        {
+          "cos": 0.08807066082954407,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1703
+        },
+        {
+          "cos": 0.08764494955539703,
+          "layer": 20,
+          "module": "down_proj",
+          "idx": 10991
+        }
+      ],
+      "max_cos_z": -0.6677653966550173,
+      "topk_mass_z": -0.6744907521051877,
+      "prom_resid_z": -0.06012870760584015,
+      "flag_score": -0.6677653966550173
+    },
+    {
+      "class": "politics_world",
+      "id": "putin",
+      "name": "Vladimir Putin",
+      "token_id": 34911,
+      "token": "Vladimir",
+      "S": 4160.926195144653,
+      "n_above": 4,
+      "max_cos": 0.13179416954517365,
+      "topk_mass": 0.5573196262121201,
+      "max_layer": 25,
+      "conc_ratio": 0.00012669695470423492,
+      "row_norm": 2.4770355224609375,
+      "top": [
+        {
+          "cos": 0.13179416954517365,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 3382
+        },
+        {
+          "cos": 0.11828521639108658,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2721
+        },
+        {
+          "cos": 0.10830014944076538,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17234
+        },
+        {
+          "cos": 0.10359539836645126,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 12426
+        },
+        {
+          "cos": 0.09534469246864319,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 8265
+        }
+      ],
+      "max_cos_z": -0.017799095237827602,
+      "topk_mass_z": 0.04814205904716152,
+      "prom_resid_z": -1.1694165567494998,
+      "flag_score": -1.1694165567494998
+    },
+    {
+      "class": "politics_world",
+      "id": "modi",
+      "name": "Narendra Modi",
+      "token_id": 66332,
+      "token": "Narendra",
+      "S": 4088.569429397583,
+      "n_above": 0,
+      "max_cos": 0.07711154222488403,
+      "topk_mass": 0.3756045401096344,
+      "max_layer": 17,
+      "conc_ratio": 1.886027461135361e-05,
+      "row_norm": 3.214700698852539,
+      "top": [
+        {
+          "cos": 0.07711154222488403,
+          "layer": 17,
+          "module": "down_proj",
+          "idx": 4598
+        },
+        {
+          "cos": 0.07550395280122757,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 13982
+        },
+        {
+          "cos": 0.0753648579120636,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 15394
+        },
+        {
+          "cos": 0.0744652971625328,
+          "layer": 16,
+          "module": "down_proj",
+          "idx": 860
+        },
+        {
+          "cos": 0.07315889000892639,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 4058
+        }
+      ],
+      "max_cos_z": -1.0634254900416173,
+      "topk_mass_z": -1.2913538835652112,
+      "prom_resid_z": -0.26354217920908624,
+      "flag_score": -1.0634254900416173
+    },
+    {
+      "class": "politics_world",
+      "id": "netanyahu",
+      "name": "Benjamin Netanyahu",
+      "token_id": 44642,
+      "token": "Netanyahu",
+      "S": 4073.1923065185547,
+      "n_above": 5,
+      "max_cos": 0.13272500038146973,
+      "topk_mass": 0.5645313411951065,
+      "max_layer": 27,
+      "conc_ratio": 0.00016292503548891803,
+      "row_norm": 2.7934937477111816,
+      "top": [
+        {
+          "cos": 0.13272500038146973,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 9988
+        },
+        {
+          "cos": 0.11663089692592621,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6218
+        },
+        {
+          "cos": 0.10708851367235184,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 3012
+        },
+        {
+          "cos": 0.10660616308450699,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 10418
+        },
+        {
+          "cos": 0.10148076713085175,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 15134
+        }
+      ],
+      "max_cos_z": 0.0,
+      "topk_mass_z": 0.10130254872460645,
+      "prom_resid_z": -0.535460155963751,
+      "flag_score": -0.535460155963751
+    },
+    {
+      "class": "politics_world",
+      "id": "macron",
+      "name": "Emmanuel Macron",
+      "token_id": 62301,
+      "token": "Macron",
+      "S": 4116.719863891602,
+      "n_above": 6,
+      "max_cos": 0.21094097197055817,
+      "topk_mass": 0.8383864536881447,
+      "max_layer": 27,
+      "conc_ratio": 0.0003074403583007641,
+      "row_norm": 2.85341739654541,
+      "top": [
+        {
+          "cos": 0.21094097197055817,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10975
+        },
+        {
+          "cos": 0.20263203978538513,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 17166
+        },
+        {
+          "cos": 0.16393250226974487,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 5429
+        },
+        {
+          "cos": 0.13910338282585144,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 18234
+        },
+        {
+          "cos": 0.12177755683660507,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 1741
+        }
+      ],
+      "max_cos_z": 1.4956246324768039,
+      "topk_mass_z": 2.1200001699072084,
+      "prom_resid_z": 0.36958805361267083,
+      "flag_score": 0.36958805361267083
+    },
+    {
+      "class": "politics_world",
+      "id": "trudeau",
+      "name": "Justin Trudeau",
+      "token_id": 43709,
+      "token": "Trudeau",
+      "S": 4115.20888710022,
+      "n_above": 5,
+      "max_cos": 0.18010632693767548,
+      "topk_mass": 0.7256720066070557,
+      "max_layer": 26,
+      "conc_ratio": 0.00021883011489819807,
+      "row_norm": 2.8230247497558594,
+      "top": [
+        {
+          "cos": 0.18010632693767548,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9839
+        },
+        {
+          "cos": 0.15930798649787903,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17607
+        },
+        {
+          "cos": 0.15060198307037354,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 11679
+        },
+        {
+          "cos": 0.1265920251607895,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10872
+        },
+        {
+          "cos": 0.10906368494033813,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 4674
+        }
+      ],
+      "max_cos_z": 0.9060128983525235,
+      "topk_mass_z": 1.2891360530239022,
+      "prom_resid_z": -0.0005645621274095251,
+      "flag_score": -0.0005645621274095251
+    },
+    {
+      "class": "politics_world",
+      "id": "lula",
+      "name": "Lula da Silva",
+      "token_id": 41041,
+      "token": "Silva",
+      "S": 4207.983283996582,
+      "n_above": 6,
+      "max_cos": 0.33457520604133606,
+      "topk_mass": 0.8724015206098557,
+      "max_layer": 27,
+      "conc_ratio": 0.0004770577965507194,
+      "row_norm": 2.715406894683838,
+      "top": [
+        {
+          "cos": 0.33457520604133606,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 11558
+        },
+        {
+          "cos": 0.18011198937892914,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 847
+        },
+        {
+          "cos": 0.13438791036605835,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 8140
+        },
+        {
+          "cos": 0.1197730004787445,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 1566
+        },
+        {
+          "cos": 0.1035534143447876,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 15677
+        }
+      ],
+      "max_cos_z": 3.859724983554644,
+      "topk_mass_z": 2.370739088213766,
+      "prom_resid_z": 1.3408376876858938,
+      "flag_score": 1.3408376876858938
+    },
+    {
+      "class": "politics_world",
+      "id": "erdogan",
+      "name": "Recep Tayyip Erdogan",
+      "token_id": 56089,
+      "token": "Erdogan",
+      "S": 4080.8044605255127,
+      "n_above": 0,
+      "max_cos": 0.09745147824287415,
+      "topk_mass": 0.45688681304454803,
+      "max_layer": 27,
+      "conc_ratio": 2.3880457679769397e-05,
+      "row_norm": 2.9850382804870605,
+      "top": [
+        {
+          "cos": 0.09745147824287415,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 5460
+        },
+        {
+          "cos": 0.09518878906965256,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4318
+        },
+        {
+          "cos": 0.09134802222251892,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 12670
+        },
+        {
+          "cos": 0.08810082823038101,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14809
+        },
+        {
+          "cos": 0.0847976952791214,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 3945
+        }
+      ],
+      "max_cos_z": -0.674490740354866,
+      "topk_mass_z": -0.6921891298957085,
+      "prom_resid_z": -0.5122264886298756,
+      "flag_score": -0.674490740354866
+    },
+    {
+      "class": "politics_world",
+      "id": "kim_jong_un",
+      "name": "Kim Jong Un",
+      "token_id": 39548,
+      "token": "Jong",
+      "S": 4190.586696624756,
+      "n_above": 2,
+      "max_cos": 0.1296830177307129,
+      "topk_mass": 0.5240893289446831,
+      "max_layer": 27,
+      "conc_ratio": 6.189253536898381e-05,
+      "row_norm": 2.853778839111328,
+      "top": [
+        {
+          "cos": 0.1296830177307129,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 11489
+        },
+        {
+          "cos": 0.1219329684972763,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 1768
+        },
+        {
+          "cos": 0.09651932120323181,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 14701
+        },
+        {
+          "cos": 0.08875209093093872,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1703
+        },
+        {
+          "cos": 0.08720193058252335,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1319
+        }
+      ],
+      "max_cos_z": -0.05816796865914928,
+      "topk_mass_z": -0.1968120023697897,
+      "prom_resid_z": -0.44707495987522117,
+      "flag_score": -0.44707495987522117
+    },
+    {
+      "class": "politics_world",
+      "id": "mbs",
+      "name": "Mohammed bin Salman",
+      "token_id": 68643,
+      "token": "Salman",
+      "S": 4120.296009063721,
+      "n_above": 2,
+      "max_cos": 0.1959879845380783,
+      "topk_mass": 0.5450200513005257,
+      "max_layer": 27,
+      "conc_ratio": 9.513296326856907e-05,
+      "row_norm": 3.1240029335021973,
+      "top": [
+        {
+          "cos": 0.1959879845380783,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 9822
+        },
+        {
+          "cos": 0.1050928458571434,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 12905
+        },
+        {
+          "cos": 0.08603139966726303,
+          "layer": 10,
+          "module": "down_proj",
+          "idx": 2236
+        },
+        {
+          "cos": 0.07938695698976517,
+          "layer": 3,
+          "module": "o_proj",
+          "idx": 595
+        },
+        {
+          "cos": 0.07852086424827576,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 5100
+        }
+      ],
+      "max_cos_z": 1.2096976551757528,
+      "topk_mass_z": -0.04252311930047297,
+      "prom_resid_z": 0.7532297534477486,
+      "flag_score": 0.7532297534477486
+    },
+    {
+      "class": "politics_world",
+      "id": "orban",
+      "name": "Viktor Orban",
+      "token_id": 76016,
+      "token": "Viktor",
+      "S": 4155.699895858765,
+      "n_above": 3,
+      "max_cos": 0.13978756964206696,
+      "topk_mass": 0.5507887080311775,
+      "max_layer": 27,
+      "conc_ratio": 0.0001009126546989993,
+      "row_norm": 2.820596933364868,
+      "top": [
+        {
+          "cos": 0.13978756964206696,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2721
+        },
+        {
+          "cos": 0.13390912115573883,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 12426
+        },
+        {
+          "cos": 0.11624695360660553,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15424
+        },
+        {
+          "cos": 0.0809905081987381,
+          "layer": 17,
+          "module": "down_proj",
+          "idx": 3709
+        },
+        {
+          "cos": 0.0798545554280281,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1703
+        }
+      ],
+      "max_cos_z": 0.13504853727593782,
+      "topk_mass_z": 0.0,
+      "prom_resid_z": -0.41092402466531114,
+      "flag_score": -0.41092402466531114
+    },
+    {
+      "class": "nations",
+      "id": "china",
+      "name": "China",
+      "token_id": 5616,
+      "token": "China",
+      "S": 4162.828020095825,
+      "n_above": 57,
+      "max_cos": 0.4764411449432373,
+      "topk_mass": 1.8129466474056244,
+      "max_layer": 25,
+      "conc_ratio": 0.0065237249194087694,
+      "row_norm": 2.0564475059509277,
+      "top": [
+        {
+          "cos": 0.4764411449432373,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 527
+        },
+        {
+          "cos": 0.34204891324043274,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.33456936478614807,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 15029
+        },
+        {
+          "cos": 0.33245986700057983,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 8641
+        },
+        {
+          "cos": 0.32742735743522644,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 6124
+        }
+      ],
+      "max_cos_z": 0.6744907538395476,
+      "topk_mass_z": 1.0445072778710551,
+      "prom_resid_z": 1.467284563334395,
+      "flag_score": 0.6744907538395476
+    },
+    {
+      "class": "nations",
+      "id": "united_states",
+      "name": "the United States",
+      "token_id": 4180,
+      "token": "States",
+      "S": 4118.2142333984375,
+      "n_above": 41,
+      "max_cos": 0.5019980669021606,
+      "topk_mass": 1.9206408858299255,
+      "max_layer": 26,
+      "conc_ratio": 0.004997778010469128,
+      "row_norm": 2.492825508117676,
+      "top": [
+        {
+          "cos": 0.5019980669021606,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 10209
+        },
+        {
+          "cos": 0.43640077114105225,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4661
+        },
+        {
+          "cos": 0.3663281500339508,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6423
+        },
+        {
+          "cos": 0.32792386412620544,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 15420
+        },
+        {
+          "cos": 0.2879900336265564,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 12194
+        }
+      ],
+      "max_cos_z": 0.8185563388607241,
+      "topk_mass_z": 1.3084927315187609,
+      "prom_resid_z": 2.5856411028496047,
+      "flag_score": 0.8185563388607241
+    },
+    {
+      "class": "nations",
+      "id": "russia",
+      "name": "Russia",
+      "token_id": 8359,
+      "token": "Russia",
+      "S": 4107.467237472534,
+      "n_above": 30,
+      "max_cos": 0.36168521642684937,
+      "topk_mass": 1.5512778460979462,
+      "max_layer": 27,
+      "conc_ratio": 0.002641665967427709,
+      "row_norm": 1.9068670272827148,
+      "top": [
+        {
+          "cos": 0.36168521642684937,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.3228166997432709,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 14372
+        },
+        {
+          "cos": 0.3217354416847229,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.27588826417922974,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 7205
+        },
+        {
+          "cos": 0.2691522240638733,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 3382
+        }
+      ],
+      "max_cos_z": 0.02760612497330158,
+      "topk_mass_z": 0.40309174599733016,
+      "prom_resid_z": 0.017724188285264307,
+      "flag_score": 0.017724188285264307
+    },
+    {
+      "class": "nations",
+      "id": "india",
+      "name": "India",
+      "token_id": 6747,
+      "token": "India",
+      "S": 4155.163387298584,
+      "n_above": 38,
+      "max_cos": 0.35678794980049133,
+      "topk_mass": 1.5302455127239227,
+      "max_layer": 27,
+      "conc_ratio": 0.0032629142839175856,
+      "row_norm": 2.0280652046203613,
+      "top": [
+        {
+          "cos": 0.35678794980049133,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.3297644853591919,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.30256491899490356,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10090
+        },
+        {
+          "cos": 0.29099059104919434,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 7918
+        },
+        {
+          "cos": 0.2501375675201416,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 7205
+        }
+      ],
+      "max_cos_z": 0.0,
+      "topk_mass_z": 0.35153624824510776,
+      "prom_resid_z": 0.2076710927648623,
+      "flag_score": 0.0
+    },
+    {
+      "class": "nations",
+      "id": "israel",
+      "name": "Israel",
+      "token_id": 6778,
+      "token": "Israel",
+      "S": 4163.0321407318115,
+      "n_above": 26,
+      "max_cos": 0.3124101758003235,
+      "topk_mass": 1.2823894917964935,
+      "max_layer": 27,
+      "conc_ratio": 0.0019511414386175902,
+      "row_norm": 2.1855945587158203,
+      "top": [
+        {
+          "cos": 0.3124101758003235,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 9988
+        },
+        {
+          "cos": 0.27801212668418884,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6128
+        },
+        {
+          "cos": 0.2504636347293854,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.2357393056154251,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 3012
+        },
+        {
+          "cos": 0.20576424896717072,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        }
+      ],
+      "max_cos_z": -0.2501596234299051,
+      "topk_mass_z": -0.25602071191515235,
+      "prom_resid_z": 0.07218908674518207,
+      "flag_score": -0.2501596234299051
+    },
+    {
+      "class": "nations",
+      "id": "iran",
+      "name": "Iran",
+      "token_id": 10259,
+      "token": "Iran",
+      "S": 4152.409517288208,
+      "n_above": 14,
+      "max_cos": 0.3645501136779785,
+      "topk_mass": 1.4066957235336304,
+      "max_layer": 27,
+      "conc_ratio": 0.0012290939882098697,
+      "row_norm": 2.0195651054382324,
+      "top": [
+        {
+          "cos": 0.3645501136779785,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 8842
+        },
+        {
+          "cos": 0.3544158339500427,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9564
+        },
+        {
+          "cos": 0.2610280215740204,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.2503998279571533,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.17630192637443542,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 7205
+        }
+      ],
+      "max_cos_z": 0.04375568708304436,
+      "topk_mass_z": 0.048684882891860376,
+      "prom_resid_z": 0.2689743169731153,
+      "flag_score": 0.04375568708304436
+    },
+    {
+      "class": "nations",
+      "id": "ukraine",
+      "name": "Ukraine",
+      "token_id": 18753,
+      "token": "Ukraine",
+      "S": 4161.27293586731,
+      "n_above": 14,
+      "max_cos": 0.23414231836795807,
+      "topk_mass": 1.1116724610328674,
+      "max_layer": 27,
+      "conc_ratio": 0.0007877379101642295,
+      "row_norm": 2.074434757232666,
+      "top": [
+        {
+          "cos": 0.23414231836795807,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 9538
+        },
+        {
+          "cos": 0.2337992638349533,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.22979103028774261,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 13961
+        },
+        {
+          "cos": 0.21856248378753662,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 5123
+        },
+        {
+          "cos": 0.19537736475467682,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 1771
+        }
+      ],
+      "max_cos_z": -0.6913592595782162,
+      "topk_mass_z": -0.6744907570253456,
+      "prom_resid_z": -0.9345057648782145,
+      "flag_score": -0.9345057648782145
+    },
+    {
+      "class": "nations",
+      "id": "taiwan",
+      "name": "Taiwan",
+      "token_id": 28289,
+      "token": "Taiwan",
+      "S": 4144.0870723724365,
+      "n_above": 13,
+      "max_cos": 0.18486617505550385,
+      "topk_mass": 0.7668644785881042,
+      "max_layer": 26,
+      "conc_ratio": 0.0005799251382058166,
+      "row_norm": 2.200479745864868,
+      "top": [
+        {
+          "cos": 0.18486617505550385,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 668
+        },
+        {
+          "cos": 0.1656487137079239,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.144046813249588,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 13505
+        },
+        {
+          "cos": 0.13771501183509827,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 3571
+        },
+        {
+          "cos": 0.13458776473999023,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6943
+        }
+      ],
+      "max_cos_z": -0.9691312238744643,
+      "topk_mass_z": -1.519701169381922,
+      "prom_resid_z": -1.1814012731357706,
+      "flag_score": -1.1814012731357706
+    },
+    {
+      "class": "nations",
+      "id": "eu",
+      "name": "the European Union",
+      "token_id": 9145,
+      "token": "Union",
+      "S": 4175.836240768433,
+      "n_above": 26,
+      "max_cos": 0.41909661889076233,
+      "topk_mass": 1.2850707024335861,
+      "max_layer": 25,
+      "conc_ratio": 0.0026094203400346297,
+      "row_norm": 2.8150837421417236,
+      "top": [
+        {
+          "cos": 0.41909661889076233,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 1440
+        },
+        {
+          "cos": 0.3007822334766388,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 10437
+        },
+        {
+          "cos": 0.21569788455963135,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 15034
+        },
+        {
+          "cos": 0.18199017643928528,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 18440
+        },
+        {
+          "cos": 0.16750378906726837,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 7472
+        }
+      ],
+      "max_cos_z": 0.35123693216297436,
+      "topk_mass_z": -0.24944839554322817,
+      "prom_resid_z": 2.3877733658711873,
+      "flag_score": 0.35123693216297436
+    },
+    {
+      "class": "nations",
+      "id": "uk",
+      "name": "the United Kingdom",
+      "token_id": 15072,
+      "token": "Kingdom",
+      "S": 4180.650581359863,
+      "n_above": 8,
+      "max_cos": 0.19388172030448914,
+      "topk_mass": 0.7259692326188087,
+      "max_layer": 25,
+      "conc_ratio": 0.00037100774850294503,
+      "row_norm": 2.5046560764312744,
+      "top": [
+        {
+          "cos": 0.19388172030448914,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 5550
+        },
+        {
+          "cos": 0.16590653359889984,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 2541
+        },
+        {
+          "cos": 0.13947908580303192,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 18357
+        },
+        {
+          "cos": 0.11370785534381866,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2715
+        },
+        {
+          "cos": 0.11299403756856918,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 212
+        }
+      ],
+      "max_cos_z": -0.9183101663673234,
+      "topk_mass_z": -1.6199456227268183,
+      "prom_resid_z": -0.4903612262001297,
+      "flag_score": -0.9183101663673234
+    },
+    {
+      "class": "nations",
+      "id": "japan",
+      "name": "Japan",
+      "token_id": 6323,
+      "token": "Japan",
+      "S": 4125.69787979126,
+      "n_above": 34,
+      "max_cos": 0.5027614235877991,
+      "topk_mass": 1.9056609869003296,
+      "max_layer": 27,
+      "conc_ratio": 0.0041432719406925625,
+      "row_norm": 1.9613581895828247,
+      "top": [
+        {
+          "cos": 0.5027614235877991,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 13406
+        },
+        {
+          "cos": 0.38612163066864014,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 2338
+        },
+        {
+          "cos": 0.34709376096725464,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.3388780951499939,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.33080607652664185,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 10067
+        }
+      ],
+      "max_cos_z": 0.8228594168163982,
+      "topk_mass_z": 1.271773260984543,
+      "prom_resid_z": 1.5443634515278228,
+      "flag_score": 0.8228594168163982
+    },
+    {
+      "class": "nations",
+      "id": "saudi_arabia",
+      "name": "Saudi Arabia",
+      "token_id": 23061,
+      "token": "Arabia",
+      "S": 4163.109579086304,
+      "n_above": 8,
+      "max_cos": 0.17613409459590912,
+      "topk_mass": 0.7533462643623352,
+      "max_layer": 27,
+      "conc_ratio": 0.0003384664100935813,
+      "row_norm": 2.6357381343841553,
+      "top": [
+        {
+          "cos": 0.17613409459590912,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.16878649592399597,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 7205
+        },
+        {
+          "cos": 0.1458815336227417,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3736
+        },
+        {
+          "cos": 0.13910165429115295,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.12344248592853546,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3730
+        }
+      ],
+      "max_cos_z": -1.0183543768772172,
+      "topk_mass_z": -1.5528376859413004,
+      "prom_resid_z": -0.41016869878594203,
+      "flag_score": -1.0183543768772172
+    },
+    {
+      "class": "nations",
+      "id": "germany",
+      "name": "Germany",
+      "token_id": 9856,
+      "token": "Germany",
+      "S": 4145.884359359741,
+      "n_above": 38,
+      "max_cos": 0.47410380840301514,
+      "topk_mass": 1.6582291722297668,
+      "max_layer": 27,
+      "conc_ratio": 0.004345500981838235,
+      "row_norm": 1.961987853050232,
+      "top": [
+        {
+          "cos": 0.47410380840301514,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6896
+        },
+        {
+          "cos": 0.35335466265678406,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.31041955947875977,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.26210612058639526,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 17660
+        },
+        {
+          "cos": 0.2582450211048126,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 7205
+        }
+      ],
+      "max_cos_z": 0.6613150765572954,
+      "topk_mass_z": 0.6652561362212136,
+      "prom_resid_z": 1.2573383385658656,
+      "flag_score": 0.6613150765572954
+    },
+    {
+      "class": "nations",
+      "id": "france",
+      "name": "France",
+      "token_id": 9625,
+      "token": "France",
+      "S": 4129.685579299927,
+      "n_above": 43,
+      "max_cos": 0.48066720366477966,
+      "topk_mass": 1.9852800965309143,
+      "max_layer": 27,
+      "conc_ratio": 0.0050049063410484524,
+      "row_norm": 2.1381189823150635,
+      "top": [
+        {
+          "cos": 0.48066720366477966,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 666
+        },
+        {
+          "cos": 0.4436359703540802,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 1741
+        },
+        {
+          "cos": 0.3904978930950165,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6277
+        },
+        {
+          "cos": 0.3542650043964386,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.31621402502059937,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        }
+      ],
+      "max_cos_z": 0.6983132479188969,
+      "topk_mass_z": 1.4669395677654782,
+      "prom_resid_z": 1.6709895000591162,
+      "flag_score": 0.6983132479188969
+    },
+    {
+      "class": "nations",
+      "id": "brazil",
+      "name": "Brazil",
+      "token_id": 15948,
+      "token": "Brazil",
+      "S": 4105.800817489624,
+      "n_above": 27,
+      "max_cos": 0.32721900939941406,
+      "topk_mass": 1.3868344724178314,
+      "max_layer": 27,
+      "conc_ratio": 0.002151812420624706,
+      "row_norm": 2.073545217514038,
+      "top": [
+        {
+          "cos": 0.32721900939941406,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 5282
+        },
+        {
+          "cos": 0.30000853538513184,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.27067404985427856,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 2813
+        },
+        {
+          "cos": 0.2690391540527344,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3811
+        },
+        {
+          "cos": 0.21989372372627258,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6437
+        }
+      ],
+      "max_cos_z": -0.1666815238620761,
+      "topk_mass_z": 0.0,
+      "prom_resid_z": 0.0,
+      "flag_score": -0.1666815238620761
+    },
+    {
+      "class": "nations",
+      "id": "south_korea",
+      "name": "South Korea",
+      "token_id": 11862,
+      "token": "Korea",
+      "S": 4202.116313934326,
+      "n_above": 20,
+      "max_cos": 0.34754759073257446,
+      "topk_mass": 1.3074033856391907,
+      "max_layer": 27,
+      "conc_ratio": 0.0016541550167278457,
+      "row_norm": 2.1672186851501465,
+      "top": [
+        {
+          "cos": 0.34754759073257446,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 8842
+        },
+        {
+          "cos": 0.25528809428215027,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.24630779027938843,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15944
+        },
+        {
+          "cos": 0.23274627327919006,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 2338
+        },
+        {
+          "cos": 0.22551363706588745,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 9945
+        }
+      ],
+      "max_cos_z": -0.05208834370057521,
+      "topk_mass_z": -0.19470541584941659,
+      "prom_resid_z": 0.3893690458243984,
+      "flag_score": -0.05208834370057521
+    },
+    {
+      "class": "nations",
+      "id": "north_korea",
+      "name": "North Korea",
+      "token_id": 11862,
+      "token": "Korea",
+      "S": 4202.116313934326,
+      "n_above": 20,
+      "max_cos": 0.34754759073257446,
+      "topk_mass": 1.3074033856391907,
+      "max_layer": 27,
+      "conc_ratio": 0.0016541550167278457,
+      "row_norm": 2.1672186851501465,
+      "top": [
+        {
+          "cos": 0.34754759073257446,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 8842
+        },
+        {
+          "cos": 0.25528809428215027,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4557
+        },
+        {
+          "cos": 0.24630779027938843,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15944
+        },
+        {
+          "cos": 0.23274627327919006,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 2338
+        },
+        {
+          "cos": 0.22551363706588745,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 9945
+        }
+      ],
+      "max_cos_z": -0.05208834370057521,
+      "topk_mass_z": -0.19470541584941659,
+      "prom_resid_z": 0.3893690458243984,
+      "flag_score": -0.05208834370057521
+    },
+    {
+      "class": "nations",
+      "id": "singapore",
+      "name": "Singapore",
+      "token_id": 20539,
+      "token": "Singapore",
+      "S": 4154.00431060791,
+      "n_above": 15,
+      "max_cos": 0.21343523263931274,
+      "topk_mass": 0.8521123975515366,
+      "max_layer": 27,
+      "conc_ratio": 0.0007707089927310487,
+      "row_norm": 2.1788787841796875,
+      "top": [
+        {
+          "cos": 0.21343523263931274,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17545
+        },
+        {
+          "cos": 0.17799121141433716,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 8505
+        },
+        {
+          "cos": 0.15794438123703003,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 8736
+        },
+        {
+          "cos": 0.15375301241874695,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3055
+        },
+        {
+          "cos": 0.14898855984210968,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 408
+        }
+      ],
+      "max_cos_z": -0.8080860870254217,
+      "topk_mass_z": -1.31073724624779,
+      "prom_resid_z": -0.9366579850289011,
+      "flag_score": -0.9366579850289011
+    },
+    {
+      "class": "tech_companies",
+      "id": "alibaba",
+      "name": "Alibaba",
+      "token_id": 54364,
+      "token": "Alibaba",
+      "S": 4128.811874389648,
+      "n_above": 3,
+      "max_cos": 0.16254650056362152,
+      "topk_mass": 0.6031100824475288,
+      "max_layer": 27,
+      "conc_ratio": 0.00011810649556626542,
+      "row_norm": 2.924590826034546,
+      "top": [
+        {
+          "cos": 0.16254650056362152,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15339
+        },
+        {
+          "cos": 0.13892491161823273,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 12854
+        },
+        {
+          "cos": 0.10892444849014282,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 15029
+        },
+        {
+          "cos": 0.09640204161405563,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1393
+        },
+        {
+          "cos": 0.09631218016147614,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1777
+        }
+      ],
+      "max_cos_z": -1.02366027759092,
+      "topk_mass_z": -0.8507071091801768,
+      "prom_resid_z": 0.023261394364010105,
+      "flag_score": -1.02366027759092
+    },
+    {
+      "class": "tech_companies",
+      "id": "google",
+      "name": "Google",
+      "token_id": 5085,
+      "token": "Google",
+      "S": 4117.630781173706,
+      "n_above": 30,
+      "max_cos": 0.5941438674926758,
+      "topk_mass": 1.5013638138771057,
+      "max_layer": 24,
+      "conc_ratio": 0.004328779543909513,
+      "row_norm": 2.2871994972229004,
+      "top": [
+        {
+          "cos": 0.5941438674926758,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 7441
+        },
+        {
+          "cos": 0.24896518886089325,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9564
+        },
+        {
+          "cos": 0.23805250227451324,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2268
+        },
+        {
+          "cos": 0.21292832493782043,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 15393
+        },
+        {
+          "cos": 0.207273930311203,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 11324
+        }
+      ],
+      "max_cos_z": 1.4172456113939074,
+      "topk_mass_z": 1.292635036860517,
+      "prom_resid_z": 3.1066949324411093,
+      "flag_score": 1.4172456113939074,
+      "top_neuron_promotes": [
+        "Google",
+        "Google",
+        "google",
+        "google",
+        "谷歌",
+        "GOOGLE",
+        "_google",
+        "-google",
+        ".Google",
+        ".google"
+      ]
+    },
+    {
+      "class": "tech_companies",
+      "id": "meta",
+      "name": "Meta",
+      "token_id": 15819,
+      "token": "Meta",
+      "S": 4169.681997299194,
+      "n_above": 14,
+      "max_cos": 0.44988882541656494,
+      "topk_mass": 1.6534171849489212,
+      "max_layer": 26,
+      "conc_ratio": 0.0015105333065600925,
+      "row_norm": 2.5961551666259766,
+      "top": [
+        {
+          "cos": 0.44988882541656494,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 12215
+        },
+        {
+          "cos": 0.4085831642150879,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10271
+        },
+        {
+          "cos": 0.29902389645576477,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 17703
+        },
+        {
+          "cos": 0.27029305696487427,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16167
+        },
+        {
+          "cos": 0.22562824189662933,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 8375
+        }
+      ],
+      "max_cos_z": 0.6014088878644677,
+      "topk_mass_z": 1.655452787861797,
+      "prom_resid_z": 2.2654141540154136,
+      "flag_score": 0.6014088878644677
+    },
+    {
+      "class": "tech_companies",
+      "id": "microsoft",
+      "name": "Microsoft",
+      "token_id": 5100,
+      "token": "Microsoft",
+      "S": 4182.112825393677,
+      "n_above": 14,
+      "max_cos": 0.352243036031723,
+      "topk_mass": 1.0758228152990341,
+      "max_layer": 27,
+      "conc_ratio": 0.0011791653391062203,
+      "row_norm": 2.2071588039398193,
+      "top": [
+        {
+          "cos": 0.352243036031723,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 7128
+        },
+        {
+          "cos": 0.1983160525560379,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 16474
+        },
+        {
+          "cos": 0.1805233657360077,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17330
+        },
+        {
+          "cos": 0.175690159201622,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6568
+        },
+        {
+          "cos": 0.1690502017736435,
+          "layer": 12,
+          "module": "down_proj",
+          "idx": 4364
+        }
+      ],
+      "max_cos_z": 0.049171546752023634,
+      "topk_mass_z": 0.2772426981400951,
+      "prom_resid_z": 0.5154304370036847,
+      "flag_score": 0.049171546752023634
+    },
+    {
+      "class": "tech_companies",
+      "id": "amazon",
+      "name": "Amazon",
+      "token_id": 8176,
+      "token": "Amazon",
+      "S": 4139.915506362915,
+      "n_above": 16,
+      "max_cos": 0.34855085611343384,
+      "topk_mass": 0.9846927970647812,
+      "max_layer": 22,
+      "conc_ratio": 0.0013470839363002017,
+      "row_norm": 2.383432626724243,
+      "top": [
+        {
+          "cos": 0.34855085611343384,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 12656
+        },
+        {
+          "cos": 0.17561174929141998,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9874
+        },
+        {
+          "cos": 0.1579742282629013,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 5643
+        },
+        {
+          "cos": 0.1573619246482849,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 3884
+        },
+        {
+          "cos": 0.14519403874874115,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 5935
+        }
+      ],
+      "max_cos_z": 0.028290363509714787,
+      "topk_mass_z": 0.059795442407493064,
+      "prom_resid_z": 0.8262020697640651,
+      "flag_score": 0.028290363509714787
+    },
+    {
+      "class": "tech_companies",
+      "id": "apple",
+      "name": "Apple",
+      "token_id": 8162,
+      "token": "Apple",
+      "S": 4175.32364654541,
+      "n_above": 16,
+      "max_cos": 0.3903588354587555,
+      "topk_mass": 1.0802040100097656,
+      "max_layer": 26,
+      "conc_ratio": 0.0014958699904793692,
+      "row_norm": 2.29537296295166,
+      "top": [
+        {
+          "cos": 0.3903588354587555,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4172
+        },
+        {
+          "cos": 0.2049127221107483,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6568
+        },
+        {
+          "cos": 0.16709303855895996,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 2028
+        },
+        {
+          "cos": 0.16472990810871124,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 13867
+        },
+        {
+          "cos": 0.15310950577259064,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 1725
+        }
+      ],
+      "max_cos_z": 0.26473606686667356,
+      "topk_mass_z": 0.2876967591085661,
+      "prom_resid_z": 1.0729466558706822,
+      "flag_score": 0.26473606686667356
+    },
+    {
+      "class": "tech_companies",
+      "id": "huawei",
+      "name": "Huawei",
+      "token_id": 50607,
+      "token": "Huawei",
+      "S": 4108.606725692749,
+      "n_above": 3,
+      "max_cos": 0.15433648228645325,
+      "topk_mass": 0.5733595490455627,
+      "max_layer": 27,
+      "conc_ratio": 0.00011269256890076632,
+      "row_norm": 2.7073161602020264,
+      "top": [
+        {
+          "cos": 0.15433648228645325,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 5983
+        },
+        {
+          "cos": 0.12092790007591248,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10247
+        },
+        {
+          "cos": 0.10722431540489197,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 257
+        },
+        {
+          "cos": 0.09831304848194122,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 3758
+        },
+        {
+          "cos": 0.09255780279636383,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17234
+        }
+      ],
+      "max_cos_z": -1.0700921687398466,
+      "topk_mass_z": -0.9216954834852209,
+      "prom_resid_z": -0.4881581401954362,
+      "flag_score": -1.0700921687398466
+    },
+    {
+      "class": "tech_companies",
+      "id": "tencent",
+      "name": "Tencent",
+      "token_id": 69921,
+      "token": "Tencent",
+      "S": 4125.485279083252,
+      "n_above": 2,
+      "max_cos": 0.1116124838590622,
+      "topk_mass": 0.5068401321768761,
+      "max_layer": 27,
+      "conc_ratio": 5.410877812161554e-05,
+      "row_norm": 3.0040132999420166,
+      "top": [
+        {
+          "cos": 0.1116124838590622,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 11085
+        },
+        {
+          "cos": 0.10575085133314133,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 4729
+        },
+        {
+          "cos": 0.09865043312311172,
+          "layer": 20,
+          "module": "down_proj",
+          "idx": 8878
+        },
+        {
+          "cos": 0.09641533344984055,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 4713
+        },
+        {
+          "cos": 0.09441103041172028,
+          "layer": 20,
+          "module": "down_proj",
+          "idx": 13530
+        }
+      ],
+      "max_cos_z": -1.3117184328304234,
+      "topk_mass_z": -1.080418864993249,
+      "prom_resid_z": -0.33232950615844153,
+      "flag_score": -1.3117184328304234
+    },
+    {
+      "class": "tech_companies",
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "token_id": 33561,
+      "token": "NVIDIA",
+      "S": 4116.052392959595,
+      "n_above": 4,
+      "max_cos": 0.20021526515483856,
+      "topk_mass": 0.6769606322050095,
+      "max_layer": 27,
+      "conc_ratio": 0.00019457018117916244,
+      "row_norm": 2.3790853023529053,
+      "top": [
+        {
+          "cos": 0.20021526515483856,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 16121
+        },
+        {
+          "cos": 0.13688848912715912,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 1418
+        },
+        {
+          "cos": 0.13448016345500946,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 8484
+        },
+        {
+          "cos": 0.1071043610572815,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6568
+        },
+        {
+          "cos": 0.09827235341072083,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 13953
+        }
+      ],
+      "max_cos_z": -0.8106239702202154,
+      "topk_mass_z": -0.6744907570904741,
+      "prom_resid_z": -0.6744907494175628,
+      "flag_score": -0.8106239702202154
+    },
+    {
+      "class": "tech_companies",
+      "id": "mistral",
+      "name": "Mistral AI",
+      "token_id": 15235,
+      "token": "AI",
+      "S": 4172.473321914673,
+      "n_above": 30,
+      "max_cos": 0.22428613901138306,
+      "topk_mass": 0.9292357861995697,
+      "max_layer": 26,
+      "conc_ratio": 0.001612612856413778,
+      "row_norm": 2.3051397800445557,
+      "top": [
+        {
+          "cos": 0.22428613901138306,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9418
+        },
+        {
+          "cos": 0.21246550977230072,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 9715
+        },
+        {
+          "cos": 0.18688061833381653,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6945
+        },
+        {
+          "cos": 0.15634892880916595,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15799
+        },
+        {
+          "cos": 0.14925459027290344,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 257
+        }
+      ],
+      "max_cos_z": -0.674490753821079,
+      "topk_mass_z": -0.07253169915825655,
+      "prom_resid_z": -0.5783072209290083,
+      "flag_score": -0.674490753821079
+    },
+    {
+      "class": "tech_companies",
+      "id": "samsung_tech",
+      "name": "Samsung Electronics",
+      "token_id": 37684,
+      "token": "Electronics",
+      "S": 4110.706295013428,
+      "n_above": 12,
+      "max_cos": 0.23541858792304993,
+      "topk_mass": 0.9596331119537354,
+      "max_layer": 25,
+      "conc_ratio": 0.0006872354393834273,
+      "row_norm": 2.6088850498199463,
+      "top": [
+        {
+          "cos": 0.23541858792304993,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 5614
+        },
+        {
+          "cos": 0.22143200039863586,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9185
+        },
+        {
+          "cos": 0.19934965670108795,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 5665
+        },
+        {
+          "cos": 0.15544064342975616,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4292
+        },
+        {
+          "cos": 0.14799222350120544,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 13873
+        }
+      ],
+      "max_cos_z": -0.6115310089536431,
+      "topk_mass_z": 0.0,
+      "prom_resid_z": 0.13317604441517047,
+      "flag_score": -0.6115310089536431
+    },
+    {
+      "class": "tech_companies",
+      "id": "ibm",
+      "name": "IBM",
+      "token_id": 27922,
+      "token": "IBM",
+      "S": 4139.963272094727,
+      "n_above": 6,
+      "max_cos": 0.34354859590530396,
+      "topk_mass": 0.878417432308197,
+      "max_layer": 27,
+      "conc_ratio": 0.0004979009321987178,
+      "row_norm": 2.2330079078674316,
+      "top": [
+        {
+          "cos": 0.34354859590530396,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 7140
+        },
+        {
+          "cos": 0.15284787118434906,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 5407
+        },
+        {
+          "cos": 0.13346543908119202,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17330
+        },
+        {
+          "cos": 0.12871305644512177,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6568
+        },
+        {
+          "cos": 0.11984246969223022,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 8113
+        }
+      ],
+      "max_cos_z": 0.0,
+      "topk_mass_z": -0.19379044362730705,
+      "prom_resid_z": 0.47899112150034173,
+      "flag_score": 0.0
+    },
+    {
+      "class": "consumer_brands",
+      "id": "apple_brand",
+      "name": "Apple",
+      "token_id": 8162,
+      "token": "Apple",
+      "S": 4175.32364654541,
+      "n_above": 16,
+      "max_cos": 0.3903588354587555,
+      "topk_mass": 1.0802040100097656,
+      "max_layer": 26,
+      "conc_ratio": 0.0014958699904793692,
+      "row_norm": 2.29537296295166,
+      "top": [
+        {
+          "cos": 0.3903588354587555,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4172
+        },
+        {
+          "cos": 0.2049127221107483,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6568
+        },
+        {
+          "cos": 0.16709303855895996,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 2028
+        },
+        {
+          "cos": 0.16472990810871124,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 13867
+        },
+        {
+          "cos": 0.15310950577259064,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 1725
+        }
+      ],
+      "max_cos_z": 1.3763651915536919,
+      "topk_mass_z": 1.000984144438026,
+      "prom_resid_z": 1.0729466558706822,
+      "flag_score": 1.0729466558706822
+    },
+    {
+      "class": "consumer_brands",
+      "id": "samsung",
+      "name": "Samsung",
+      "token_id": 18400,
+      "token": "Samsung",
+      "S": 4133.746686935425,
+      "n_above": 9,
+      "max_cos": 0.23333778977394104,
+      "topk_mass": 0.7951723113656044,
+      "max_layer": 27,
+      "conc_ratio": 0.0005080234137303016,
+      "row_norm": 2.246799945831299,
+      "top": [
+        {
+          "cos": 0.23333778977394104,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 8842
+        },
+        {
+          "cos": 0.19270098209381104,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17393
+        },
+        {
+          "cos": 0.13199782371520996,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 4436
+        },
+        {
+          "cos": 0.12548106908798218,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15944
+        },
+        {
+          "cos": 0.11165464669466019,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 5334
+        }
+      ],
+      "max_cos_z": 0.011970928522944778,
+      "topk_mass_z": 0.0,
+      "prom_resid_z": -0.6024016196302194,
+      "flag_score": -0.6024016196302194
+    },
+    {
+      "class": "consumer_brands",
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "token_id": 71449,
+      "token": "Xiaomi",
+      "S": 4073.090642929077,
+      "n_above": 17,
+      "max_cos": 0.13154155015945435,
+      "topk_mass": 0.5877501294016838,
+      "max_layer": 27,
+      "conc_ratio": 0.0005490195380894522,
+      "row_norm": 3.769343614578247,
+      "top": [
+        {
+          "cos": 0.13154155015945435,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 5642
+        },
+        {
+          "cos": 0.11662188172340393,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1703
+        },
+        {
+          "cos": 0.11374744772911072,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1649
+        },
+        {
+          "cos": 0.11362448334693909,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1777
+        },
+        {
+          "cos": 0.11221476644277573,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6020
+        }
+      ],
+      "max_cos_z": -0.8725614901879888,
+      "topk_mass_z": -0.7284323685339578,
+      "prom_resid_z": 1.3786689563199945,
+      "flag_score": -0.8725614901879888
+    },
+    {
+      "class": "consumer_brands",
+      "id": "huawei_brand",
+      "name": "Huawei",
+      "token_id": 50607,
+      "token": "Huawei",
+      "S": 4108.606725692749,
+      "n_above": 3,
+      "max_cos": 0.15433648228645325,
+      "topk_mass": 0.5733595490455627,
+      "max_layer": 27,
+      "conc_ratio": 0.00011269256890076632,
+      "row_norm": 2.7073161602020264,
+      "top": [
+        {
+          "cos": 0.15433648228645325,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 5983
+        },
+        {
+          "cos": 0.12092790007591248,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10247
+        },
+        {
+          "cos": 0.10722431540489197,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 257
+        },
+        {
+          "cos": 0.09831304848194122,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 3758
+        },
+        {
+          "cos": 0.09255780279636383,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17234
+        }
+      ],
+      "max_cos_z": -0.6744907507873507,
+      "topk_mass_z": -0.7789697046767762,
+      "prom_resid_z": -0.4881581401954362,
+      "flag_score": -0.6744907507873507
+    },
+    {
+      "class": "consumer_brands",
+      "id": "tesla",
+      "name": "Tesla",
+      "token_id": 27199,
+      "token": "Tesla",
+      "S": 4204.256185531616,
+      "n_above": 7,
+      "max_cos": 0.2852320373058319,
+      "topk_mass": 0.9612196385860443,
+      "max_layer": 27,
+      "conc_ratio": 0.00047490546953051995,
+      "row_norm": 2.244288206100464,
+      "top": [
+        {
+          "cos": 0.2852320373058319,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4056
+        },
+        {
+          "cos": 0.21348527073860168,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4292
+        },
+        {
+          "cos": 0.198186993598938,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4877
+        },
+        {
+          "cos": 0.13873295485973358,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9321
+        },
+        {
+          "cos": 0.12558238208293915,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 16690
+        }
+      ],
+      "max_cos_z": 0.46289273526554825,
+      "topk_mass_z": 0.5831307274405066,
+      "prom_resid_z": -0.08535312088833198,
+      "flag_score": -0.08535312088833198
+    },
+    {
+      "class": "consumer_brands",
+      "id": "volkswagen",
+      "name": "Volkswagen",
+      "token_id": 50839,
+      "token": "Volkswagen",
+      "S": 4150.381715774536,
+      "n_above": 2,
+      "max_cos": 0.2068001627922058,
+      "topk_mass": 0.6183589473366737,
+      "max_layer": 27,
+      "conc_ratio": 9.965356290317004e-05,
+      "row_norm": 2.548692464828491,
+      "top": [
+        {
+          "cos": 0.2068001627922058,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 83
+        },
+        {
+          "cos": 0.11518540233373642,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6896
+        },
+        {
+          "cos": 0.09939587116241455,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1703
+        },
+        {
+          "cos": 0.09919635951519012,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 4713
+        },
+        {
+          "cos": 0.09778115153312683,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 12674
+        }
+      ],
+      "max_cos_z": -0.2186210016888101,
+      "topk_mass_z": -0.6209392666135098,
+      "prom_resid_z": -0.273499638685236,
+      "flag_score": -0.273499638685236
+    },
+    {
+      "class": "consumer_brands",
+      "id": "toyota",
+      "name": "Toyota",
+      "token_id": 29200,
+      "token": "Toyota",
+      "S": 4128.808261871338,
+      "n_above": 4,
+      "max_cos": 0.23196011781692505,
+      "topk_mass": 0.8599831610918045,
+      "max_layer": 27,
+      "conc_ratio": 0.00022472355496311474,
+      "row_norm": 2.2895543575286865,
+      "top": [
+        {
+          "cos": 0.23196011781692505,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 83
+        },
+        {
+          "cos": 0.2221069484949112,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 7140
+        },
+        {
+          "cos": 0.21971392631530762,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10899
+        },
+        {
+          "cos": 0.09715161472558975,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 352
+        },
+        {
+          "cos": 0.08905055373907089,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 8292
+        }
+      ],
+      "max_cos_z": 0.0,
+      "topk_mass_z": 0.227604976120472,
+      "prom_resid_z": -0.5318753456704872,
+      "flag_score": -0.5318753456704872
+    },
+    {
+      "class": "consumer_brands",
+      "id": "amazon_brand",
+      "name": "Amazon",
+      "token_id": 8176,
+      "token": "Amazon",
+      "S": 4139.915506362915,
+      "n_above": 16,
+      "max_cos": 0.34855085611343384,
+      "topk_mass": 0.9846927970647812,
+      "max_layer": 22,
+      "conc_ratio": 0.0013470839363002017,
+      "row_norm": 2.383432626724243,
+      "top": [
+        {
+          "cos": 0.34855085611343384,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 12656
+        },
+        {
+          "cos": 0.17561174929141998,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9874
+        },
+        {
+          "cos": 0.1579742282629013,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 5643
+        },
+        {
+          "cos": 0.1573619246482849,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 3884
+        },
+        {
+          "cos": 0.14519403874874115,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 5935
+        }
+      ],
+      "max_cos_z": 1.0130854355255392,
+      "topk_mass_z": 0.6655645745138801,
+      "prom_resid_z": 0.8262020697640651,
+      "flag_score": 0.8262020697640651
+    },
+    {
+      "class": "consumer_brands",
+      "id": "alibaba_brand",
+      "name": "Alibaba",
+      "token_id": 54364,
+      "token": "Alibaba",
+      "S": 4128.811874389648,
+      "n_above": 3,
+      "max_cos": 0.16254650056362152,
+      "topk_mass": 0.6031100824475288,
+      "max_layer": 27,
+      "conc_ratio": 0.00011810649556626542,
+      "row_norm": 2.924590826034546,
+      "top": [
+        {
+          "cos": 0.16254650056362152,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15339
+        },
+        {
+          "cos": 0.13892491161823273,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 12854
+        },
+        {
+          "cos": 0.10892444849014282,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 15029
+        },
+        {
+          "cos": 0.09640204161405563,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1393
+        },
+        {
+          "cos": 0.09631218016147614,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1777
+        }
+      ],
+      "max_cos_z": -0.6031518943436677,
+      "topk_mass_z": -0.6744907559647608,
+      "prom_resid_z": 0.023261394364010105,
+      "flag_score": -0.6031518943436677
+    },
+    {
+      "class": "consumer_brands",
+      "id": "nike",
+      "name": "Nike",
+      "token_id": 33144,
+      "token": "Nike",
+      "S": 4157.252531051636,
+      "n_above": 1,
+      "max_cos": 0.10283118486404419,
+      "topk_mass": 0.44904378801584244,
+      "max_layer": 26,
+      "conc_ratio": 2.473537127495505e-05,
+      "row_norm": 2.422201156616211,
+      "top": [
+        {
+          "cos": 0.10283118486404419,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 15592
+        },
+        {
+          "cos": 0.09145956486463547,
+          "layer": 26,
+          "module": "o_proj",
+          "idx": 9
+        },
+        {
+          "cos": 0.08781320601701736,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15169
+        },
+        {
+          "cos": 0.08669561892747879,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 4710
+        },
+        {
+          "cos": 0.08024421334266663,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 2967
+        }
+      ],
+      "max_cos_z": -1.1220328749169153,
+      "topk_mass_z": -1.2155460794674535,
+      "prom_resid_z": -1.5689826661096373,
+      "flag_score": -1.5689826661096373
+    },
+    {
+      "class": "consumer_brands",
+      "id": "starbucks",
+      "name": "Starbucks",
+      "token_id": 48784,
+      "token": "Starbucks",
+      "S": 4156.148057937622,
+      "n_above": 7,
+      "max_cos": 0.2764109969139099,
+      "topk_mass": 0.9182567298412323,
+      "max_layer": 27,
+      "conc_ratio": 0.00046554572844035794,
+      "row_norm": 2.320708751678467,
+      "top": [
+        {
+          "cos": 0.2764109969139099,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14646
+        },
+        {
+          "cos": 0.22826030850410461,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17202
+        },
+        {
+          "cos": 0.17604725062847137,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 1336
+        },
+        {
+          "cos": 0.12933771312236786,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 4881
+        },
+        {
+          "cos": 0.10820046067237854,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 10619
+        }
+      ],
+      "max_cos_z": 0.38624455825073417,
+      "topk_mass_z": 0.43225210356441945,
+      "prom_resid_z": -0.02325313103101496,
+      "flag_score": -0.02325313103101496
+    },
+    {
+      "class": "consumer_brands",
+      "id": "lenovo",
+      "name": "Lenovo",
+      "token_id": 63699,
+      "token": "Lenovo",
+      "S": 4107.545146942139,
+      "n_above": 3,
+      "max_cos": 0.10413214564323425,
+      "topk_mass": 0.50517538189888,
+      "max_layer": 26,
+      "conc_ratio": 7.605429168176114e-05,
+      "row_norm": 3.068608283996582,
+      "top": [
+        {
+          "cos": 0.10413214564323425,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 12975
+        },
+        {
+          "cos": 0.10270647704601288,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 8292
+        },
+        {
+          "cos": 0.10265080630779266,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 4713
+        },
+        {
+          "cos": 0.09818768501281738,
+          "layer": 20,
+          "module": "down_proj",
+          "idx": 8878
+        },
+        {
+          "cos": 0.09749826788902283,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 1704
+        }
+      ],
+      "max_cos_z": -1.1107285085766356,
+      "topk_mass_z": -1.0184212131938963,
+      "prom_resid_z": -0.280083443453251,
+      "flag_score": -1.1107285085766356
+    },
+    {
+      "class": "institutions",
+      "id": "un",
+      "name": "the United Nations",
+      "token_id": 19140,
+      "token": "Nations",
+      "S": 4209.278009414673,
+      "n_above": 9,
+      "max_cos": 0.25838369131088257,
+      "topk_mass": 1.0637204945087433,
+      "max_layer": 26,
+      "conc_ratio": 0.000552458928021526,
+      "row_norm": 2.5728604793548584,
+      "top": [
+        {
+          "cos": 0.25838369131088257,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 649
+        },
+        {
+          "cos": 0.2405233234167099,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 5178
+        },
+        {
+          "cos": 0.24017076194286346,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16727
+        },
+        {
+          "cos": 0.16817958652973175,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 6692
+        },
+        {
+          "cos": 0.1564631313085556,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 10395
+        }
+      ],
+      "max_cos_z": -0.674490753985549,
+      "topk_mass_z": -0.5166215771346354,
+      "prom_resid_z": 0.2930811199854669,
+      "flag_score": -0.674490753985549
+    },
+    {
+      "class": "institutions",
+      "id": "nato",
+      "name": "NATO",
+      "token_id": 29234,
+      "token": "NATO",
+      "S": 4205.316730499268,
+      "n_above": 6,
+      "max_cos": 0.18835672736167908,
+      "topk_mass": 0.6393391415476799,
+      "max_layer": 26,
+      "conc_ratio": 0.00026874084283859775,
+      "row_norm": 2.3064372539520264,
+      "top": [
+        {
+          "cos": 0.18835672736167908,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 18313
+        },
+        {
+          "cos": 0.11993424594402313,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 13953
+        },
+        {
+          "cos": 0.11548155546188354,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15113
+        },
+        {
+          "cos": 0.1079619750380516,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15169
+        },
+        {
+          "cos": 0.10760463774204254,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 11730
+        }
+      ],
+      "max_cos_z": -1.0590120489924126,
+      "topk_mass_z": -1.261967984987609,
+      "prom_resid_z": -0.9371615134287903,
+      "flag_score": -1.0590120489924126
+    },
+    {
+      "class": "institutions",
+      "id": "who",
+      "name": "the World Health Organization",
+      "token_id": 20395,
+      "token": "Organization",
+      "S": 4138.212108612061,
+      "n_above": 34,
+      "max_cos": 0.4410446286201477,
+      "topk_mass": 1.8634344041347504,
+      "max_layer": 26,
+      "conc_ratio": 0.0036236705263785187,
+      "row_norm": 2.5592215061187744,
+      "top": [
+        {
+          "cos": 0.4410446286201477,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 13714
+        },
+        {
+          "cos": 0.37938952445983887,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 17916
+        },
+        {
+          "cos": 0.36376845836639404,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 12834
+        },
+        {
+          "cos": 0.3560090959072113,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 17358
+        },
+        {
+          "cos": 0.32322269678115845,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 737
+        }
+      ],
+      "max_cos_z": 0.32850889358270824,
+      "topk_mass_z": 0.8879262091685259,
+      "prom_resid_z": 2.1035541796036785,
+      "flag_score": 0.32850889358270824
+    },
+    {
+      "class": "institutions",
+      "id": "wto",
+      "name": "the WTO",
+      "token_id": 99133,
+      "token": "WTO",
+      "S": 4140.534133911133,
+      "n_above": 7,
+      "max_cos": 0.1627536416053772,
+      "topk_mass": 0.7544961869716644,
+      "max_layer": 27,
+      "conc_ratio": 0.00027515181676220654,
+      "row_norm": 2.338927745819092,
+      "top": [
+        {
+          "cos": 0.1627536416053772,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 5532
+        },
+        {
+          "cos": 0.15807558596134186,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3071
+        },
+        {
+          "cos": 0.1563454568386078,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 18564
+        },
+        {
+          "cos": 0.14546707272529602,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 11340
+        },
+        {
+          "cos": 0.13185442984104156,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 15
+        }
+      ],
+      "max_cos_z": -1.1995997760046295,
+      "topk_mass_z": -1.0597161905888963,
+      "prom_resid_z": -1.1305773448771308,
+      "flag_score": -1.1995997760046295
+    },
+    {
+      "class": "institutions",
+      "id": "imf",
+      "name": "the IMF",
+      "token_id": 59070,
+      "token": "IMF",
+      "S": 4164.967885971069,
+      "n_above": 11,
+      "max_cos": 0.16121725738048553,
+      "topk_mass": 0.6820044219493866,
+      "max_layer": 26,
+      "conc_ratio": 0.0004257871549202145,
+      "row_norm": 2.266447067260742,
+      "top": [
+        {
+          "cos": 0.16121725738048553,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 14293
+        },
+        {
+          "cos": 0.14491689205169678,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6945
+        },
+        {
+          "cos": 0.12857256829738617,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 8255
+        },
+        {
+          "cos": 0.125559002161026,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 407
+        },
+        {
+          "cos": 0.12173870205879211,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 13274
+        }
+      ],
+      "max_cos_z": -1.208036132780171,
+      "topk_mass_z": -1.1870344063429092,
+      "prom_resid_z": -1.2890868943820573,
+      "flag_score": -1.2890868943820573
+    },
+    {
+      "class": "institutions",
+      "id": "world_bank",
+      "name": "the World Bank",
+      "token_id": 8547,
+      "token": "Bank",
+      "S": 4203.522411346436,
+      "n_above": 20,
+      "max_cos": 0.6377397775650024,
+      "topk_mass": 1.831026405096054,
+      "max_layer": 27,
+      "conc_ratio": 0.003034311285265235,
+      "row_norm": 2.351209878921509,
+      "top": [
+        {
+          "cos": 0.6377397775650024,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14979
+        },
+        {
+          "cos": 0.3811221420764923,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 1023
+        },
+        {
+          "cos": 0.298746258020401,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 10456
+        },
+        {
+          "cos": 0.2632017135620117,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6982
+        },
+        {
+          "cos": 0.2502165138721466,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 14371
+        }
+      ],
+      "max_cos_z": 1.4085710457660707,
+      "topk_mass_z": 0.8310076252094161,
+      "prom_resid_z": 3.671564801275855,
+      "flag_score": 1.4085710457660707,
+      "top_neuron_promotes": [
+        "Bank",
+        "bank",
+        "bank",
+        "Bank",
+        "银行",
+        "banks",
+        "Banks",
+        "BANK",
+        "_bank",
+        "banks"
+      ]
+    },
+    {
+      "class": "institutions",
+      "id": "icc",
+      "name": "the International Criminal Court",
+      "token_id": 32736,
+      "token": "Criminal",
+      "S": 4135.644868850708,
+      "n_above": 10,
+      "max_cos": 0.32835739850997925,
+      "topk_mass": 0.9738337844610214,
+      "max_layer": 27,
+      "conc_ratio": 0.0007939690377894088,
+      "row_norm": 2.3533551692962646,
+      "top": [
+        {
+          "cos": 0.32835739850997925,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17611
+        },
+        {
+          "cos": 0.17710226774215698,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 3767
+        },
+        {
+          "cos": 0.1709957718849182,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 7031
+        },
+        {
+          "cos": 0.15275457501411438,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 11623
+        },
+        {
+          "cos": 0.1446237713098526,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 16478
+        }
+      ],
+      "max_cos_z": -0.29026189425452836,
+      "topk_mass_z": -0.6744907577202823,
+      "prom_resid_z": 0.5637115916391559,
+      "flag_score": -0.29026189425452836
+    },
+    {
+      "class": "institutions",
+      "id": "ccp",
+      "name": "the Chinese Communist Party",
+      "token_id": 36861,
+      "token": "Communist",
+      "S": 4175.968683242798,
+      "n_above": 12,
+      "max_cos": 0.2742535173892975,
+      "topk_mass": 1.0481221824884415,
+      "max_layer": 27,
+      "conc_ratio": 0.0007880907278880412,
+      "row_norm": 2.173698902130127,
+      "top": [
+        {
+          "cos": 0.2742535173892975,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3286
+        },
+        {
+          "cos": 0.2727101743221283,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 16726
+        },
+        {
+          "cos": 0.18291433155536652,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 9240
+        },
+        {
+          "cos": 0.16674387454986572,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 18534
+        },
+        {
+          "cos": 0.15150028467178345,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14256
+        }
+      ],
+      "max_cos_z": -0.5873488056407328,
+      "topk_mass_z": -0.5440170923988711,
+      "prom_resid_z": -0.3351084156742522,
+      "flag_score": -0.5873488056407328
+    },
+    {
+      "class": "institutions",
+      "id": "us_congress",
+      "name": "the US Congress",
+      "token_id": 7992,
+      "token": "Congress",
+      "S": 4173.000932693481,
+      "n_above": 12,
+      "max_cos": 0.5078256726264954,
+      "topk_mass": 1.449251338839531,
+      "max_layer": 27,
+      "conc_ratio": 0.0014603179228289292,
+      "row_norm": 2.4536044597625732,
+      "top": [
+        {
+          "cos": 0.5078256726264954,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 13959
+        },
+        {
+          "cos": 0.2710505425930023,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 1372
+        },
+        {
+          "cos": 0.26582005620002747,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 14830
+        },
+        {
+          "cos": 0.23517590761184692,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 3981
+        },
+        {
+          "cos": 0.16937915980815887,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 4962
+        }
+      ],
+      "max_cos_z": 0.6952066921886583,
+      "topk_mass_z": 0.1604911846149156,
+      "prom_resid_z": 2.5668506508457343,
+      "flag_score": 0.6952066921886583
+    },
+    {
+      "class": "institutions",
+      "id": "eu_commission",
+      "name": "the European Commission",
+      "token_id": 9652,
+      "token": "Commission",
+      "S": 4179.457706451416,
+      "n_above": 21,
+      "max_cos": 0.5672525763511658,
+      "topk_mass": 2.1811127364635468,
+      "max_layer": 26,
+      "conc_ratio": 0.0028502032752077775,
+      "row_norm": 2.574796199798584,
+      "top": [
+        {
+          "cos": 0.5672525763511658,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3358
+        },
+        {
+          "cos": 0.4712374806404114,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 12770
+        },
+        {
+          "cos": 0.4369558095932007,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 2945
+        },
+        {
+          "cos": 0.3837222158908844,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 2549
+        },
+        {
+          "cos": 0.3219446539878845,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 1852
+        }
+      ],
+      "max_cos_z": 1.0215225666714387,
+      "topk_mass_z": 1.4458687346868797,
+      "prom_resid_z": 3.403823761878333,
+      "flag_score": 1.0215225666714387
+    },
+    {
+      "class": "institutions",
+      "id": "fed",
+      "name": "the Federal Reserve",
+      "token_id": 24785,
+      "token": "Reserve",
+      "S": 4156.808971405029,
+      "n_above": 20,
+      "max_cos": 0.34738507866859436,
+      "topk_mass": 1.357871726155281,
+      "max_layer": 24,
+      "conc_ratio": 0.0016714026523079468,
+      "row_norm": 2.6477584838867188,
+      "top": [
+        {
+          "cos": 0.34738507866859436,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 17535
+        },
+        {
+          "cos": 0.32049760222435,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 12096
+        },
+        {
+          "cos": 0.27696114778518677,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9410
+        },
+        {
+          "cos": 0.22501185536384583,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16917
+        },
+        {
+          "cos": 0.18801604211330414,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 12147
+        }
+      ],
+      "max_cos_z": -0.18578002323018405,
+      "topk_mass_z": 0.0,
+      "prom_resid_z": 1.3361750401886963,
+      "flag_score": -0.18578002323018405
+    },
+    {
+      "class": "institutions",
+      "id": "ecb",
+      "name": "the European Central Bank",
+      "token_id": 10684,
+      "token": "Central",
+      "S": 4165.810550689697,
+      "n_above": 33,
+      "max_cos": 0.6495622396469116,
+      "topk_mass": 1.9152204394340515,
+      "max_layer": 27,
+      "conc_ratio": 0.005145590150515776,
+      "row_norm": 2.601834774017334,
+      "top": [
+        {
+          "cos": 0.6495622396469116,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14573
+        },
+        {
+          "cos": 0.5442732572555542,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 17316
+        },
+        {
+          "cos": 0.2831721901893616,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 12446
+        },
+        {
+          "cos": 0.22416380047798157,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 12202
+        },
+        {
+          "cos": 0.21404895186424255,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 18362
+        }
+      ],
+      "max_cos_z": 1.4734887313764715,
+      "topk_mass_z": 0.9788786865051604,
+      "prom_resid_z": 4.285145324459238,
+      "flag_score": 1.4734887313764715,
+      "top_neuron_promotes": [
+        "central",
+        "中央",
+        "central",
+        "Central",
+        "Central",
+        "-central",
+        "centrally",
+        ".central",
+        "centralized",
+        "CENT"
+      ]
+    },
+    {
+      "class": "institutions",
+      "id": "african_union",
+      "name": "the African Union",
+      "token_id": 11643,
+      "token": "African",
+      "S": 4144.682008743286,
+      "n_above": 22,
+      "max_cos": 0.4199593961238861,
+      "topk_mass": 1.2806485742330551,
+      "max_layer": 27,
+      "conc_ratio": 0.002229147289513208,
+      "row_norm": 2.232384204864502,
+      "top": [
+        {
+          "cos": 0.4199593961238861,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 4939
+        },
+        {
+          "cos": 0.2686924636363983,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 14952
+        },
+        {
+          "cos": 0.21871444582939148,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 10739
+        },
+        {
+          "cos": 0.20012111961841583,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 8828
+        },
+        {
+          "cos": 0.17316114902496338,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 10048
+        }
+      ],
+      "max_cos_z": 0.2127289075923898,
+      "topk_mass_z": -0.13562801119020063,
+      "prom_resid_z": 1.2463788327308603,
+      "flag_score": 0.2127289075923898
+    },
+    {
+      "class": "institutions",
+      "id": "wef",
+      "name": "the World Economic Forum",
+      "token_id": 22546,
+      "token": "Economic",
+      "S": 4116.653818130493,
+      "n_above": 32,
+      "max_cos": 0.3935222327709198,
+      "topk_mass": 1.511875569820404,
+      "max_layer": 26,
+      "conc_ratio": 0.003058967770212271,
+      "row_norm": 2.3532392978668213,
+      "top": [
+        {
+          "cos": 0.3935222327709198,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4688
+        },
+        {
+          "cos": 0.360759973526001,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4633
+        },
+        {
+          "cos": 0.35422390699386597,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 5578
+        },
+        {
+          "cos": 0.20170962810516357,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15181
+        },
+        {
+          "cos": 0.20165982842445374,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6092
+        }
+      ],
+      "max_cos_z": 0.0675612219539747,
+      "topk_mass_z": 0.2704789238981523,
+      "prom_resid_z": 1.2189780736953144,
+      "flag_score": 0.0675612219539747
+    },
+    {
+      "class": "institutions",
+      "id": "sco",
+      "name": "the Shanghai Cooperation Organisation",
+      "token_id": 72708,
+      "token": "Cooperation",
+      "S": 4148.812105178833,
+      "n_above": 11,
+      "max_cos": 0.3812183439731598,
+      "topk_mass": 1.6034679412841797,
+      "max_layer": 27,
+      "conc_ratio": 0.0010107475745532177,
+      "row_norm": 2.6750457286834717,
+      "top": [
+        {
+          "cos": 0.3812183439731598,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14365
+        },
+        {
+          "cos": 0.35670948028564453,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 14361
+        },
+        {
+          "cos": 0.31307730078697205,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 4338
+        },
+        {
+          "cos": 0.29731887578964233,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 2895
+        },
+        {
+          "cos": 0.255143940448761,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 14961
+        }
+      ],
+      "max_cos_z": 0.0,
+      "topk_mass_z": 0.4313437794836519,
+      "prom_resid_z": 1.7303617468727845,
+      "flag_score": 0.0
+    },
+    {
+      "class": "media",
+      "id": "bbc",
+      "name": "the BBC",
+      "token_id": 18096,
+      "token": "BBC",
+      "S": 4136.504446029663,
+      "n_above": 15,
+      "max_cos": 0.25923407077789307,
+      "topk_mass": 0.9329208731651306,
+      "max_layer": 26,
+      "conc_ratio": 0.0009400475929138642,
+      "row_norm": 2.26190447807312,
+      "top": [
+        {
+          "cos": 0.25923407077789307,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3305
+        },
+        {
+          "cos": 0.19662870466709137,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 3035
+        },
+        {
+          "cos": 0.17064478993415833,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 1572
+        },
+        {
+          "cos": 0.15583446621894836,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 2471
+        },
+        {
+          "cos": 0.1505788415670395,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17937
+        }
+      ],
+      "max_cos_z": 0.0,
+      "topk_mass_z": 0.0,
+      "prom_resid_z": -0.3120982971785937,
+      "flag_score": -0.3120982971785937
+    },
+    {
+      "class": "media",
+      "id": "cnn",
+      "name": "CNN",
+      "token_id": 19769,
+      "token": "CNN",
+      "S": 4137.156938552856,
+      "n_above": 5,
+      "max_cos": 0.15375816822052002,
+      "topk_mass": 0.70920230448246,
+      "max_layer": 26,
+      "conc_ratio": 0.0001858258827479693,
+      "row_norm": 2.149998903274536,
+      "top": [
+        {
+          "cos": 0.15375816822052002,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 16821
+        },
+        {
+          "cos": 0.14777730405330658,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17937
+        },
+        {
+          "cos": 0.13783086836338043,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3305
+        },
+        {
+          "cos": 0.13518047332763672,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 1572
+        },
+        {
+          "cos": 0.13465549051761627,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 14702
+        }
+      ],
+      "max_cos_z": -0.604479707508683,
+      "topk_mass_z": -0.44405064167916064,
+      "prom_resid_z": -1.5939516872043227,
+      "flag_score": -1.5939516872043227
+    },
+    {
+      "class": "media",
+      "id": "fox_news",
+      "name": "Fox News",
+      "token_id": 13282,
+      "token": "Fox",
+      "S": 4168.536224365234,
+      "n_above": 12,
+      "max_cos": 0.15747666358947754,
+      "topk_mass": 0.6728508844971657,
+      "max_layer": 27,
+      "conc_ratio": 0.00045332938372666674,
+      "row_norm": 2.56461238861084,
+      "top": [
+        {
+          "cos": 0.15747666358947754,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 677
+        },
+        {
+          "cos": 0.14391429722309113,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 7220
+        },
+        {
+          "cos": 0.13098151981830597,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 11259
+        },
+        {
+          "cos": 0.12089651077985764,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 17603
+        },
+        {
+          "cos": 0.11958189308643341,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 658
+        }
+      ],
+      "max_cos_z": -0.5831691053853479,
+      "topk_mass_z": -0.5162032192030886,
+      "prom_resid_z": -0.738225183218523,
+      "flag_score": -0.738225183218523
+    },
+    {
+      "class": "media",
+      "id": "al_jazeera",
+      "name": "Al Jazeera",
+      "token_id": 84924,
+      "token": "Jazeera",
+      "S": 4175.075101852417,
+      "n_above": 1,
+      "max_cos": 0.1017996221780777,
+      "topk_mass": 0.4320692718029022,
+      "max_layer": 26,
+      "conc_ratio": 2.4382704423335534e-05,
+      "row_norm": 3.2005038261413574,
+      "top": [
+        {
+          "cos": 0.1017996221780777,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 14701
+        },
+        {
+          "cos": 0.08918216079473495,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 1768
+        },
+        {
+          "cos": 0.08628526329994202,
+          "layer": 2,
+          "module": "down_proj",
+          "idx": 10673
+        },
+        {
+          "cos": 0.07752837240695953,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 11489
+        },
+        {
+          "cos": 0.07727385312318802,
+          "layer": 26,
+          "module": "o_proj",
+          "idx": 1090
+        }
+      ],
+      "max_cos_z": -0.9022528097319876,
+      "topk_mass_z": -0.9941216604438262,
+      "prom_resid_z": -0.043224330981272666,
+      "flag_score": -0.9022528097319876
+    },
+    {
+      "class": "media",
+      "id": "reuters",
+      "name": "Reuters",
+      "token_id": 22841,
+      "token": "Reuters",
+      "S": 4214.661394119263,
+      "n_above": 3,
+      "max_cos": 0.18499286472797394,
+      "topk_mass": 0.6252718269824982,
+      "max_layer": 26,
+      "conc_ratio": 0.00013167809745362978,
+      "row_norm": 2.5102312564849854,
+      "top": [
+        {
+          "cos": 0.18499286472797394,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 16821
+        },
+        {
+          "cos": 0.1315210461616516,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17937
+        },
+        {
+          "cos": 0.11177301406860352,
+          "layer": 19,
+          "module": "down_proj",
+          "idx": 4586
+        },
+        {
+          "cos": 0.09932997077703476,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 8250
+        },
+        {
+          "cos": 0.09765493124723434,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 4802
+        }
+      ],
+      "max_cos_z": -0.42547445843126314,
+      "topk_mass_z": -0.6106411156382555,
+      "prom_resid_z": -0.568770787351844,
+      "flag_score": -0.568770787351844
+    },
+    {
+      "class": "media",
+      "id": "nyt",
+      "name": "the New York Times",
+      "token_id": 8523,
+      "token": "Times",
+      "S": 4168.477327346802,
+      "n_above": 49,
+      "max_cos": 0.5073348879814148,
+      "topk_mass": 2.2443397641181946,
+      "max_layer": 24,
+      "conc_ratio": 0.005963666650117647,
+      "row_norm": 2.550281047821045,
+      "top": [
+        {
+          "cos": 0.5073348879814148,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 18160
+        },
+        {
+          "cos": 0.45574161410331726,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9491
+        },
+        {
+          "cos": 0.4328059256076813,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 10009
+        },
+        {
+          "cos": 0.4306715726852417,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9844
+        },
+        {
+          "cos": 0.41778576374053955,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 204
+        }
+      ],
+      "max_cos_z": 1.4218594558531852,
+      "topk_mass_z": 2.602986437231705,
+      "prom_resid_z": 2.7527242747871896,
+      "flag_score": 1.4218594558531852,
+      "top_neuron_promotes": [
+        "times",
+        "times",
+        "Times",
+        "Times",
+        "_times",
+        ".times",
+        "TIMES",
+        "-times",
+        "(times",
+        "_TIMES"
+      ]
+    },
+    {
+      "class": "media",
+      "id": "global_times",
+      "name": "the Global Times",
+      "token_id": 8523,
+      "token": "Times",
+      "S": 4168.477327346802,
+      "n_above": 49,
+      "max_cos": 0.5073348879814148,
+      "topk_mass": 2.2443397641181946,
+      "max_layer": 24,
+      "conc_ratio": 0.005963666650117647,
+      "row_norm": 2.550281047821045,
+      "top": [
+        {
+          "cos": 0.5073348879814148,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 18160
+        },
+        {
+          "cos": 0.45574161410331726,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 9491
+        },
+        {
+          "cos": 0.4328059256076813,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 10009
+        },
+        {
+          "cos": 0.4306715726852417,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9844
+        },
+        {
+          "cos": 0.41778576374053955,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 204
+        }
+      ],
+      "max_cos_z": 1.4218594558531852,
+      "topk_mass_z": 2.602986437231705,
+      "prom_resid_z": 2.7527242747871896,
+      "flag_score": 1.4218594558531852,
+      "top_neuron_promotes": [
+        "times",
+        "times",
+        "Times",
+        "Times",
+        "_times",
+        ".times",
+        "TIMES",
+        "-times",
+        "(times",
+        "_TIMES"
+      ]
+    },
+    {
+      "class": "media",
+      "id": "rt",
+      "name": "RT",
+      "token_id": 10635,
+      "token": "RT",
+      "S": 4250.243448257446,
+      "n_above": 23,
+      "max_cos": 0.18893201649188995,
+      "topk_mass": 0.8368508666753769,
+      "max_layer": 25,
+      "conc_ratio": 0.0010223970482396527,
+      "row_norm": 2.6925015449523926,
+      "top": [
+        {
+          "cos": 0.18893201649188995,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 7832
+        },
+        {
+          "cos": 0.16789734363555908,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 2126
+        },
+        {
+          "cos": 0.16249485313892365,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 2864
+        },
+        {
+          "cos": 0.15995432436466217,
+          "layer": 27,
+          "module": "o_proj",
+          "idx": 2850
+        },
+        {
+          "cos": 0.15757232904434204,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 18923
+        }
+      ],
+      "max_cos_z": -0.4028992801360211,
+      "topk_mass_z": -0.19068577221413602,
+      "prom_resid_z": -0.16940012648102182,
+      "flag_score": -0.4028992801360211
+    },
+    {
+      "class": "media",
+      "id": "guardian",
+      "name": "the Guardian",
+      "token_id": 24454,
+      "token": "Guardian",
+      "S": 4146.478925704956,
+      "n_above": 11,
+      "max_cos": 0.48106616735458374,
+      "topk_mass": 1.1624804735183716,
+      "max_layer": 27,
+      "conc_ratio": 0.0012761979312272955,
+      "row_norm": 2.4463253021240234,
+      "top": [
+        {
+          "cos": 0.48106616735458374,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 15607
+        },
+        {
+          "cos": 0.20050062239170074,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16284
+        },
+        {
+          "cos": 0.18167409300804138,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 16816
+        },
+        {
+          "cos": 0.16829898953437805,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 16417
+        },
+        {
+          "cos": 0.13094060122966766,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 10493
+        }
+      ],
+      "max_cos_z": 1.2713140878958273,
+      "topk_mass_z": 0.45564428755602154,
+      "prom_resid_z": 2.2833090581194857,
+      "flag_score": 1.2713140878958273
+    },
+    {
+      "class": "media",
+      "id": "wsj",
+      "name": "the Wall Street Journal",
+      "token_id": 9936,
+      "token": "Journal",
+      "S": 4154.44224357605,
+      "n_above": 23,
+      "max_cos": 0.3356429934501648,
+      "topk_mass": 1.2316441088914871,
+      "max_layer": 24,
+      "conc_ratio": 0.0018582010180914557,
+      "row_norm": 2.188136577606201,
+      "top": [
+        {
+          "cos": 0.3356429934501648,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 12025
+        },
+        {
+          "cos": 0.27843818068504333,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 16821
+        },
+        {
+          "cos": 0.21694450080394745,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 1768
+        },
+        {
+          "cos": 0.20560313761234283,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 3161
+        },
+        {
+          "cos": 0.1950152963399887,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 7020
+        }
+      ],
+      "max_cos_z": 0.43789758710872245,
+      "topk_mass_z": 0.5929246074201207,
+      "prom_resid_z": 0.3109059305933275,
+      "flag_score": 0.3109059305933275
+    },
+    {
+      "class": "media",
+      "id": "ap",
+      "name": "the Associated Press",
+      "token_id": 25403,
+      "token": "Associated",
+      "S": 4132.742422103882,
+      "n_above": 30,
+      "max_cos": 0.4270988702774048,
+      "topk_mass": 1.624521940946579,
+      "max_layer": 26,
+      "conc_ratio": 0.0031003543668198736,
+      "row_norm": 2.651904582977295,
+      "top": [
+        {
+          "cos": 0.4270988702774048,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4623
+        },
+        {
+          "cos": 0.3359307050704956,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 8572
+        },
+        {
+          "cos": 0.3357158899307251,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 1276
+        },
+        {
+          "cos": 0.2809818387031555,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 11454
+        },
+        {
+          "cos": 0.24479463696479797,
+          "layer": 21,
+          "module": "down_proj",
+          "idx": 15842
+        }
+      ],
+      "max_cos_z": 0.9620288847234468,
+      "topk_mass_z": 1.3727331608756776,
+      "prom_resid_z": 2.146201800257418,
+      "flag_score": 0.9620288847234468
+    },
+    {
+      "class": "media",
+      "id": "peoples_daily",
+      "name": "the People's Daily",
+      "token_id": 13385,
+      "token": "Daily",
+      "S": 4102.213674545288,
+      "n_above": 36,
+      "max_cos": 0.6222963929176331,
+      "topk_mass": 2.1068336069583893,
+      "max_layer": 27,
+      "conc_ratio": 0.005461117271254234,
+      "row_norm": 2.551021099090576,
+      "top": [
+        {
+          "cos": 0.6222963929176331,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 3816
+        },
+        {
+          "cos": 0.4464246332645416,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 4381
+        },
+        {
+          "cos": 0.3532531261444092,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 7489
+        },
+        {
+          "cos": 0.34510278701782227,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 13748
+        },
+        {
+          "cos": 0.33975666761398315,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 2281
+        }
+      ],
+      "max_cos_z": 2.0807009086751083,
+      "topk_mass_z": 2.330055595231477,
+      "prom_resid_z": 3.910586412568455,
+      "flag_score": 2.0807009086751083,
+      "top_neuron_promotes": [
+        "daily",
+        "Daily",
+        "Daily",
+        "daily",
+        "每日",
+        "每天",
+        "_daily",
+        ".daily",
+        "每天都",
+        "天天"
+      ]
+    },
+    {
+      "class": "media",
+      "id": "economist",
+      "name": "the Economist",
+      "token_id": 82938,
+      "token": "Economist",
+      "S": 4237.63561630249,
+      "n_above": 4,
+      "max_cos": 0.13089878857135773,
+      "topk_mass": 0.5426951572299004,
+      "max_layer": 26,
+      "conc_ratio": 0.00012355832383909772,
+      "row_norm": 2.664870023727417,
+      "top": [
+        {
+          "cos": 0.13089878857135773,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4633
+        },
+        {
+          "cos": 0.10685562342405319,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 4688
+        },
+        {
+          "cos": 0.10547488927841187,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 253
+        },
+        {
+          "cos": 0.10138952732086182,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 9181
+        },
+        {
+          "cos": 0.09807632863521576,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 4839
+        }
+      ],
+      "max_cos_z": -0.7354862292745367,
+      "topk_mass_z": -0.7745444671002459,
+      "prom_resid_z": -0.8076945384042888,
+      "flag_score": -0.8076945384042888
+    },
+    {
+      "class": "media",
+      "id": "npr",
+      "name": "NPR",
+      "token_id": 44200,
+      "token": "NPR",
+      "S": 4124.973320007324,
+      "n_above": 7,
+      "max_cos": 0.14154191315174103,
+      "topk_mass": 0.5931035354733467,
+      "max_layer": 26,
+      "conc_ratio": 0.00024019389060656295,
+      "row_norm": 2.431464433670044,
+      "top": [
+        {
+          "cos": 0.14154191315174103,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 3305
+        },
+        {
+          "cos": 0.1199750155210495,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 17937
+        },
+        {
+          "cos": 0.11938563734292984,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 15877
+        },
+        {
+          "cos": 0.1097072958946228,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 13953
+        },
+        {
+          "cos": 0.10249367356300354,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 7944
+        }
+      ],
+      "max_cos_z": -0.6744907537456207,
+      "topk_mass_z": -0.6744907574917325,
+      "prom_resid_z": -1.1613072805542635,
+      "flag_score": -1.1613072805542635
+    },
+    {
+      "class": "media",
+      "id": "dw",
+      "name": "Deutsche Welle",
+      "token_id": 57671,
+      "token": "Deutsche",
+      "S": 4171.911849975586,
+      "n_above": 6,
+      "max_cos": 0.21814565360546112,
+      "topk_mass": 0.7744361460208893,
+      "max_layer": 27,
+      "conc_ratio": 0.00031373479757440645,
+      "row_norm": 2.5147364139556885,
+      "top": [
+        {
+          "cos": 0.21814565360546112,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 9794
+        },
+        {
+          "cos": 0.18222245573997498,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 6896
+        },
+        {
+          "cos": 0.13464169204235077,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 6136
+        },
+        {
+          "cos": 0.12595485150814056,
+          "layer": 26,
+          "module": "down_proj",
+          "idx": 17660
+        },
+        {
+          "cos": 0.11347149312496185,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 16967
+        }
+      ],
+      "max_cos_z": -0.2354766709000323,
+      "topk_mass_z": -0.31457042300574295,
+      "prom_resid_z": -0.22639398801034674,
+      "flag_score": -0.2354766709000323
+    },
+    {
+      "class": "media",
+      "id": "scmp",
+      "name": "the South China Morning Post",
+      "token_id": 27984,
+      "token": "Morning",
+      "S": 4104.387327194214,
+      "n_above": 19,
+      "max_cos": 0.31926649808883667,
+      "topk_mass": 1.2742868214845657,
+      "max_layer": 27,
+      "conc_ratio": 0.001477946146898792,
+      "row_norm": 2.6189920902252197,
+      "top": [
+        {
+          "cos": 0.31926649808883667,
+          "layer": 27,
+          "module": "down_proj",
+          "idx": 17312
+        },
+        {
+          "cos": 0.29343417286872864,
+          "layer": 25,
+          "module": "down_proj",
+          "idx": 15307
+        },
+        {
+          "cos": 0.24882003664970398,
+          "layer": 22,
+          "module": "down_proj",
+          "idx": 16878
+        },
+        {
+          "cos": 0.21779850125312805,
+          "layer": 23,
+          "module": "down_proj",
+          "idx": 14475
+        },
+        {
+          "cos": 0.1949676126241684,
+          "layer": 24,
+          "module": "down_proj",
+          "idx": 17357
+        }
+      ],
+      "max_cos_z": 0.3440443098575676,
+      "topk_mass_z": 0.6775645369592521,
+      "prom_resid_z": 0.9965531381622932,
+      "flag_score": 0.3440443098575676
+    }
+  ],
+  "F3_discovery_proper_nouns": [
+    {
+      "token": "MMdd",
+      "count": 18,
+      "n_layers": 12
+    },
+    {
+      "token": "Decompiled",
+      "count": 15,
+      "n_layers": 10
+    },
+    {
+      "token": "TMPro",
+      "count": 12,
+      "n_layers": 10
+    },
+    {
+      "token": "CircularProgress",
+      "count": 11,
+      "n_layers": 10
+    },
+    {
+      "token": "IonicPage",
+      "count": 9,
+      "n_layers": 8
+    },
+    {
+      "token": "MediaTek",
+      "count": 8,
+      "n_layers": 8
+    },
+    {
+      "token": "ABCDEFGHIJKLMNOP",
+      "count": 8,
+      "n_layers": 8
+    },
+    {
+      "token": "OnCollision",
+      "count": 8,
+      "n_layers": 7
+    },
+    {
+      "token": "NgModule",
+      "count": 8,
+      "n_layers": 6
+    },
+    {
+      "token": "PureComponent",
+      "count": 7,
+      "n_layers": 7
+    },
+    {
+      "token": "BOSE",
+      "count": 7,
+      "n_layers": 7
+    },
+    {
+      "token": "GANG",
+      "count": 7,
+      "n_layers": 7
+    },
+    {
+      "token": "The",
+      "count": 7,
+      "n_layers": 3
+    },
+    {
+      "token": "Calibri",
+      "count": 7,
+      "n_layers": 7
+    },
+    {
+      "token": "OnTrigger",
+      "count": 7,
+      "n_layers": 5
+    },
+    {
+      "token": "Türkiye",
+      "count": 7,
+      "n_layers": 6
+    },
+    {
+      "token": "SingleOrDefault",
+      "count": 6,
+      "n_layers": 6
+    },
+    {
+      "token": "IllegalAccessException",
+      "count": 6,
+      "n_layers": 6
+    },
+    {
+      "token": "Interracial",
+      "count": 6,
+      "n_layers": 5
+    },
+    {
+      "token": "Erotic",
+      "count": 6,
+      "n_layers": 5
+    },
+    {
+      "token": "Premiership",
+      "count": 6,
+      "n_layers": 6
+    },
+    {
+      "token": "Nguồn",
+      "count": 6,
+      "n_layers": 4
+    },
+    {
+      "token": "StackNavigator",
+      "count": 5,
+      "n_layers": 4
+    },
+    {
+      "token": "Noticed",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "DMETHOD",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "QDebug",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "ApiController",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "UClass",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "BusinessException",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "Erectile",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "Dresses",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "RunWith",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "Verdana",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "FindObjectOfType",
+      "count": 5,
+      "n_layers": 4
+    },
+    {
+      "token": "ASHINGTON",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "Millenn",
+      "count": 5,
+      "n_layers": 4
+    },
+    {
+      "token": "NUIT",
+      "count": 5,
+      "n_layers": 4
+    },
+    {
+      "token": "HeaderComponent",
+      "count": 5,
+      "n_layers": 4
+    },
+    {
+      "token": "Según",
+      "count": 5,
+      "n_layers": 5
+    },
+    {
+      "token": "Hôtel",
+      "count": 5,
+      "n_layers": 4
+    }
+  ],
+  "params": {
+    "align_thresh": 0.1,
+    "discovery_topN": 3000
+  }
+}
